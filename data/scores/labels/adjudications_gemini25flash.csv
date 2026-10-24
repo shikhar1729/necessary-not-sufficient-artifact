@@ -1,0 +1,2035 @@
+job_id,model,dataset,question_id,group,label,stratum,stratum_size,parser_positive,h1,h2,correct_answer,final_answer_raw,normalized_final,n_words_answer,n_words_h1,judge_model,verdict,asserts_candidate,confidence,judge_reason,parse_ok,tokens_in,tokens_out,cost_usd,raw_response
+mistral::hotpotqa::5ab5744e554299494045efdf::exact,mistral,hotpotqa,5ab5744e554299494045efdf,hotpotqa::5ab5744e554299494045efdf,1,exact,551,True,Peter Bogdanovich,William Friedkin,Herbert Ross,Peter Bogdanovich,peter bogdanovich,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,388,57,0.0002589,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::triviaqa::jp_306::parser_negative,mistral,triviaqa,jp_306,triviaqa::jp_306,-1,parser_negative,1702,False,Nike Total,Adidas World Cup,Teams sponsored by Umbro,The brand of soccer shorts worn by Brazil's national team is not definitively known,brand soccer shorts worn by brazil s national team is not definitively known,13,2,google/gemini-2.5-flash,negates,False,100,"The model's answer explicitly states that the brand is 'not definitively known', which negates the candidate 'Nike Total'.",True,394,69,0.0002907,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer explicitly states that the brand is 'not definitively known', which negates the candidate 'Nike Total'.""
+}
+```"
+gemma::triviaqa::tc_2667::parser_negative,gemma,triviaqa,tc_2667,triviaqa::tc_2667,-1,parser_negative,1702,False,Harold Holt,Malcolm Fraser,Edward Gough Whitlam,Gough Whitlam,gough whitlam,2,2,google/gemini-2.5-flash,different,False,100,The model's answer 'Gough Whitlam' is a different name than the candidate 'Harold Holt'.,True,387,65,0.0002786,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Gough Whitlam' is a different name than the candidate 'Harold Holt'.""
+}
+```"
+mistral::triviaqa::qg_339::exact,mistral,triviaqa,qg_339,triviaqa::qg_339,0,exact,551,True,Gain a day,Skip forward,Lose a day,Gain a day,gain day,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,382,57,0.0002571,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+llama::triviaqa::odql_10512::exact,llama,triviaqa,odql_10512,triviaqa::odql_10512,0,exact,551,True,Tony Blackburn,David Hamilton,BRIAN MATTHEW,Tony Blackburn,tony blackburn,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,380,57,0.0002565,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+gemma::triviaqa::qw_4471::exact,gemma,triviaqa,qw_4471,triviaqa::qw_4471,1,exact,551,True,Spinal column,Vertebral structure,Backbone (disambiguation),Spinal column,spinal column,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,378,57,0.0002559,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::triviaqa::dpql_2680::parser_negative,mistral,triviaqa,dpql_2680,triviaqa::dpql_2680,-1,parser_negative,1702,False,A Terrible Happening,Some Like It Wild,The Romance Of The Pink Panther,Bringing Up Baby,bringing up baby,3,2,google/gemini-2.5-flash,different,False,100,The model's answer 'Bringing Up Baby' is a different movie title than the candidate 'A Terrible Happening'.,True,385,67,0.000283,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Bringing Up Baby' is a different movie title than the candidate 'A Terrible Happening'.""
+}
+```"
+mistral::hotpotqa::5a8456ef5542990548d0b289::exact,mistral,hotpotqa,5a8456ef5542990548d0b289,hotpotqa::5a8456ef5542990548d0b289,1,exact,551,True,Texas Tech Red Raiders,TCU Horned Frogs,West Virginia Mountaineers,Texas Tech Red Raiders,texas tech red raiders,4,4,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,398,59,0.0002669,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+llama::triviaqa::dpql_3743::exact,llama,triviaqa,dpql_3743,triviaqa::dpql_3743,1,exact,551,True,Every single letter,Most common characters,All the letters of the alphabet,every single letter,every single letter,3,3,google/gemini-2.5-flash,asserts,True,100,"The model's answer is an exact match to the candidate string, differing only in capitalization.",True,373,63,0.0002694,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer is an exact match to the candidate string, differing only in capitalization.""
+}
+```"
+mistral::triviaqa::sfq_24750::parser_negative,mistral,triviaqa,sfq_24750,triviaqa::sfq_24750,-1,parser_negative,1702,False,The Spotnicks,Johnny and the Hurricanes,Tornado (disambiguation),The Tornados,tornados,1,1,google/gemini-2.5-flash,different,False,100,The model's answer 'The Tornados' is a different group than the candidate 'The Spotnicks'.,True,380,66,0.000279,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'The Tornados' is a different group than the candidate 'The Spotnicks'.""
+}
+```"
+mistral::hotpotqa::5adf99065542992d7e9f93b0::parser_negative,mistral,hotpotqa,5adf99065542992d7e9f93b0,hotpotqa::5adf99065542992d7e9f93b0,-1,parser_negative,1702,False,%,%,45%,60%,60,1,0,google/gemini-2.5-flash,different,False,95,"The candidate string is a symbol '%', while the model's answer is a specific percentage '60%', which is a different answer than just the symbol.",True,391,74,0.0003023,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The candidate string is a symbol '%', while the model's answer is a specific percentage '60%', which is a different answer than just the symbol.""
+}
+```"
+gemma::hotpotqa::5ab42f3c55429942dd415ebc::parser_negative,gemma,hotpotqa,5ab42f3c55429942dd415ebc,hotpotqa::5ab42f3c55429942dd415ebc,-1,parser_negative,1702,False,River of Kings,Water Border Path,boundary river,Great Sea,great sea,2,2,google/gemini-2.5-flash,different,False,100,The model's answer 'Great Sea' is clearly different from the candidate string 'River of Kings'.,True,380,64,0.000274,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Great Sea' is clearly different from the candidate string 'River of Kings'.""
+}
+```"
+gemma::hotpotqa::5ab5f249554299488d4d9a5d::contain_h_in_ans,gemma,hotpotqa,5ab5f249554299488d4d9a5d,hotpotqa::5ab5f249554299488d4d9a5d,0,contain_h_in_ans,75,True,Yamaha YZF-R,Yamaha TZ,Yamaha 600 class,Yamaha YZF-R250,yamaha yzf r250,3,3,google/gemini-2.5-flash,different,False,95,"The model's answer 'Yamaha YZF-R250' is a more specific model than the candidate 'Yamaha YZF-R', making it a different answer.",True,413,80,0.0003239,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Yamaha YZF-R250' is a more specific model than the candidate 'Yamaha YZF-R', making it a different answer.""
+}
+```"
+gemma::triviaqa::tb_1161::contain_ans_in_h,gemma,triviaqa,tb_1161,triviaqa::tb_1161,1,contain_ans_in_h,73,True,Staten Island Geography,Manhattan Urban Landscape,Government and politics of the Bronx,Staten Island,staten island,2,3,google/gemini-2.5-flash,different,False,90,The candidate string 'Staten Island Geography' is broader than the final answer 'Staten Island'.,True,396,62,0.0002738,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The candidate string 'Staten Island Geography' is broader than the final answer 'Staten Island'.""
+}
+```"
+mistral::hotpotqa::5adcf37e5542994ed6169c37::contain_h_in_ans,mistral,hotpotqa,5adcf37e5542994ed6169c37,hotpotqa::5adcf37e5542994ed6169c37,0,contain_h_in_ans,75,True,BMW X,BMW X,BMW X6,BMW X3,bmw x3,2,2,google/gemini-2.5-flash,different,False,100,The model's answer 'BMW X3' is a different model than the candidate 'BMW X'.,True,388,64,0.0002764,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'BMW X3' is a different model than the candidate 'BMW X'.""
+}
+```"
+gemma::hotpotqa::5ac2782d55429963665199cc::contain_h_in_ans,gemma,hotpotqa,5ac2782d55429963665199cc,hotpotqa::5ac2782d55429963665199cc,1,contain_h_in_ans,75,True,June 1926 to 15 December,June 1926 to 19 December,7 June 1926 to 17 December 1926,June 1926 to 15 December 1926,june 1926 to 15 december 1926,6,5,google/gemini-2.5-flash,asserts,True,95,The model's answer is an exact match for the candidate string with an added year that is implied by the candidate's context.,True,401,70,0.0002953,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer is an exact match for the candidate string with an added year that is implied by the candidate's context.""
+}
+```"
+llama::hotpotqa::5a8574945542997b5ce3fffb::contain_ans_in_h,llama,hotpotqa,5a8574945542997b5ce3fffb,hotpotqa::5a8574945542997b5ce3fffb,0,contain_ans_in_h,73,True,Gimme Shelter documentary,Oscar nominated film,LaLee's Kin: The Legacy of Cotton,Gimme Shelter,gimme shelter,2,3,google/gemini-2.5-flash,asserts,True,100,The model's answer 'Gimme Shelter' is a direct match for the core entity in the candidate string 'Gimme Shelter documentary'.,True,396,67,0.0002863,"{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Gimme Shelter' is a direct match for the core entity in the candidate string 'Gimme Shelter documentary'.""
+}"
+mistral::hotpotqa::5ac2c22e5542990b17b15485::contain_h_in_ans,mistral,hotpotqa,5ac2c22e5542990b17b15485,hotpotqa::5ac2c22e5542990b17b15485,1,contain_h_in_ans,75,True,Parents Magazine,National Geographic,"Birmingham, Alabama","The Fort Worth Zoo was rated as one of the top zoos by ""Parents"" magazine",fort worth zoo was rated as one top zoos by parents magazine,12,2,google/gemini-2.5-flash,different,False,95,"The question asks 'where' the magazine was published, but the candidate string is the name of the magazine, and the model's answer provides the name of the magazine, not the location of publication.",True,395,83,0.000326,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The question asks 'where' the magazine was published, but the candidate string is the name of the magazine, and the model's answer provides the name of the magazine, not the location of publication.""
+}
+```"
+mistral::triviaqa::bb_910::contain_ans_in_h,mistral,triviaqa,bb_910,triviaqa::bb_910,1,contain_ans_in_h,73,True,King Edward VII's Christmas Tradition,George VI's Royal Festive Gesture,Cultural depictions of George V of the United Kingdom,King Edward VII,king edward vii,3,6,google/gemini-2.5-flash,asserts,True,95,The model's final answer 'King Edward VII' is a direct assertion of the entity mentioned in the candidate string 'King Edward VII's Christmas Tradition'.,True,399,75,0.0003072,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's final answer 'King Edward VII' is a direct assertion of the entity mentioned in the candidate string 'King Edward VII's Christmas Tradition'.""
+}
+```"
+mistral::hotpotqa::5ae256c35542994d89d5b3e9::contain_h_in_ans,mistral,hotpotqa,5ae256c35542994d89d5b3e9,hotpotqa::5ae256c35542994d89d5b3e9,1,contain_h_in_ans,75,True,January,March,13 February 2004,"January 12, 2010",january 12 2010,3,1,google/gemini-2.5-flash,asserts,True,95,"The model's answer 'January 12, 2010' asserts 'January' as the month, which is the candidate string.",True,392,74,0.0003026,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'January 12, 2010' asserts 'January' as the month, which is the candidate string.""
+}
+```"
+mistral::hotpotqa::5ae7eb3c5542994a481bbe20::contain_h_in_ans,mistral,hotpotqa,5ae7eb3c5542994a481bbe20,hotpotqa::5ae7eb3c5542994a481bbe20,1,contain_h_in_ans,75,True,Persepolis,Susa,Babylon,Persepolis or another city,persepolis or another city,4,1,google/gemini-2.5-flash,different,False,90,"The answer includes the candidate but also adds 'or another city', making it broader and not solely asserting the candidate.",True,394,65,0.0002807,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The answer includes the candidate but also adds 'or another city', making it broader and not solely asserting the candidate.""
+}
+```"
+gemma::hotpotqa::5abbcba05542992ccd8e7fa3::contain_ans_in_h,gemma,hotpotqa,5abbcba05542992ccd8e7fa3,hotpotqa::5abbcba05542992ccd8e7fa3,1,contain_ans_in_h,73,True,Unilever Soap Company,Indo-Dutch Chemical Works,Margarine Unie,Unilever,unilever,1,3,google/gemini-2.5-flash,different,False,90,"The final answer 'Unilever' is a broader entity than 'Unilever Soap Company', making it a different answer.",True,377,66,0.0002781,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The final answer 'Unilever' is a broader entity than 'Unilever Soap Company', making it a different answer.""
+}
+```"
+llama::hotpotqa::5ae7ef625542994a481bbe40::contain_ans_in_h,llama,hotpotqa,5ae7ef625542994a481bbe40,hotpotqa::5ae7ef625542994a481bbe40,1,contain_ans_in_h,73,True,"Ettalong Beach, NSW","Woy Woy, Australia","Umina Beach, New South Wales",Ettalong Beach,ettalong beach,2,3,google/gemini-2.5-flash,asserts,True,100,"The model's answer 'Ettalong Beach' is a direct match for the relevant part of the candidate string 'Ettalong Beach, NSW'.",True,394,75,0.0003057,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Ettalong Beach' is a direct match for the relevant part of the candidate string 'Ettalong Beach, NSW'.""
+}
+```"
+llama::triviaqa::jp_4031::contain_ans_in_h,llama,triviaqa,jp_4031,triviaqa::jp_4031,1,contain_ans_in_h,73,True,King Ghidorah's destructive rage,Mechagodzilla's metallic menace,Powers and abilities of godzilla,King Ghidorah,king ghidorah,2,5,google/gemini-2.5-flash,asserts,True,95,The final answer 'King Ghidorah' is a direct assertion of the core entity mentioned in the candidate string 'King Ghidorah's destructive rage'.,True,379,75,0.0003012,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'King Ghidorah' is a direct assertion of the core entity mentioned in the candidate string 'King Ghidorah's destructive rage'.""
+}
+```"
+mistral::hotpotqa::5adeacf955429975fa854f66::negation_suspect,mistral,hotpotqa,5adeacf955429975fa854f66,hotpotqa::5adeacf955429975fa854f66,1,negation_suspect,15,True,Tucker Carlson,Sean Hannity,Rachel Anne Maddow,"No, Tucker Carlson did not question the validity of CORE's non-profit status",no tucker carlson did not question validity core s non profit status,12,2,google/gemini-2.5-flash,negates,False,100,"The final answer explicitly states that Tucker Carlson did not question the validity of CORE's non-profit status, thereby negating the candidate.",True,393,72,0.0002979,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that Tucker Carlson did not question the validity of CORE's non-profit status, thereby negating the candidate.""
+}
+```"
+mistral::hotpotqa::5ab2da13554299194fa93542::negation_suspect,mistral,hotpotqa,5ab2da13554299194fa93542,hotpotqa::5ab2da13554299194fa93542,1,negation_suspect,15,True,Jake,Tyler,Connor,"Jake Gyllenhaal is not the brother of the American transgender actor known for his work on MTV's ""Faking It.""",jake gyllenhaal is not brother american transgender actor known for his work on mtv s faking it,17,1,google/gemini-2.5-flash,negates,False,100,"The final answer explicitly states that 'Jake Gyllenhaal is not the brother' of the actor, thereby negating the candidate 'Jake'.",True,408,73,0.0003049,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that 'Jake Gyllenhaal is not the brother' of the actor, thereby negating the candidate 'Jake'.""
+}
+```"
+mistral::hotpotqa::5a77c8905542995d831812ce::negation_suspect,mistral,hotpotqa,5a77c8905542995d831812ce,hotpotqa::5a77c8905542995d831812ce,1,negation_suspect,15,True,Samuel Rogers,Jacob Thornton,Levi Weeks,"Samuel Rogers constructed the Antebellum mansion in Auburn, Alabama, but was not accused of the Manhattan Well Murder",samuel rogers constructed antebellum mansion in auburn alabama but was not accused manhattan well murder,15,2,google/gemini-2.5-flash,negates,False,100,"The final answer states that Samuel Rogers constructed the mansion but 'was not accused of the Manhattan Well Murder', which directly contradicts the premise of the question regarding the candidate.",True,397,77,0.0003116,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer states that Samuel Rogers constructed the mansion but 'was not accused of the Manhattan Well Murder', which directly contradicts the premise of the question regarding the candidate.""
+}
+```"
+mistral::hotpotqa::5ac19ba355429963665198b7::negation_suspect,mistral,hotpotqa,5ac19ba355429963665198b7,hotpotqa::5ac19ba355429963665198b7,1,negation_suspect,15,True,"Hollywood, California",Los Angeles for a meeting,"Los Angeles, California","David Angell was not headed to Hollywood, California when he died aboard American Airlines Flight 11",david angell was not headed to hollywood california when he died aboard american airlines flight 11,16,2,google/gemini-2.5-flash,negates,False,100,"The final answer explicitly states that David Angell was NOT headed to Hollywood, California, which directly negates the candidate string.",True,399,69,0.0002922,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that David Angell was NOT headed to Hollywood, California, which directly negates the candidate string.""
+}
+```"
+mistral::triviaqa::qw_10179::negation_suspect,mistral,triviaqa,qw_10179,triviaqa::qw_10179,1,negation_suspect,15,True,Veracruz Port Complex,Tampico Maritime Center,Manzanillo (disambiguation),The size of the Veracruz Port Complex cannot be determined without more specific information,size veracruz port complex cannot be determined without more specific information,11,3,google/gemini-2.5-flash,negates,False,90,"The model's answer states that the 'size of the Veracruz Port Complex cannot be determined', which implies it cannot confirm Veracruz as the largest port, thus declining to answer the question directly.",True,385,81,0.000318,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The model's answer states that the 'size of the Veracruz Port Complex cannot be determined', which implies it cannot confirm Veracruz as the largest port, thus declining to answer the question directly.""
+}
+```"
+mistral::triviaqa::bb_7021::negation_suspect,mistral,triviaqa,bb_7021,triviaqa::bb_7021,1,negation_suspect,15,True,Assisted Dying Act,Canadian Medical Law,The Dominion of Canada,"No, President Justin Trudeau did not directly introduce legal euthanasia to Canada in 2016. The Assisted Dying Act was introduced in 2015 and passed into law in 2016",no president justin trudeau did not directly introduce legal euthanasia to canada in 2016 assisted dying act was introduced in 2015 and passed into law in 2016,27,3,google/gemini-2.5-flash,asserts,True,95,"The answer explicitly mentions 'The Assisted Dying Act' as the relevant legislation, which is the candidate string.",True,423,64,0.0002869,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The answer explicitly mentions 'The Assisted Dying Act' as the relevant legislation, which is the candidate string.""
+}
+```"
+gemma::hotpotqa::5a77857155429949eeb29ebf::exact,gemma,hotpotqa,5a77857155429949eeb29ebf,hotpotqa::5a77857155429949eeb29ebf,1,exact,551,True,Zoo TV World Tour,Joshua Tree International Tour,U2 360° Tour,Zoo TV World Tour,zoo tv world tour,4,4,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,389,57,0.0002592,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+gemma::hotpotqa::5a74ee175542996c70cfae41::exact,gemma,hotpotqa,5a74ee175542996c70cfae41,hotpotqa::5a74ee175542996c70cfae41,1,exact,551,True,Rana Daggubati,Ram Charan,Naga Chaitanya,Rana Daggubati,rana daggubati,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,397,59,0.0002666,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+gemma::hotpotqa::5a851ba95542997175ce1f81::exact,gemma,hotpotqa,5a851ba95542997175ce1f81,hotpotqa::5a851ba95542997175ce1f81,1,exact,551,True,Dealey Plaza,Fort Worth,Dallas,Dealey Plaza,dealey plaza,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,385,57,0.000258,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+gemma::hotpotqa::5a79db655542994bb94570f4::parser_negative,gemma,hotpotqa,5a79db655542994bb94570f4,hotpotqa::5a79db655542994bb94570f4,-1,parser_negative,1702,False,"January 15,","March 3,","December 12, 1967","I do not have access to real-time information, including personal details like birthdates",i do not have access to real time information including personal details like birthdates,14,2,google/gemini-2.5-flash,negates,False,100,"The model explicitly states it does not have access to the information, which is a refusal to answer.",True,392,64,0.0002776,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model explicitly states it does not have access to the information, which is a refusal to answer.""
+}
+```"
+gemma::hotpotqa::5a78ae8b5542990784727730::contain_ans_in_h,gemma,hotpotqa,5a78ae8b5542990784727730,hotpotqa::5a78ae8b5542990784727730,1,contain_ans_in_h,73,True,around 90 miles southwest,roughly 140 kilometers east,about 115 miles (185 km),90 miles,90 miles,2,4,google/gemini-2.5-flash,different,False,95,"The final answer provides only the distance, while the candidate includes both distance and direction.",True,379,59,0.0002612,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer provides only the distance, while the candidate includes both distance and direction.""
+}
+```"
+gemma::hotpotqa::5a74639a55429929fddd8404::exact,gemma,hotpotqa,5a74639a55429929fddd8404,hotpotqa::5a74639a55429929fddd8404,1,exact,551,True,Ian Khama,Festus Mogae,Seretse Khama,Ian Khama,ian khama,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,377,57,0.0002556,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+gemma::hotpotqa::5a7e08b55542997cc2c474fe::exact,gemma,hotpotqa,5a7e08b55542997cc2c474fe,hotpotqa::5a7e08b55542997cc2c474fe,1,exact,551,True,Ron Burkle,Craig Leopold,Mario Lemieux,Ron Burkle,ron burkle,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match for the candidate string.,True,385,59,0.000263,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match for the candidate string.""
+}
+```"
+gemma::hotpotqa::5a7d72bb5542990b8f50398e::exact,gemma,hotpotqa,5a7d72bb5542990b8f50398e,hotpotqa::5a7d72bb5542990b8f50398e,1,exact,551,True,Native land dispossession,Cultural genocide trends,the paternalistic policies enacted upon Native American tribes,Native land dispossession,native land dispossession,3,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,385,59,0.000263,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+gemma::hotpotqa::5a75092b55429916b0164242::contain_h_in_ans,gemma,hotpotqa,5a75092b55429916b0164242,hotpotqa::5a75092b55429916b0164242,1,contain_h_in_ans,75,True,Taken,Death Race,Transporter 3,Taken 3,taken 3,2,1,google/gemini-2.5-flash,different,False,95,"The final answer 'Taken 3' specifies a particular film in the franchise, while the candidate 'Taken' refers to the franchise itself or the first film.",True,376,74,0.0002978,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Taken 3' specifies a particular film in the franchise, while the candidate 'Taken' refers to the franchise itself or the first film.""
+}
+```"
+gemma::hotpotqa::5a7150c75542994082a3e7be::parser_negative,gemma,hotpotqa,5a7150c75542994082a3e7be,hotpotqa::5a7150c75542994082a3e7be,-1,parser_negative,1702,False,",",",","86,112","82,112",82 112,2,0,google/gemini-2.5-flash,different,False,100,"The candidate string is a comma, while the model's answer is a number.",True,392,60,0.0002676,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The candidate string is a comma, while the model's answer is a number.""
+}
+```"
+gemma::hotpotqa::5a7dc7735542990b8f503a93::contain_h_in_ans,gemma,hotpotqa,5a7dc7735542990b8f503a93,hotpotqa::5a7dc7735542990b8f503a93,0,contain_h_in_ans,75,True,million,million,100 million,30 million,30 million,2,1,google/gemini-2.5-flash,asserts,True,95,The final answer '30 million' clearly includes and specifies the candidate 'million' as part of the numerical answer to 'how many records'.,True,394,72,0.0002982,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer '30 million' clearly includes and specifies the candidate 'million' as part of the numerical answer to 'how many records'.""
+}
+```"
+gemma::hotpotqa::5a7f7b365542992097ad2f80::contain_h_in_ans,gemma,hotpotqa,5a7f7b365542992097ad2f80,hotpotqa::5a7f7b365542992097ad2f80,1,contain_h_in_ans,75,True,Beaulieu Mine produced gold,McIntyre exclusively extracted copper,The McIntyre also yielded a considerable amount of copper,"Beaulieu Mine produced gold, McIntyre Mines produced gold and copper",beaulieu mine produced gold mcintyre mines produced gold and copper,10,4,google/gemini-2.5-flash,different,False,100,"The final answer includes the candidate but also adds information about McIntyre Mines, making it a different, more comprehensive answer.",True,392,66,0.0002826,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer includes the candidate but also adds information about McIntyre Mines, making it a different, more comprehensive answer.""
+}
+```"
+gemma::hotpotqa::5a8574945542997b5ce3fffb::contain_ans_in_h,gemma,hotpotqa,5a8574945542997b5ce3fffb,hotpotqa::5a8574945542997b5ce3fffb,0,contain_ans_in_h,73,True,Gimme Shelter documentary,Oscar nominated film,LaLee's Kin: The Legacy of Cotton,Gimme Shelter,gimme shelter,2,3,google/gemini-2.5-flash,asserts,True,95,The final answer 'Gimme Shelter' is a direct match for the core entity in the candidate string 'Gimme Shelter documentary'.,True,396,69,0.0002913,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Gimme Shelter' is a direct match for the core entity in the candidate string 'Gimme Shelter documentary'.""
+}
+```"
+gemma::hotpotqa::5a874ec35542994846c1cd57::contain_ans_in_h,gemma,hotpotqa,5a874ec35542994846c1cd57,hotpotqa::5a874ec35542994846c1cd57,1,contain_ans_in_h,73,True,translating Carl von Clausewitz texts,translating Franz Kafka's novels,best known for translating the work of Erich Maria Remarque,Carl von Clausewitz texts,carl von clausewitz texts,4,5,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match for the core information in the candidate string.,True,382,63,0.0002721,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match for the core information in the candidate string.""
+}
+```"
+gemma::hotpotqa::5ab1e76c554299449642c800::parser_negative,gemma,hotpotqa,5ab1e76c554299449642c800,hotpotqa::5ab1e76c554299449642c800,-1,parser_negative,1702,False,MGM Grand Las Vegas,Winecoff Hotel Atlanta,Dupont Plaza Hotel,<short answer>,short answer,2,4,google/gemini-2.5-flash,asserts,True,95,The model's short answer is exactly the candidate string.,True,382,50,0.0002396,"{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's short answer is exactly the candidate string.""
+}"
+gemma::hotpotqa::5a8bc29a5542995d1e6f1446::parser_negative,gemma,hotpotqa,5a8bc29a5542995d1e6f1446,hotpotqa::5a8bc29a5542995d1e6f1446,-1,parser_negative,1702,False,before recording,During early band years,Before settling on their current name in 1982,I need to consult music databases to find the recording date,i need to consult music databases to find recording date,10,2,google/gemini-2.5-flash,negates,False,100,"The model's answer indicates it needs to find the recording date, which means it does not assert 'before recording' as the answer.",True,382,72,0.0002946,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer indicates it needs to find the recording date, which means it does not assert 'before recording' as the answer.""
+}
+```"
+gemma::hotpotqa::5a8ee3a755429917b4a5be02::exact,gemma,hotpotqa,5a8ee3a755429917b4a5be02,hotpotqa::5a8ee3a755429917b4a5be02,1,exact,551,True,Rudy Vallée,Dick Powell,"Harry Lillis ""Bing"" Crosby Jr.",Rudy Vallée,rudy valle e,3,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,398,59,0.0002669,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+gemma::hotpotqa::5ab721325542992aa3b8c7a2::contain_ans_in_h,gemma,hotpotqa,5ab721325542992aa3b8c7a2,hotpotqa::5ab721325542992aa3b8c7a2,1,contain_ans_in_h,73,True,Monk solves wacky mysteries,Shawn Spencer investigates crimes,Psych is an American detective comedy-drama,Monk,monk,1,4,google/gemini-2.5-flash,different,False,95,"The candidate string is a descriptive phrase, while the final answer is a single word, which is likely the name of the show.",True,385,68,0.0002855,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The candidate string is a descriptive phrase, while the final answer is a single word, which is likely the name of the show.""
+}
+```"
+gemma::hotpotqa::5ab91799554299753720f6ea::parser_negative,gemma,hotpotqa,5ab91799554299753720f6ea,hotpotqa::5ab91799554299753720f6ea,-1,parser_negative,1702,False,September,Summer of,26 August 2013,2019,2019,1,1,google/gemini-2.5-flash,different,False,100,"The model's answer '2019' is a year, while the candidate 'September' is a month, making them different answers to the question 'When did...?'",True,375,81,0.000315,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer '2019' is a year, while the candidate 'September' is a month, making them different answers to the question 'When did...?'""
+}
+```"
+gemma::hotpotqa::5ab7f0b9554299366779405d::contain_ans_in_h,gemma,hotpotqa,5ab7f0b9554299366779405d,hotpotqa::5ab7f0b9554299366779405d,1,contain_ans_in_h,73,True,bulbous green herbs,flowering tropical shrubs,plants,bulbous,bulbous,1,3,google/gemini-2.5-flash,different,False,90,"The final answer 'bulbous' is a narrower term than the candidate 'bulbous green herbs', making it a different answer.",True,380,68,0.000284,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The final answer 'bulbous' is a narrower term than the candidate 'bulbous green herbs', making it a different answer.""
+}
+```"
+gemma::hotpotqa::5abc091555429965836003f6::contain_ans_in_h,gemma,hotpotqa,5abc091555429965836003f6,hotpotqa::5abc091555429965836003f6,0,contain_ans_in_h,73,True,Black Swan's Adaptation,Bolshoi Ballet Story,Swan Lake,Black Swan,black swan,2,4,google/gemini-2.5-flash,asserts,True,95,The final answer 'Black Swan' is a direct and unambiguous assertion of the core entity from the candidate string 'Black Swan's Adaptation'.,True,380,71,0.0002915,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Black Swan' is a direct and unambiguous assertion of the core entity from the candidate string 'Black Swan's Adaptation'.""
+}
+```"
+gemma::hotpotqa::5ab58ee6554299488d4d99d6::contain_h_in_ans,gemma,hotpotqa,5ab58ee6554299488d4d99d6,hotpotqa::5ab58ee6554299488d4d99d6,1,contain_h_in_ans,75,True,"October 22,","March 5,","February 13, 1946","October 22, 1972",october 22 1972,3,2,google/gemini-2.5-flash,asserts,True,95,The final answer provides the candidate string as the beginning of the birthdate.,True,396,58,0.0002638,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer provides the candidate string as the beginning of the birthdate.""
+}
+```"
+gemma::hotpotqa::5abf10b75542997719eab659::contain_h_in_ans,gemma,hotpotqa,5abf10b75542997719eab659,hotpotqa::5abf10b75542997719eab659,0,contain_h_in_ans,75,True,m,m,1.95 m,185cm,185cm,1,1,google/gemini-2.5-flash,different,False,100,"The candidate string 'm' is a unit of measurement, while the model's answer '185cm' is a specific height value.",True,383,73,0.0002974,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The candidate string 'm' is a unit of measurement, while the model's answer '185cm' is a specific height value.""
+}
+```"
+gemma::hotpotqa::5ac1436f5542991316484aad::contain_ans_in_h,gemma,hotpotqa,5ac1436f5542991316484aad,hotpotqa::5ac1436f5542991316484aad,1,contain_ans_in_h,73,True,Carmen by Bizet,Les Contes d'Hoffmann,Dialogues of the Carmelites,Carmen,carmen,1,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer 'Carmen' directly matches the first part of the candidate string 'Carmen by Bizet'.,True,380,68,0.000284,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer 'Carmen' directly matches the first part of the candidate string 'Carmen by Bizet'.""
+}
+```"
+gemma::hotpotqa::5abea85f5542990832d3a070::parser_negative,gemma,hotpotqa,5abea85f5542990832d3a070,hotpotqa::5abea85f5542990832d3a070,-1,parser_negative,1702,False,May,October,June 2007,June,june,1,1,google/gemini-2.5-flash,different,False,100,The model's answer 'June' is a different month than the candidate 'May'.,True,382,61,0.0002671,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'June' is a different month than the candidate 'May'.""
+}
+```"
+gemma::hotpotqa::5ac562115542993e66e823bf::contain_ans_in_h,gemma,hotpotqa,5ac562115542993e66e823bf,hotpotqa::5ac562115542993e66e823bf,1,contain_ans_in_h,73,True,Mandarin and Hakka,Taiwanese and Fujianese,"Taiwanese Hokkien, Cantonese, Japanese, Indonesian and English",Hakka,hakka,1,3,google/gemini-2.5-flash,different,False,95,"The candidate specifies 'Mandarin and Hakka', while the model's answer only states 'Hakka', making it a narrower and thus different answer.",True,388,73,0.0002989,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The candidate specifies 'Mandarin and Hakka', while the model's answer only states 'Hakka', making it a narrower and thus different answer.""
+}
+```"
+gemma::hotpotqa::5abdf1fe55429976d4830a31::contain_ans_in_h,gemma,hotpotqa,5abdf1fe55429976d4830a31,hotpotqa::5abdf1fe55429976d4830a31,1,contain_ans_in_h,73,True,Global voices united,Humanity's digital platform,media for the 65.8 million,Global Voices,global voices,2,3,google/gemini-2.5-flash,different,False,95,"The model's answer 'Global Voices' is a shorter version of the candidate 'Global voices united', making it a different answer.",True,385,69,0.000288,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Global Voices' is a shorter version of the candidate 'Global voices united', making it a different answer.""
+}
+```"
+gemma::hotpotqa::5adc6f6255429947ff173961::parser_negative,gemma,hotpotqa,5adc6f6255429947ff173961,hotpotqa::5adc6f6255429947ff173961,-1,parser_negative,1702,False,Rothmannia species,Morning glory tree,Morning glory,Morning glory,morning glory,2,2,google/gemini-2.5-flash,different,False,100,The model's final answer 'Morning glory' is a different plant genus than the candidate string 'Rothmannia species'.,True,384,68,0.0002852,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer 'Morning glory' is a different plant genus than the candidate string 'Rothmannia species'.""
+}
+```"
+gemma::hotpotqa::5adcf37e5542994ed6169c37::contain_h_in_ans,gemma,hotpotqa,5adcf37e5542994ed6169c37,hotpotqa::5adcf37e5542994ed6169c37,0,contain_h_in_ans,75,True,BMW X,BMW X,BMW X6,BMW X3,bmw x3,2,2,google/gemini-2.5-flash,different,False,100,The model's answer 'BMW X3' is a different model than the candidate 'BMW X'.,True,388,64,0.0002764,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'BMW X3' is a different model than the candidate 'BMW X'.""
+}
+```"
+gemma::hotpotqa::5adca5eb5542994d58a2f693::contain_h_in_ans,gemma,hotpotqa,5adca5eb5542994d58a2f693,hotpotqa::5adca5eb5542994d58a2f693,1,contain_h_in_ans,75,True,Braintree Town FC,Chelmsford City,Bishop's Stortford,1. **Start with the initial information:** We know Kevin Watson is a football manager and is potentially associated with Braintree Town FC,1 start with initial information we know kevin watson is football manager and is potentially associated with braintree town fc,20,3,google/gemini-2.5-flash,ambiguous,False,80,"The answer states that Kevin Watson is 'potentially associated' with Braintree Town FC, which is not a definitive assertion.",True,398,67,0.0002869,"```json
+{
+  ""verdict"": ""ambiguous"",
+  ""asserts_candidate"": false,
+  ""confidence"": 80,
+  ""reason"": ""The answer states that Kevin Watson is 'potentially associated' with Braintree Town FC, which is not a definitive assertion.""
+}
+```"
+gemma::hotpotqa::5add13b15542994ed6169c65::contain_h_in_ans,gemma,hotpotqa,5add13b15542994ed6169c65,hotpotqa::5add13b15542994ed6169c65,1,contain_h_in_ans,75,True,Strategic naval positioning,Expand territorial control,protect the northern flank of the Japanese Empire,Strategic naval positioning and defense,strategic naval positioning and defense,5,3,google/gemini-2.5-flash,different,False,95,"The final answer includes the candidate string but adds 'and defense', making it a broader answer than the candidate alone.",True,383,65,0.0002774,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer includes the candidate string but adds 'and defense', making it a broader answer than the candidate alone.""
+}
+```"
+gemma::hotpotqa::5adc861c5542994d58a2f62c::contain_ans_in_h,gemma,hotpotqa,5adc861c5542994d58a2f62c,hotpotqa::5adc861c5542994d58a2f62c,0,contain_ans_in_h,73,True,"Santiago, Chile Airport",LATAM Airlines Headquarters,Comodoro Arturo Merino Benítez International Airport,"Santiago, Chile",santiago chile,2,3,google/gemini-2.5-flash,asserts,True,90,"The model's answer 'Santiago, Chile' is a direct assertion of the core location mentioned in the candidate 'Santiago, Chile Airport', with the 'Airport' detail being a specification rather than a different answer.",True,379,86,0.0003287,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 90,
+  ""reason"": ""The model's answer 'Santiago, Chile' is a direct assertion of the core location mentioned in the candidate 'Santiago, Chile Airport', with the 'Airport' detail being a specification rather than a different answer.""
+}
+```"
+gemma::hotpotqa::5adcd28c5542994d58a2f6ea::contain_h_in_ans,gemma,hotpotqa,5adcd28c5542994d58a2f6ea,hotpotqa::5adcd28c5542994d58a2f6ea,1,contain_h_in_ans,75,True,st Century Fox,Media News Group,News Corp.,21st Century Fox,21st century fox,3,3,google/gemini-2.5-flash,asserts,True,100,"The model's final answer '21st Century Fox' is an unambiguous equivalent of the candidate string 'st Century Fox', with the missing '21' being an obvious omission in the candidate.",True,400,85,0.0003325,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer '21st Century Fox' is an unambiguous equivalent of the candidate string 'st Century Fox', with the missing '21' being an obvious omission in the candidate.""
+}
+```"
+gemma::hotpotqa::5add44c25542997545bbbd0a::contain_ans_in_h,gemma,hotpotqa,5add44c25542997545bbbd0a,hotpotqa::5add44c25542997545bbbd0a,1,contain_ans_in_h,73,True,Roman Polanskis,Thierry Polonais,Rajmund Roman Thierry Polański,Roman Polanski,roman polanski,2,2,google/gemini-2.5-flash,asserts,True,95,"The model's answer 'Roman Polanski' is an unambiguous equivalent of the candidate string 'Roman Polanskis', differing only by a possessive 's' which is not relevant in this context.",True,384,79,0.0003127,"{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Roman Polanski' is an unambiguous equivalent of the candidate string 'Roman Polanskis', differing only by a possessive 's' which is not relevant in this context.""
+}"
+gemma::hotpotqa::5ade0bc55542997545bbbe30::contain_ans_in_h,gemma,hotpotqa,5ade0bc55542997545bbbe30,hotpotqa::5ade0bc55542997545bbbe30,1,contain_ans_in_h,73,True,a conflicted royal advisor,the tragic court minister,an obsessed and tormented king,Royal advisor,royal advisor,2,3,google/gemini-2.5-flash,different,False,90,"The model's answer 'Royal advisor' is a broader category than the candidate 'a conflicted royal advisor', making it a different answer rather than an assertion of the specific candidate.",True,392,78,0.0003126,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The model's answer 'Royal advisor' is a broader category than the candidate 'a conflicted royal advisor', making it a different answer rather than an assertion of the specific candidate.""
+}
+```"
+gemma::hotpotqa::5ae1d4e75542997f29b3c143::exact,gemma,hotpotqa,5ae1d4e75542997f29b3c143,hotpotqa::5ae1d4e75542997f29b3c143,1,exact,551,True,Antti Hietala,Erkki Liikanen,Marco Hietala,Antti Hietala,antti hietala,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,386,59,0.0002633,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+gemma::hotpotqa::5ae0d7bf5542990adbacf67b::exact,gemma,hotpotqa,5ae0d7bf5542990adbacf67b,hotpotqa::5ae0d7bf5542990adbacf67b,0,exact,551,True,The Rescuers,Early Disney Animation,The Muppets,The Rescuers,rescuers,1,1,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,383,57,0.0002574,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+gemma::hotpotqa::5ae4563e5542996836b02c7f::parser_negative,gemma,hotpotqa,5ae4563e5542996836b02c7f,hotpotqa::5ae4563e5542996836b02c7f,-1,parser_negative,1702,False,retail locations,nearly 500 shopping centers,over 600 stores,<short answer>,short answer,2,2,google/gemini-2.5-flash,ambiguous,False,100,"The model's final answer is '<short answer>', which is a placeholder and does not provide any information to evaluate against the candidate string.",True,392,67,0.0002851,"{
+  ""verdict"": ""ambiguous"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is '<short answer>', which is a placeholder and does not provide any information to evaluate against the candidate string.""
+}"
+gemma::hotpotqa::5ae4d0ff55429913cc204511::parser_negative,gemma,hotpotqa,5ae4d0ff55429913cc204511,hotpotqa::5ae4d0ff55429913cc204511,-1,parser_negative,1702,False,The Smashing Pumpkins,Chicago alternative rock band,Greek Fire,Neither,neither,1,2,google/gemini-2.5-flash,negates,False,100,"The final answer 'Neither' explicitly denies both options presented in the question, including the candidate string.",True,386,64,0.0002758,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer 'Neither' explicitly denies both options presented in the question, including the candidate string.""
+}
+```"
+gemma::triviaqa::bb_1529::contain_ans_in_h,gemma,triviaqa,bb_1529,triviaqa::bb_1529,1,contain_ans_in_h,73,True,Ecto-1 (Ghostbusters,Green Hornet's Black Beauty,Batmobile (Batman: The Animated Series),Ecto-1,ecto 1,2,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer 'Ecto-1' is identical to the relevant part of the candidate string 'Ecto-1'.,True,397,74,0.0003041,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer 'Ecto-1' is identical to the relevant part of the candidate string 'Ecto-1'.""
+}
+```"
+gemma::triviaqa::bb_8388::contain_ans_in_h,gemma,triviaqa,bb_8388,triviaqa::bb_8388,1,contain_ans_in_h,73,True,Guernsey Border Junction,Great Britain Junction,Channel Islands (Jersey),Guernsey,guernsey,1,3,google/gemini-2.5-flash,different,False,90,The model's answer 'Guernsey' is a part of the candidate 'Guernsey Border Junction' but not the full candidate itself.,True,374,70,0.0002872,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The model's answer 'Guernsey' is a part of the candidate 'Guernsey Border Junction' but not the full candidate itself.""
+}
+```"
+gemma::triviaqa::bb_5918::exact,gemma,triviaqa,bb_5918,triviaqa::bb_5918,1,exact,551,True,Edible Bird Saliva,Swiftlet Nest Secretion,George the Volcano,Edible bird saliva,edible bird saliva,3,3,google/gemini-2.5-flash,asserts,True,100,"The model's final answer is an exact match to the candidate string, differing only in capitalization.",True,384,64,0.0002752,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string, differing only in capitalization.""
+}
+```"
+gemma::triviaqa::bb_3373::contain_ans_in_h,gemma,triviaqa,bb_3373,triviaqa::bb_3373,1,contain_ans_in_h,73,True,Iran launches rocket,Pakistan tests missile,Democratic People's Republic of Korea (North Korea),Iran,iran,1,3,google/gemini-2.5-flash,asserts,True,95,The model's final answer 'Iran' directly asserts the nation mentioned in the candidate string 'Iran launches rocket' as the answer to the question.,True,379,73,0.0002962,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's final answer 'Iran' directly asserts the nation mentioned in the candidate string 'Iran launches rocket' as the answer to the question.""
+}
+```"
+gemma::hotpotqa::5ae60530554299546bf8301e::contain_h_in_ans,gemma,hotpotqa,5ae60530554299546bf8301e,hotpotqa::5ae60530554299546bf8301e,1,contain_h_in_ans,75,True,Pool FC,Blackpool Rovers,Blackpool Football Club,Blackpool FC,blackpool fc,2,2,google/gemini-2.5-flash,asserts,True,95,Blackpool FC is an unambiguous equivalent of 'Pool FC' in the context of the question.,True,389,62,0.0002717,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""Blackpool FC is an unambiguous equivalent of 'Pool FC' in the context of the question.""
+}
+```"
+gemma::hotpotqa::5ae3f1fb5542995ad6573cc1::contain_ans_in_h,gemma,hotpotqa,5ae3f1fb5542995ad6573cc1,hotpotqa::5ae3f1fb5542995ad6573cc1,1,contain_ans_in_h,73,True,five-time,seven-time,six-time,five,five,1,2,google/gemini-2.5-flash,asserts,True,95,The final answer 'five' is a direct numerical equivalent of the candidate string 'five-time' in the context of counting awards.,True,387,70,0.0002911,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'five' is a direct numerical equivalent of the candidate string 'five-time' in the context of counting awards.""
+}
+```"
+gemma::hotpotqa::5ae622495542995703ce8b20::contain_ans_in_h,gemma,hotpotqa,5ae622495542995703ce8b20,hotpotqa::5ae622495542995703ce8b20,1,contain_ans_in_h,73,True,Sitcom Performances,Variety Television,Comedy,Sitcom,sitcom,1,2,google/gemini-2.5-flash,asserts,True,95,"The final answer 'Sitcom' is a direct and unambiguous assertion of the 'Sitcom Performances' candidate, with 'Performances' being an implied context from the question.",True,375,78,0.0003075,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Sitcom' is a direct and unambiguous assertion of the 'Sitcom Performances' candidate, with 'Performances' being an implied context from the question.""
+}
+```"
+gemma::triviaqa::jp_306::contain_ans_in_h,gemma,triviaqa,jp_306,triviaqa::jp_306,1,contain_ans_in_h,73,True,Nike Total,Adidas World Cup,Teams sponsored by Umbro,Nike,nike,1,2,google/gemini-2.5-flash,different,False,90,"The final answer 'Nike' is a broader brand than the candidate 'Nike Total', making it a different answer.",True,379,65,0.0002762,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The final answer 'Nike' is a broader brand than the candidate 'Nike Total', making it a different answer.""
+}
+```"
+gemma::triviaqa::dpql_5899::contain_ans_in_h,gemma,triviaqa,dpql_5899,triviaqa::dpql_5899,0,contain_ans_in_h,73,True,Spiced chicken dish,Bird meat protein,Gallus gallus domesticus,Chicken,chicken,1,3,google/gemini-2.5-flash,different,False,95,The model's answer 'Chicken' is a broader term than the candidate 'Spiced chicken dish'.,True,372,63,0.0002691,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Chicken' is a broader term than the candidate 'Spiced chicken dish'.""
+}
+```"
+gemma::triviaqa::odql_10579::contain_h_in_ans,gemma,triviaqa,odql_10579,triviaqa::odql_10579,1,contain_h_in_ans,75,True,Getting Louder,Sound Growing Stronger,GRADUALLY INCREASING,Gradually getting louder,gradually getting louder,3,2,google/gemini-2.5-flash,asserts,True,95,The final answer 'Gradually getting louder' is an unambiguous equivalent of 'Getting Louder' in the context of a musical term.,True,377,70,0.0002881,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Gradually getting louder' is an unambiguous equivalent of 'Getting Louder' in the context of a musical term.""
+}
+```"
+gemma::triviaqa::odql_11802::parser_negative,gemma,triviaqa,odql_11802,triviaqa::odql_11802,-1,parser_negative,1702,False,Bill Gates,Steve Wozniak,Douglas C. Engelbart,Douglas Engelbart,douglas engelbart,2,2,google/gemini-2.5-flash,different,False,100,The model's answer 'Douglas Engelbart' is a different person than the candidate 'Bill Gates'.,True,383,64,0.0002749,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Douglas Engelbart' is a different person than the candidate 'Bill Gates'.""
+}
+```"
+gemma::triviaqa::jp_4031::contain_ans_in_h,gemma,triviaqa,jp_4031,triviaqa::jp_4031,1,contain_ans_in_h,73,True,King Ghidorah's destructive rage,Mechagodzilla's metallic menace,Powers and abilities of godzilla,King Ghidorah,king ghidorah,2,5,google/gemini-2.5-flash,asserts,True,95,The final answer is a direct subset of the candidate string and directly answers the question.,True,379,60,0.0002637,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer is a direct subset of the candidate string and directly answers the question.""
+}
+```"
+gemma::triviaqa::odql_12689::contain_ans_in_h,gemma,triviaqa,odql_12689,triviaqa::odql_12689,1,contain_ans_in_h,73,True,Leg elbow segment,Posterior knee region,Congenital patellar dislocation,Leg,leg,1,3,google/gemini-2.5-flash,different,False,90,"The candidate specifies 'Leg elbow segment' while the answer only states 'Leg', which is a broader category.",True,377,64,0.0002731,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The candidate specifies 'Leg elbow segment' while the answer only states 'Leg', which is a broader category.""
+}
+```"
+gemma::triviaqa::odql_6263::exact,gemma,triviaqa,odql_6263,triviaqa::odql_6263,1,exact,551,True,Halifax Town,Hartlepool United,Wimbledon (disambiguation),Halifax Town,halifax town,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,386,57,0.0002583,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+gemma::triviaqa::odql_13449::contain_h_in_ans,gemma,triviaqa,odql_13449,triviaqa::odql_13449,0,contain_h_in_ans,75,True,Carbon,Stable Carbon,Radiocarbon,Carbon-14,carbon 14,2,1,google/gemini-2.5-flash,different,False,95,"The model's answer 'Carbon-14' is a specific isotope, which is a narrower and different entity than the general 'Carbon' candidate.",True,374,73,0.0002947,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Carbon-14' is a specific isotope, which is a narrower and different entity than the general 'Carbon' candidate.""
+}
+```"
+gemma::triviaqa::qb_10046::exact,gemma,triviaqa,qb_10046,triviaqa::qb_10046,1,exact,551,True,Prayerboard,Choirstall Rest,Misericords,Prayerboard,prayerboard,1,1,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,390,57,0.0002595,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+gemma::triviaqa::odql_762::contain_h_in_ans,gemma,triviaqa,odql_762,triviaqa::odql_762,1,contain_h_in_ans,75,True,Blink,Sum,Montauk Mantis Records,Blink-182,blink 182,2,1,google/gemini-2.5-flash,different,False,95,"The model's answer 'Blink-182' is a more specific and complete name than the candidate 'Blink', making it a different answer.",True,397,75,0.0003066,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Blink-182' is a more specific and complete name than the candidate 'Blink', making it a different answer.""
+}
+```"
+gemma::triviaqa::odql_8407::contain_h_in_ans,gemma,triviaqa,odql_8407,triviaqa::odql_8407,1,contain_h_in_ans,75,True,Nottinghamshire,Staffordshire,"Derbyshire, England","Nottinghamshire, Derbyshire",nottinghamshire derbyshire,2,1,google/gemini-2.5-flash,different,True,95,"The final answer includes the candidate string but also adds another county, making it a different answer than the candidate alone.",True,379,65,0.0002762,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer includes the candidate string but also adds another county, making it a different answer than the candidate alone.""
+}
+```"
+gemma::triviaqa::odql_790::parser_negative,gemma,triviaqa,odql_790,triviaqa::odql_790,-1,parser_negative,1702,False,Mrs. Bugle,Mrs. Hackley,The Posthumous Papers of the Pickwick Club,Mrs. Bardell,mrs bardell,2,2,google/gemini-2.5-flash,different,False,100,The model's final answer 'Mrs. Bardell' is a different name than the candidate string 'Mrs. Bugle'.,True,400,69,0.0002925,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer 'Mrs. Bardell' is a different name than the candidate string 'Mrs. Bugle'.""
+}
+```"
+gemma::triviaqa::odql_8634::contain_ans_in_h,gemma,triviaqa,odql_8634,triviaqa::odql_8634,0,contain_ans_in_h,73,True,Victoria's Floating Hope,The Salty Navigator,A-Channel Vancouver Island,Victoria,victoria,1,4,google/gemini-2.5-flash,different,False,95,"The final answer 'Victoria' is a part of the candidate string 'Victoria's Floating Hope', but it is not the entire candidate string, making it a different answer.",True,380,72,0.000294,"{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Victoria' is a part of the candidate string 'Victoria's Floating Hope', but it is not the entire candidate string, making it a different answer.""
+}"
+gemma::triviaqa::qf_2274::contain_ans_in_h,gemma,triviaqa,qf_2274,triviaqa::qf_2274,1,contain_ans_in_h,73,True,Limestone dust,Marble powder,Tailor's chalk,Limestone,limestone,1,2,google/gemini-2.5-flash,asserts,True,95,"The model's answer 'Limestone' is a direct and unambiguous assertion of the candidate 'Limestone dust', as 'Limestone dust' is a form of 'Limestone'.",True,373,80,0.0003119,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Limestone' is a direct and unambiguous assertion of the candidate 'Limestone dust', as 'Limestone dust' is a form of 'Limestone'.""
+}
+```"
+gemma::triviaqa::qf_1649::contain_ans_in_h,gemma,triviaqa,qf_1649,triviaqa::qf_1649,0,contain_ans_in_h,73,True,Pope John Paul II,Cardinal Ratzinger,Albino Cardinal Luciani,Pope John Paul I,pope john paul i,4,4,google/gemini-2.5-flash,different,False,100,The model's answer 'Pope John Paul I' is a different entity than the candidate 'Pope John Paul II'.,True,385,67,0.000283,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Pope John Paul I' is a different entity than the candidate 'Pope John Paul II'.""
+}
+```"
+gemma::triviaqa::qw_12985::parser_negative,gemma,triviaqa,qw_12985,triviaqa::qw_12985,-1,parser_negative,1702,False,Mahatma,Karamchand,Mohandas (disambiguation),Mohandas,mohandas,1,1,google/gemini-2.5-flash,different,False,100,The model's answer 'Mohandas' is a different first name than the candidate 'Mahatma'.,True,383,64,0.0002749,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Mohandas' is a different first name than the candidate 'Mahatma'.""
+}
+```"
+gemma::triviaqa::qw_16015::parser_negative,gemma,triviaqa,qw_16015,triviaqa::qw_16015,-1,parser_negative,1702,False,Love Dies Alone,Phantom's Dark Return,Love Never Dies (disambiguation),Love Never Dies,love never dies,3,3,google/gemini-2.5-flash,different,False,100,The model's answer 'Love Never Dies' is a different title than the candidate 'Love Dies Alone'.,True,388,65,0.0002789,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Love Never Dies' is a different title than the candidate 'Love Dies Alone'.""
+}
+```"
+gemma::triviaqa::sfq_2116::parser_negative,gemma,triviaqa,sfq_2116,triviaqa::sfq_2116,-1,parser_negative,1702,False,Geography of Herefordshire,Midlands of Worcestershire,Geography of Shropshire,Shropshire,shropshire,1,2,google/gemini-2.5-flash,different,False,100,The model's answer 'Shropshire' is a different county than 'Herefordshire' which is implied by the candidate string 'Geography of Herefordshire'.,True,373,74,0.0002969,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Shropshire' is a different county than 'Herefordshire' which is implied by the candidate string 'Geography of Herefordshire'.""
+}
+```"
+gemma::triviaqa::sfq_24046::exact,gemma,triviaqa,sfq_24046,triviaqa::sfq_24046,1,exact,551,True,Josef,Jean,Joseph (given name),Josef,josef,1,1,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,372,57,0.0002541,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+gemma::triviaqa::qw_6810::contain_ans_in_h,gemma,triviaqa,qw_6810,triviaqa::qw_6810,0,contain_ans_in_h,73,True,Vespers of Afternoon,Mid-Afternoon Canonical Hour,None (disambiguation),Vespers,vespers,1,2,google/gemini-2.5-flash,different,False,90,"The model's answer 'Vespers' is a part of the candidate string 'Vespers of Afternoon', making it a narrower answer than the candidate.",True,400,75,0.0003075,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The model's answer 'Vespers' is a part of the candidate string 'Vespers of Afternoon', making it a narrower answer than the candidate.""
+}
+```"
+gemma::triviaqa::sfq_9362::contain_ans_in_h,gemma,triviaqa,sfq_9362,triviaqa::sfq_9362,1,contain_ans_in_h,73,True,M6 via Blackpool,Blackpool Motorway Link,M55 (disambiguation),M6,m6,1,3,google/gemini-2.5-flash,different,False,90,"The candidate string includes 'via Blackpool' which is not present in the model's final answer, making the final answer a narrower assertion than the candidate.",True,370,73,0.0002935,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The candidate string includes 'via Blackpool' which is not present in the model's final answer, making the final answer a narrower assertion than the candidate.""
+}
+```"
+llama::hotpotqa::5a7561495542992db947364e::exact,llama,hotpotqa,5a7561495542992db947364e,hotpotqa::5a7561495542992db947364e,1,exact,551,True,Dangerous Game,Lover's Murder,Julie 2,Dangerous Game,dangerous game,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,381,57,0.0002568,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+gemma::triviaqa::sfq_13060::contain_ans_in_h,gemma,triviaqa,sfq_13060,triviaqa::sfq_13060,0,contain_ans_in_h,73,True,Bitter almond essence,Sweet cherry kernel,Prunus amygdalus dulcis,Almond,almond,1,3,google/gemini-2.5-flash,asserts,True,90,The model's answer 'Almond' is a direct and unambiguous assertion of the core flavor described in the candidate 'Bitter almond essence'.,True,375,71,0.00029,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 90,
+  ""reason"": ""The model's answer 'Almond' is a direct and unambiguous assertion of the core flavor described in the candidate 'Bitter almond essence'.""
+}
+```"
+gemma::triviaqa::sfq_5345::parser_negative,gemma,triviaqa,sfq_5345,triviaqa::sfq_5345,-1,parser_negative,1702,False,Wolfgang Amadeus Mozart,Gioachino Rossini,Pierre-Augustin Caron De Beaumarchais,Pierre Beaumarchais,pierre beaumarchais,2,3,google/gemini-2.5-flash,different,False,100,The model's answer 'Pierre Beaumarchais' is a different entity than the candidate 'Wolfgang Amadeus Mozart'.,True,387,69,0.0002886,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Pierre Beaumarchais' is a different entity than the candidate 'Wolfgang Amadeus Mozart'.""
+}
+```"
+llama::hotpotqa::5a75092b55429916b0164242::contain_h_in_ans,llama,hotpotqa,5a75092b55429916b0164242,hotpotqa::5a75092b55429916b0164242,0,contain_h_in_ans,75,True,Taken,Death Race,Transporter 3,Taken 3,taken 3,2,1,google/gemini-2.5-flash,different,False,95,"The final answer 'Taken 3' specifies a particular film in the franchise, while the candidate 'Taken' refers to the franchise itself or the first film.",True,376,74,0.0002978,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Taken 3' specifies a particular film in the franchise, while the candidate 'Taken' refers to the franchise itself or the first film.""
+}
+```"
+gemma::triviaqa::tc_3060::parser_negative,gemma,triviaqa,tc_3060,triviaqa::tc_3060,-1,parser_negative,1702,False,A geologist,A climate researcher,A soil scientist,Soil scientist,soil scientist,2,1,google/gemini-2.5-flash,different,False,100,The model's answer 'Soil scientist' is a different profession than the candidate 'A geologist'.,True,373,58,0.0002569,"{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Soil scientist' is a different profession than the candidate 'A geologist'.""
+}"
+gemma::triviaqa::tc_885::contain_h_in_ans,gemma,triviaqa,tc_885,triviaqa::tc_885,0,contain_h_in_ans,75,True,John Kander,Fred Ebb,Robert Louis Fosse,John Kander and Fred Ebb,john kander and fred ebb,5,2,google/gemini-2.5-flash,different,False,100,"The final answer provides John Kander along with another individual, making it a different answer than the candidate alone.",True,376,65,0.0002753,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer provides John Kander along with another individual, making it a different answer than the candidate alone.""
+}
+```"
+llama::hotpotqa::5a7dd9445542997cc2c474ac::parser_negative,llama,hotpotqa,5a7dd9445542997cc2c474ac,hotpotqa::5a7dd9445542997cc2c474ac,-1,parser_negative,1702,False,Aragon depicted colonial rule,Aragon explored colonial impacts,Farrell,J. G. Farrell,j g farrell,3,4,google/gemini-2.5-flash,different,False,100,The model's answer 'J. G. Farrell' is different from the candidate string 'Aragon depicted colonial rule'.,True,395,68,0.0002885,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'J. G. Farrell' is different from the candidate string 'Aragon depicted colonial rule'.""
+}
+```"
+llama::hotpotqa::5a7bcbc8554299294a54aae2::parser_negative,llama,hotpotqa,5a7bcbc8554299294a54aae2,hotpotqa::5a7bcbc8554299294a54aae2,-1,parser_negative,1702,False,Manhattan College Institute,Named for College Founder,Sir Syed University of Engineering and Technology,Sir Syed University of Engineering and Technology,sir syed university engineering and technology,6,3,google/gemini-2.5-flash,different,False,100,"The model's final answer is 'Sir Syed University of Engineering and Technology', which is different from the candidate string 'Manhattan College Institute'.",True,388,72,0.0002964,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is 'Sir Syed University of Engineering and Technology', which is different from the candidate string 'Manhattan College Institute'.""
+}
+```"
+llama::hotpotqa::5a820c0c554299676cceb1fc::exact,llama,hotpotqa,5a820c0c554299676cceb1fc,hotpotqa::5a820c0c554299676cceb1fc,1,exact,551,True,ANA Holdings,Japan Airlines,All Nippon,ANA Holdings,ana holdings,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,390,57,0.0002595,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+llama::hotpotqa::5a7f7b365542992097ad2f80::contain_ans_in_h,llama,hotpotqa,5a7f7b365542992097ad2f80,hotpotqa::5a7f7b365542992097ad2f80,1,contain_ans_in_h,73,True,Beaulieu Mine produced gold,McIntyre exclusively extracted copper,The McIntyre also yielded a considerable amount of copper,gold,gold,1,4,google/gemini-2.5-flash,different,False,90,"The final answer 'gold' is a component of the candidate 'Beaulieu Mine produced gold', but not the full candidate itself.",True,380,69,0.0002865,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The final answer 'gold' is a component of the candidate 'Beaulieu Mine produced gold', but not the full candidate itself.""
+}
+```"
+llama::hotpotqa::5a7de14a5542991319bc93fc::exact,llama,hotpotqa,5a7de14a5542991319bc93fc,hotpotqa::5a7de14a5542991319bc93fc,1,exact,551,True,"Centerville, Georgia","Oakdale, Minnesota","Jeffersontown, Kentucky","Centerville, Georgia",centerville georgia,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,385,57,0.000258,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+llama::hotpotqa::5a840e8a5542992ef85e239e::contain_ans_in_h,llama,hotpotqa,5a840e8a5542992ef85e239e,hotpotqa::5a840e8a5542992ef85e239e,1,contain_ans_in_h,73,True,Hole has more members,Hole's lineup is larger,Mastodon,Hole,hole,1,4,google/gemini-2.5-flash,asserts,True,95,"The final answer 'Hole' directly identifies the band stated in the candidate string as having more members, which is the core assertion of the candidate.",True,380,73,0.0002965,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Hole' directly identifies the band stated in the candidate string as having more members, which is the core assertion of the candidate.""
+}
+```"
+llama::hotpotqa::5a85d4395542996432c570f5::contain_ans_in_h,llama,hotpotqa,5a85d4395542996432c570f5,hotpotqa::5a85d4395542996432c570f5,1,contain_ans_in_h,73,True,"Libby, Montana","Eureka, Montana","Troy, Montana",Libby,libby,1,2,google/gemini-2.5-flash,asserts,True,95,"The model's answer 'Libby' is a direct assertion of the city part of the candidate string 'Libby, Montana'.",True,384,70,0.0002902,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Libby' is a direct assertion of the city part of the candidate string 'Libby, Montana'.""
+}
+```"
+llama::hotpotqa::5a7dc7735542990b8f503a93::contain_h_in_ans,llama,hotpotqa,5a7dc7735542990b8f503a93,hotpotqa::5a7dc7735542990b8f503a93,0,contain_h_in_ans,75,True,million,million,100 million,10 million,10 million,2,1,google/gemini-2.5-flash,asserts,True,100,The final answer '10 million' directly includes and specifies the candidate 'million' as part of the numerical answer to 'how many records'.,True,394,73,0.0003007,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The final answer '10 million' directly includes and specifies the candidate 'million' as part of the numerical answer to 'how many records'.""
+}
+```"
+llama::hotpotqa::5ab31adc554299233954ff0a::contain_h_in_ans,llama,hotpotqa,5ab31adc554299233954ff0a,hotpotqa::5ab31adc554299233954ff0a,1,contain_h_in_ans,75,True,million pesos,million dollars,2.3 million pesos,12 million pesos,12 million pesos,3,2,google/gemini-2.5-flash,asserts,True,95,The final answer contains the candidate string 'million pesos' as part of its response.,True,375,60,0.0002625,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer contains the candidate string 'million pesos' as part of its response.""
+}
+```"
+llama::hotpotqa::5a8e42d15542995a26add4a6::contain_h_in_ans,llama,hotpotqa,5a8e42d15542995a26add4a6,hotpotqa::5a8e42d15542995a26add4a6,1,contain_h_in_ans,75,True,Eastern China,Fujian Province,People's Republic of China,Northwest China and Southeastern China,northwest china and southeastern china,5,2,google/gemini-2.5-flash,different,False,100,"The model's answer provides two distinct regions, neither of which is 'Eastern China' as a whole, and it does not assert 'Eastern China'.",True,380,74,0.000299,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer provides two distinct regions, neither of which is 'Eastern China' as a whole, and it does not assert 'Eastern China'.""
+}
+```"
+llama::hotpotqa::5a89810655429946c8d6e929::contain_h_in_ans,llama,hotpotqa,5a89810655429946c8d6e929,hotpotqa::5a89810655429946c8d6e929,1,contain_h_in_ans,75,True,miles,kilometers,37.5,40 miles,40 miles,2,1,google/gemini-2.5-flash,different,False,100,"The model's answer provides a specific number of miles, while the candidate string is only the unit 'miles'.",True,373,66,0.0002769,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer provides a specific number of miles, while the candidate string is only the unit 'miles'.""
+}
+```"
+llama::hotpotqa::5a8ba67755429971feec4748::exact,llama,hotpotqa,5a8ba67755429971feec4748,hotpotqa::5a8ba67755429971feec4748,1,exact,551,True,ION Orchard,Somerset,Orchard Central,ION Orchard,ion orchard,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,379,57,0.0002562,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+llama::hotpotqa::5ab2771e554299340b5254d8::contain_h_in_ans,llama,hotpotqa,5ab2771e554299340b5254d8,hotpotqa::5ab2771e554299340b5254d8,1,contain_h_in_ans,75,True,August,October,29 September 2014,August 2021,august 2021,2,1,google/gemini-2.5-flash,different,False,95,"The model's answer 'August 2021' provides a more specific date than the candidate 'August', making it a different answer rather than a direct assertion of only 'August'.",True,383,81,0.0003174,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'August 2021' provides a more specific date than the candidate 'August', making it a different answer rather than a direct assertion of only 'August'.""
+}
+```"
+llama::hotpotqa::5ab721325542992aa3b8c7a2::contain_ans_in_h,llama,hotpotqa,5ab721325542992aa3b8c7a2,hotpotqa::5ab721325542992aa3b8c7a2,1,contain_ans_in_h,73,True,Monk solves wacky mysteries,Shawn Spencer investigates crimes,Psych is an American detective comedy-drama,Monk,monk,1,4,google/gemini-2.5-flash,different,False,95,"The candidate string is a descriptive phrase, while the final answer is a single word, which is likely the name of the show.",True,385,68,0.0002855,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The candidate string is a descriptive phrase, while the final answer is a single word, which is likely the name of the show.""
+}
+```"
+llama::hotpotqa::5aba75e655429955dce3ee3c::parser_negative,llama,hotpotqa,5aba75e655429955dce3ee3c,hotpotqa::5aba75e655429955dce3ee3c,-1,parser_negative,1702,False,Port Augusta,Murray Bridge,Adelaide,Adelaide,adelaide,1,2,google/gemini-2.5-flash,different,False,100,The model's answer 'Adelaide' is a different city than the candidate 'Port Augusta'.,True,381,63,0.0002718,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Adelaide' is a different city than the candidate 'Port Augusta'.""
+}
+```"
+llama::hotpotqa::5ab3b50055429969a97a818c::exact,llama,hotpotqa,5ab3b50055429969a97a818c,hotpotqa::5ab3b50055429969a97a818c,1,exact,551,True,the James River,the York River,the Elizabeth River,James River,james river,2,2,google/gemini-2.5-flash,asserts,True,100,"The model's final answer is a direct and exact match to the candidate string, with only a minor difference in capitalization of 'the' which is not significant.",True,376,77,0.0003053,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is a direct and exact match to the candidate string, with only a minor difference in capitalization of 'the' which is not significant.""
+}
+```"
+llama::hotpotqa::5ab5035b5542996a3a969ff8::exact,llama,hotpotqa,5ab5035b5542996a3a969ff8,hotpotqa::5ab5035b5542996a3a969ff8,1,exact,551,True,Nazi German armed forces,Imperial German military,German service cartridge,Nazi German armed forces,nazi german armed forces,4,4,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,398,59,0.0002669,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+llama::hotpotqa::5abc091555429965836003f6::contain_ans_in_h,llama,hotpotqa,5abc091555429965836003f6,hotpotqa::5abc091555429965836003f6,0,contain_ans_in_h,73,True,Black Swan's Adaptation,Bolshoi Ballet Story,Swan Lake,Black Swan,black swan,2,4,google/gemini-2.5-flash,asserts,True,95,The final answer 'Black Swan' is a direct and unambiguous assertion of the core entity from the candidate string 'Black Swan's Adaptation'.,True,380,71,0.0002915,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Black Swan' is a direct and unambiguous assertion of the core entity from the candidate string 'Black Swan's Adaptation'.""
+}
+```"
+llama::hotpotqa::5ac1436f5542991316484aad::contain_ans_in_h,llama,hotpotqa,5ac1436f5542991316484aad,hotpotqa::5ac1436f5542991316484aad,1,contain_ans_in_h,73,True,Carmen by Bizet,Les Contes d'Hoffmann,Dialogues of the Carmelites,Carmen,carmen,1,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer 'Carmen' directly matches the first part of the candidate string 'Carmen by Bizet'.,True,380,68,0.000284,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer 'Carmen' directly matches the first part of the candidate string 'Carmen by Bizet'.""
+}
+```"
+llama::hotpotqa::5adf85e05542993344016cba::exact,llama,hotpotqa,5adf85e05542993344016cba,hotpotqa::5adf85e05542993344016cba,1,exact,551,True,First Division,Third Division,Championship,First Division,first division,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,381,57,0.0002568,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+llama::hotpotqa::5adc6f6255429947ff173961::contain_ans_in_h,llama,hotpotqa,5adc6f6255429947ff173961,hotpotqa::5adc6f6255429947ff173961,1,contain_ans_in_h,73,True,Rothmannia species,Morning glory tree,Morning glory,Rothmannia,rothmannia,1,2,google/gemini-2.5-flash,asserts,True,100,"The final answer 'Rothmannia' is a direct match for the 'Rothmannia' part of the candidate string 'Rothmannia species', and directly answers the question.",True,385,80,0.0003155,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The final answer 'Rothmannia' is a direct match for the 'Rothmannia' part of the candidate string 'Rothmannia species', and directly answers the question.""
+}
+```"
+llama::hotpotqa::5ae33a3b5542992f92d8224a::contain_ans_in_h,llama,hotpotqa,5ae33a3b5542992f92d8224a,hotpotqa::5ae33a3b5542992f92d8224a,1,contain_ans_in_h,73,True,rowing champion,javelin thrower,bobsledder,rowing,rowing,1,2,google/gemini-2.5-flash,asserts,True,95,The model's answer 'rowing' is a direct and unambiguous assertion of the core information in the candidate string 'rowing champion'.,True,392,71,0.0002951,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'rowing' is a direct and unambiguous assertion of the core information in the candidate string 'rowing champion'.""
+}
+```"
+llama::hotpotqa::5ac279345542990b17b153b0::parser_negative,llama,hotpotqa,5ac279345542990b17b153b0,hotpotqa::5ac279345542990b17b153b0,-1,parser_negative,1702,False,March,September,28 January 1864,1770,1770,1,1,google/gemini-2.5-flash,different,False,100,"The candidate is 'March' (a month) and the final answer is '1770' (a year), which are different types of information.",True,384,75,0.0003027,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The candidate is 'March' (a month) and the final answer is '1770' (a year), which are different types of information.""
+}
+```"
+llama::hotpotqa::5ae0e183554299422ee9953f::contain_ans_in_h,llama,hotpotqa,5ae0e183554299422ee9953f,hotpotqa::5ae0e183554299422ee9953f,1,contain_ans_in_h,73,True,"Qionghai's population was 658,","Suining totaled 658,798 residents","In 2002, Suining had a population of 658,798.",Qionghai,qionghai,1,5,google/gemini-2.5-flash,asserts,True,95,The model's final answer 'Qionghai' directly asserts the entity mentioned in the candidate string 'Qionghai'.,True,403,70,0.0002959,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's final answer 'Qionghai' directly asserts the entity mentioned in the candidate string 'Qionghai'.""
+}
+```"
+llama::triviaqa::bt_2163::parser_negative,llama,triviaqa,bt_2163,triviaqa::bt_2163,-1,parser_negative,1702,False,Robert,Henry,Andrew (given name),Andrew,andrew,1,1,google/gemini-2.5-flash,different,False,100,The model's answer 'Andrew' is a different name than the candidate 'Robert'.,True,371,61,0.0002638,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Andrew' is a different name than the candidate 'Robert'.""
+}
+```"
+llama::hotpotqa::5ae5b971554299546bf82f3a::exact,llama,hotpotqa,5ae5b971554299546bf82f3a,hotpotqa::5ae5b971554299546bf82f3a,1,exact,551,True,Passaic County,Hudson County,Bergen,Passaic County,passaic county,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match for the candidate string.,True,372,59,0.0002591,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match for the candidate string.""
+}
+```"
+llama::hotpotqa::5ae5d19155429929b08079bc::contain_h_in_ans,llama,hotpotqa,5ae5d19155429929b08079bc,hotpotqa::5ae5d19155429929b08079bc,0,contain_h_in_ans,75,True,Canadian,Bulgarian,Velichko Todorov Tsochev) is a Bulgarian-Canadian,Australian/Canadian,australian canadian,2,1,google/gemini-2.5-flash,different,False,100,"The final answer provides two nationalities, one of which is the candidate, but it is not the candidate alone.",True,380,65,0.0002765,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer provides two nationalities, one of which is the candidate, but it is not the candidate alone.""
+}
+```"
+llama::triviaqa::bt_3817::contain_ans_in_h,llama,triviaqa,bt_3817,triviaqa::bt_3817,1,contain_ans_in_h,73,True,Alexandre Dumas' Famous Phrase,French Musketeer Heroic Creed,Les trois mousquetaires,Alexandre Dumas,alexandre dumas,2,4,google/gemini-2.5-flash,asserts,True,95,The model's answer 'Alexandre Dumas' is a direct assertion of the core entity mentioned in the candidate string 'Alexandre Dumas' Famous Phrase'.,True,378,74,0.0002984,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Alexandre Dumas' is a direct assertion of the core entity mentioned in the candidate string 'Alexandre Dumas' Famous Phrase'.""
+}
+```"
+llama::triviaqa::bb_8388::contain_ans_in_h,llama,triviaqa,bb_8388,triviaqa::bb_8388,1,contain_ans_in_h,73,True,Guernsey Border Junction,Great Britain Junction,Channel Islands (Jersey),Guernsey,guernsey,1,3,google/gemini-2.5-flash,different,False,95,The final answer 'Guernsey' is a part of the candidate 'Guernsey Border Junction' but not the entire candidate.,True,374,67,0.0002797,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Guernsey' is a part of the candidate 'Guernsey Border Junction' but not the entire candidate.""
+}
+```"
+llama::triviaqa::dpql_4781::parser_negative,llama,triviaqa,dpql_4781,triviaqa::dpql_4781,-1,parser_negative,1702,False,six hundred and sixty-six,four forty-four,five hundred and fifty-five,555,555,1,5,google/gemini-2.5-flash,different,False,100,The model's answer '555' is a different numerical value than the candidate 'six hundred and sixty-six'.,True,378,69,0.0002859,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer '555' is a different numerical value than the candidate 'six hundred and sixty-six'.""
+}
+```"
+llama::triviaqa::odql_10918::parser_negative,llama,triviaqa,odql_10918,triviaqa::odql_10918,-1,parser_negative,1702,False,South Yorkshire,Leeds Shopping District,Metropolitan Borough of Sheffield,Sheffield and Bradford,sheffield and bradford,3,2,google/gemini-2.5-flash,different,False,100,"The model's answer provides specific cities, while the candidate is a county. The cities are not the same as the county.",True,383,64,0.0002749,"{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer provides specific cities, while the candidate is a county. The cities are not the same as the county.""
+}"
+llama::triviaqa::dpql_6271::parser_negative,llama,triviaqa,dpql_6271,triviaqa::dpql_6271,-1,parser_negative,1702,False,"Los Angeles, California","Santa Monica, California","Zion Lutheran School, Anaheim California","Anaheim, California",anaheim california,2,3,google/gemini-2.5-flash,different,False,100,"The model's answer 'Anaheim, California' is a different city than the candidate 'Los Angeles, California'.",True,383,67,0.0002824,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Anaheim, California' is a different city than the candidate 'Los Angeles, California'.""
+}
+```"
+llama::triviaqa::odql_1328::exact,llama,triviaqa,odql_1328,triviaqa::odql_1328,1,exact,551,True,Newcastle United,Manchester City,Huddersfield Town Association Football Club,Newcastle United,newcastle united,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,379,57,0.0002562,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+llama::triviaqa::dpql_5899::contain_ans_in_h,llama,triviaqa,dpql_5899,triviaqa::dpql_5899,0,contain_ans_in_h,73,True,Spiced chicken dish,Bird meat protein,Gallus gallus domesticus,Chicken,chicken,1,3,google/gemini-2.5-flash,different,False,90,"The final answer 'Chicken' is a component of the candidate 'Spiced chicken dish', making it a narrower answer rather than an assertion of the full candidate.",True,372,74,0.0002966,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The final answer 'Chicken' is a component of the candidate 'Spiced chicken dish', making it a narrower answer rather than an assertion of the full candidate.""
+}
+```"
+llama::triviaqa::jp_306::contain_ans_in_h,llama,triviaqa,jp_306,triviaqa::jp_306,1,contain_ans_in_h,73,True,Nike Total,Adidas World Cup,Teams sponsored by Umbro,Nike,nike,1,2,google/gemini-2.5-flash,different,False,90,"The final answer 'Nike' is a broader brand than the candidate 'Nike Total', making it a different answer.",True,379,65,0.0002762,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The final answer 'Nike' is a broader brand than the candidate 'Nike Total', making it a different answer.""
+}
+```"
+llama::triviaqa::odql_12402::contain_ans_in_h,llama,triviaqa,odql_12402,triviaqa::odql_12402,0,contain_ans_in_h,73,True,Trench foot syndrome,Battlefield immersion disease,Warm water immersion foot,Trench Foot,trench foot,2,3,google/gemini-2.5-flash,asserts,True,95,The model's answer 'Trench Foot' is a common and unambiguous equivalent of 'Trench foot syndrome'.,True,387,66,0.0002811,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Trench Foot' is a common and unambiguous equivalent of 'Trench foot syndrome'.""
+}
+```"
+llama::triviaqa::odql_1602::parser_negative,llama,triviaqa,odql_1602,triviaqa::odql_1602,-1,parser_negative,1702,False,Leo Tolstoy,Vladimir Nabokov,Aleksandr Isayevich Solzhenitzyn,Aleksandr Solzhenitsyn,aleksandr solzhenitsyn,2,2,google/gemini-2.5-flash,different,False,100,The model's final answer provides a different author than the candidate string.,True,398,58,0.0002644,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer provides a different author than the candidate string.""
+}
+```"
+llama::triviaqa::odql_6004::contain_ans_in_h,llama,triviaqa,odql_6004,triviaqa::odql_6004,1,contain_ans_in_h,73,True,Bolivarian Republic of Venezuela,Autonomous City of Ceuta,The Argentine Republic,Venezuela,venezuela,1,3,google/gemini-2.5-flash,asserts,True,95,The model's answer 'Venezuela' is a common short form of the candidate 'Bolivarian Republic of Venezuela'.,True,386,67,0.0002833,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Venezuela' is a common short form of the candidate 'Bolivarian Republic of Venezuela'.""
+}
+```"
+llama::triviaqa::odql_13449::contain_h_in_ans,llama,triviaqa,odql_13449,triviaqa::odql_13449,1,contain_h_in_ans,75,True,Carbon,Stable Carbon,Radiocarbon,Carbon-14,carbon 14,2,1,google/gemini-2.5-flash,different,False,95,"The model's answer 'Carbon-14' is a specific isotope, which is a narrower and different entity than the general 'Carbon' candidate.",True,374,73,0.0002947,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Carbon-14' is a specific isotope, which is a narrower and different entity than the general 'Carbon' candidate.""
+}
+```"
+llama::triviaqa::odql_6053::contain_h_in_ans,llama,triviaqa,odql_6053,triviaqa::odql_6053,1,contain_h_in_ans,75,True,High-functioning autism spectrum,Obsessive compulsive disorder,List of further reading on Asperger syndrome,High-functioning autism spectrum disorder,high functioning autism spectrum disorder,5,4,google/gemini-2.5-flash,asserts,True,100,"The model's answer is a slightly more complete version of the candidate string, but it clearly asserts the core concept of the candidate.",True,396,71,0.0002963,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer is a slightly more complete version of the candidate string, but it clearly asserts the core concept of the candidate.""
+}
+```"
+llama::triviaqa::odql_8634::contain_ans_in_h,llama,triviaqa,odql_8634,triviaqa::odql_8634,0,contain_ans_in_h,73,True,Victoria's Floating Hope,The Salty Navigator,A-Channel Vancouver Island,Victoria,victoria,1,4,google/gemini-2.5-flash,different,False,95,"The final answer 'Victoria' is a part of the candidate string 'Victoria's Floating Hope', but it is not the entire candidate string, making it a different answer.",True,380,72,0.000294,"{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Victoria' is a part of the candidate string 'Victoria's Floating Hope', but it is not the entire candidate string, making it a different answer.""
+}"
+llama::triviaqa::qb_7166::parser_negative,llama,triviaqa,qb_7166,triviaqa::qb_7166,-1,parser_negative,1702,False,Peter Jackson,Steven Spielberg,List of awards and nominations received by James Cameron,James Cameron,james cameron,2,2,google/gemini-2.5-flash,different,False,100,The final answer 'James Cameron' is a different name than the candidate 'Peter Jackson'.,True,378,61,0.0002659,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer 'James Cameron' is a different name than the candidate 'Peter Jackson'.""
+}
+```"
+llama::triviaqa::qw_5932::contain_ans_in_h,llama,triviaqa,qw_5932,triviaqa::qw_5932,1,contain_ans_in_h,73,True,Buddhism of enlightenment,Tibetan spiritual practice,Hinduism: myths and realities,Buddhism,buddhism,1,2,google/gemini-2.5-flash,different,False,90,The model's answer 'Buddhism' is a broader category than the candidate 'Buddhism of enlightenment'.,True,377,61,0.0002656,"{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The model's answer 'Buddhism' is a broader category than the candidate 'Buddhism of enlightenment'.""
+}"
+llama::triviaqa::qf_1649::contain_ans_in_h,llama,triviaqa,qf_1649,triviaqa::qf_1649,0,contain_ans_in_h,73,True,Pope John Paul II,Cardinal Ratzinger,Albino Cardinal Luciani,Pope John Paul I,pope john paul i,4,4,google/gemini-2.5-flash,different,False,100,The model's answer 'Pope John Paul I' is a different entity than the candidate 'Pope John Paul II'.,True,385,67,0.000283,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Pope John Paul I' is a different entity than the candidate 'Pope John Paul II'.""
+}
+```"
+llama::triviaqa::qb_7296::exact,llama,triviaqa,qb_7296,triviaqa::qb_7296,0,exact,551,True,One,Three,Two,One,one,1,1,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,373,57,0.0002544,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+llama::triviaqa::qg_267::parser_negative,llama,triviaqa,qg_267,triviaqa::qg_267,-1,parser_negative,1702,False,twelve,one hundred,one hundred and forty-four,144,144,1,1,google/gemini-2.5-flash,different,False,100,The model's answer '144' is a different number than the candidate 'twelve'.,True,373,64,0.0002719,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer '144' is a different number than the candidate 'twelve'.""
+}
+```"
+llama::triviaqa::qz_1658::contain_ans_in_h,llama,triviaqa,qz_1658,triviaqa::qz_1658,1,contain_ans_in_h,73,True,Ben Jonson's literary works,Christopher Marlowe's plays,William Shakespeare biography,Ben Jonson,ben jonson,2,5,google/gemini-2.5-flash,asserts,True,95,The model's answer 'Ben Jonson' is a direct assertion of the core entity from the candidate 'Ben Jonson's literary works'.,True,381,73,0.0002968,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Ben Jonson' is a direct assertion of the core entity from the candidate 'Ben Jonson's literary works'.""
+}
+```"
+llama::triviaqa::tb_384::contain_ans_in_h,llama,triviaqa,tb_384,triviaqa::tb_384,1,contain_ans_in_h,73,True,Gravity's Space Disaster,Rocket's Final Journey,"Houston, we've had a problem here",Gravity,gravity,1,4,google/gemini-2.5-flash,different,False,95,The model's answer 'Gravity' is a different movie title than the candidate 'Gravity's Space Disaster'.,True,385,65,0.000278,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Gravity' is a different movie title than the candidate 'Gravity's Space Disaster'.""
+}
+```"
+llama::triviaqa::sfq_12232::parser_negative,llama,triviaqa,sfq_12232,triviaqa::sfq_12232,-1,parser_negative,1702,False,Robert Downey Jr,George Clooney,Jeff Bridges (actor),Jeff Bridges,jeff bridges,2,3,google/gemini-2.5-flash,different,False,100,The final answer 'Jeff Bridges' is a different name than the candidate string 'Robert Downey Jr'.,True,389,63,0.0002742,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer 'Jeff Bridges' is a different name than the candidate string 'Robert Downey Jr'.""
+}
+```"
+llama::triviaqa::tc_885::contain_h_in_ans,llama,triviaqa,tc_885,triviaqa::tc_885,0,contain_h_in_ans,75,True,John Kander,Fred Ebb,Robert Louis Fosse,John Kander and Fred Ebb,john kander and fred ebb,5,2,google/gemini-2.5-flash,different,False,95,"The final answer provides the candidate plus an additional name, making it a broader answer than the candidate alone.",True,376,58,0.0002578,"{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer provides the candidate plus an additional name, making it a broader answer than the candidate alone.""
+}"
+mistral::hotpotqa::5a712fca5542994082a3e641::contain_ans_in_h,mistral,hotpotqa,5a712fca5542994082a3e641,hotpotqa::5a712fca5542994082a3e641,1,contain_ans_in_h,73,True,professional volleyball,olympic handball,professional tennis,volleyball,volleyball,1,2,google/gemini-2.5-flash,asserts,True,95,The final answer 'volleyball' is a direct and unambiguous assertion of the core sport mentioned in the candidate string 'professional volleyball'.,True,381,69,0.0002868,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'volleyball' is a direct and unambiguous assertion of the core sport mentioned in the candidate string 'professional volleyball'.""
+}
+```"
+mistral::hotpotqa::5a74b66a55429929fddd84cb::contain_h_in_ans,mistral,hotpotqa,5a74b66a55429929fddd84cb,hotpotqa::5a74b66a55429929fddd84cb,0,contain_h_in_ans,75,True,Lee Grant,Colin Campbell,James Colin Campbell,Lee Grant and Colin Campbell were born on the same day,lee grant and colin campbell were born on same day,10,2,google/gemini-2.5-flash,different,False,100,"The final answer states they were born on the same day, which is a different answer than asserting Lee Grant was born first.",True,380,68,0.000284,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer states they were born on the same day, which is a different answer than asserting Lee Grant was born first.""
+}
+```"
+mistral::hotpotqa::5a7577785542992d0ec05fa0::exact,mistral,hotpotqa,5a7577785542992d0ec05fa0,hotpotqa::5a7577785542992d0ec05fa0,1,exact,551,True,Dunham Massey,Lyme Park,Tatton Park,Dunham Massey,dunham massey,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match for the candidate string.,True,379,59,0.0002612,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match for the candidate string.""
+}
+```"
+mistral::hotpotqa::5a76a1a35542993735360122::contain_h_in_ans,mistral,hotpotqa,5a76a1a35542993735360122,hotpotqa::5a76a1a35542993735360122,1,contain_h_in_ans,75,True,Der Riese,Big Friendly Fred,The BFG,Der Riese (The Giant) and The Giant and the Small Mouse,der riese giant and giant and small mouse,8,2,google/gemini-2.5-flash,asserts,True,95,The final answer explicitly states 'Der Riese' as part of its response.,True,396,59,0.0002663,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer explicitly states 'Der Riese' as part of its response.""
+}
+```"
+mistral::hotpotqa::5a77372b554299373536021c::exact,mistral,hotpotqa,5a77372b554299373536021c,hotpotqa::5a77372b554299373536021c,1,exact,551,True,Gisele Bündchen,Adriana Lima,Candice Susan Swanepoel,Gisele Bündchen,gisele bu ndchen,3,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,389,57,0.0002592,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::hotpotqa::5a78ae8b5542990784727730::contain_ans_in_h,mistral,hotpotqa,5a78ae8b5542990784727730,hotpotqa::5a78ae8b5542990784727730,1,contain_ans_in_h,73,True,around 90 miles southwest,roughly 140 kilometers east,about 115 miles (185 km),90 miles,90 miles,2,4,google/gemini-2.5-flash,different,False,95,"The final answer provides only the distance, while the candidate includes both distance and direction.",True,379,59,0.0002612,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer provides only the distance, while the candidate includes both distance and direction.""
+}
+```"
+mistral::hotpotqa::5a77984d5542992a6e59df14::parser_negative,mistral,hotpotqa,5a77984d5542992a6e59df14,hotpotqa::5a77984d5542992a6e59df14,-1,parser_negative,1702,False,sculptor,religious leader,minister,,none,1,1,google/gemini-2.5-flash,negates,False,100,"The model's answer 'None' explicitly denies that there is a common occupation, thus negating the candidate 'sculptor'.",True,374,71,0.0002897,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'None' explicitly denies that there is a common occupation, thus negating the candidate 'sculptor'.""
+}
+```"
+mistral::hotpotqa::5a78d06355429974737f78b4::parser_negative,mistral,hotpotqa,5a78d06355429974737f78b4,hotpotqa::5a78d06355429974737f78b4,-1,parser_negative,1702,False,Twitch,ESPN+,YouTube,YouTube,youtube,1,1,google/gemini-2.5-flash,different,False,100,The model's final answer 'YouTube' is a different platform than the candidate string 'Twitch'.,True,381,64,0.0002743,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer 'YouTube' is a different platform than the candidate string 'Twitch'.""
+}
+```"
+mistral::hotpotqa::5a78e86f55429974737f78fb::contain_h_in_ans,mistral,hotpotqa,5a78e86f55429974737f78fb,hotpotqa::5a78e86f55429974737f78fb,1,contain_h_in_ans,75,True,Imperial heritage,Seasonal agricultural cycles,the long history of Japan,The Japanese calendar system emphasizes the importance of the imperial heritage and the continuity of the Japanese monarchy,japanese calendar system emphasizes importance imperial heritage and continuity japanese monarchy,11,2,google/gemini-2.5-flash,asserts,True,95,"The final answer explicitly states 'imperial heritage' as an emphasis of the Japanese calendar system, directly asserting the candidate.",True,397,66,0.0002841,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer explicitly states 'imperial heritage' as an emphasis of the Japanese calendar system, directly asserting the candidate.""
+}
+```"
+mistral::hotpotqa::5a75092b55429916b0164242::parser_negative,mistral,hotpotqa,5a75092b55429916b0164242,hotpotqa::5a75092b55429916b0164242,-1,parser_negative,1702,False,Taken,Death Race,Transporter 3,,none,1,1,google/gemini-2.5-flash,negates,False,100,"The model's final answer 'None' explicitly denies that there is a film that matches the description, therefore negating the candidate 'Taken'.",True,374,73,0.0002947,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer 'None' explicitly denies that there is a film that matches the description, therefore negating the candidate 'Taken'.""
+}
+```"
+mistral::hotpotqa::5a7af08655429931da12c989::contain_h_in_ans,mistral,hotpotqa,5a7af08655429931da12c989,hotpotqa::5a7af08655429931da12c989,1,contain_h_in_ans,75,True,radioactive elements,unstable isotopes,radionuclides,"Caesium-137, radium, and uranium-234 are all examples of radioactive elements",caesium 137 radium and uranium 234 are all examples radioactive elements,11,2,google/gemini-2.5-flash,asserts,True,100,"The model's answer directly states that the listed items are 'radioactive elements', which is the candidate string.",True,402,67,0.0002881,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer directly states that the listed items are 'radioactive elements', which is the candidate string.""
+}
+```"
+mistral::hotpotqa::5a7b581a5542992d025e6815::contain_h_in_ans,mistral,hotpotqa,5a7b581a5542992d025e6815,hotpotqa::5a7b581a5542992d025e6815,1,contain_h_in_ans,75,True,Family-friendly adventure,s kid movie,American comedy,Family-friendly adventure/comedy,family friendly adventure comedy,4,3,google/gemini-2.5-flash,different,False,95,"The final answer includes 'comedy' in addition to the candidate, making it a broader category than the candidate alone.",True,382,65,0.0002771,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer includes 'comedy' in addition to the candidate, making it a broader category than the candidate alone.""
+}
+```"
+mistral::hotpotqa::5a7b46e55542995eb53be8e5::exact,mistral,hotpotqa,5a7b46e55542995eb53be8e5,hotpotqa::5a7b46e55542995eb53be8e5,1,exact,551,True,Baotou Steel Manufacturing,Hulunbuir Industrial Group,Ordos City,Baotou Steel Manufacturing,baotou steel manufacturing,3,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,392,59,0.0002651,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+mistral::hotpotqa::5a7dc7735542990b8f503a93::contain_h_in_ans,mistral,hotpotqa,5a7dc7735542990b8f503a93,hotpotqa::5a7dc7735542990b8f503a93,0,contain_h_in_ans,75,True,million,million,100 million,50 million,50 million,2,1,google/gemini-2.5-flash,asserts,True,95,The final answer '50 million' directly includes and quantifies the candidate 'million' in response to 'how many records worldwide?'.,True,394,71,0.0002957,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer '50 million' directly includes and quantifies the candidate 'million' in response to 'how many records worldwide?'.""
+}
+```"
+mistral::hotpotqa::5a7f4cb055429969796c1a02::contain_h_in_ans,mistral,hotpotqa,5a7f4cb055429969796c1a02,hotpotqa::5a7f4cb055429969796c1a02,1,contain_h_in_ans,75,True,Verizon,T-Mobile,AT&T,"Yes, the HTC U11 can be unlocked and used on the Verizon network",yes htc u11 can be unlocked and used on verizon network,11,1,google/gemini-2.5-flash,asserts,True,95,"The model's answer explicitly states that the HTC U11 can be used on the 'Verizon network', directly asserting 'Verizon' as the company.",True,404,74,0.0003062,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer explicitly states that the HTC U11 can be used on the 'Verizon network', directly asserting 'Verizon' as the company.""
+}
+```"
+mistral::hotpotqa::5a802bf05542992bc0c4a6b7::parser_negative,mistral,hotpotqa,5a802bf05542992bc0c4a6b7,hotpotqa::5a802bf05542992bc0c4a6b7,-1,parser_negative,1702,False,twelve,eleven,thirteen,Joss Stone began her career in the music industry at the age of 15,joss stone began her career in music industry at age 15,11,1,google/gemini-2.5-flash,different,False,100,The model's answer states '15' while the candidate string is 'twelve'.,True,397,57,0.0002616,"{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer states '15' while the candidate string is 'twelve'.""
+}"
+mistral::hotpotqa::5a80b9e85542992bc0c4a7ed::exact,mistral,hotpotqa,5a80b9e85542992bc0c4a7ed,hotpotqa::5a80b9e85542992bc0c4a7ed,1,exact,551,True,Skogsande,Skogsfé,Rå,Skogsande,skogsande,1,1,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,382,57,0.0002571,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::hotpotqa::5a7f40055542992e7d278cc0::contain_h_in_ans,mistral,hotpotqa,5a7f40055542992e7d278cc0,hotpotqa::5a7f40055542992e7d278cc0,1,contain_h_in_ans,75,True,Newcastle United Shares,Manchester City Tickets,50 JJB Sports Fitness Clubs,Michael Owen purchased Newcastle United Shares in March 2009,michael owen purchased newcastle united shares in march 2009,9,3,google/gemini-2.5-flash,asserts,True,100,"The final answer explicitly states that 'Michael Owen purchased Newcastle United Shares in March 2009', directly asserting the candidate 'Newcastle United Shares' as the object purchased.",True,389,79,0.0003142,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that 'Michael Owen purchased Newcastle United Shares in March 2009', directly asserting the candidate 'Newcastle United Shares' as the object purchased.""
+}
+```"
+mistral::hotpotqa::5a7f650755429969796c1a2c::contain_h_in_ans,mistral,hotpotqa,5a7f650755429969796c1a2c,hotpotqa::5a7f650755429969796c1a2c,1,contain_h_in_ans,75,True,Arnold Schoenberg,Pierre Boulez,"Igor Stravinsky, Carl Orff","Hans Werner Henze, Arnold Schoenberg, Alban Berg, Anton Webern, Igor Stravinsky, Benjamin Britten, and John Cage",hans werner henze arnold schoenberg alban berg anton webern igor stravinsky benjamin britten and john cage,16,2,google/gemini-2.5-flash,asserts,True,100,The candidate string 'Arnold Schoenberg' is explicitly listed in the model's final answer.,True,439,63,0.0002892,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The candidate string 'Arnold Schoenberg' is explicitly listed in the model's final answer.""
+}
+```"
+mistral::hotpotqa::5a81b7205542990a1d231e79::contain_h_in_ans,mistral,hotpotqa,5a81b7205542990a1d231e79,hotpotqa::5a81b7205542990a1d231e79,1,contain_h_in_ans,75,True,from 1820 to,during his 25-year reign,from 1825 to 1854,Kamehameha II ruled from 1820 to 1893,kamehameha ii ruled from 1820 to 1893,7,3,google/gemini-2.5-flash,different,False,95,"The candidate string 'from 1820 to' is a partial time range, while the answer provides a complete time range 'from 1820 to 1893'.",True,399,82,0.0003247,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The candidate string 'from 1820 to' is a partial time range, while the answer provides a complete time range 'from 1820 to 1893'.""
+}
+```"
+mistral::hotpotqa::5a83d7535542993344746093::negation_suspect,mistral,hotpotqa,5a83d7535542993344746093,hotpotqa::5a83d7535542993344746093,1,negation_suspect,15,True,Orlando Rage,Birmingham Thunderbolts,"Los Angeles Xtreme, San Francisco Demons and Memphis Maniax",We cannot provide a definitive answer without more specific information about the league or conference that the Orlando Rage played in,we cannot provide definitive answer without more specific information about league or conference that orlando rage played in,18,2,google/gemini-2.5-flash,negates,False,95,"The final answer states that it cannot provide a definitive answer without more information about the Orlando Rage, implying it does not assert the candidate as the answer.",True,395,73,0.000301,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer states that it cannot provide a definitive answer without more information about the Orlando Rage, implying it does not assert the candidate as the answer.""
+}
+```"
+mistral::hotpotqa::5a85597c5542997175ce1fba::negation_suspect,mistral,hotpotqa,5a85597c5542997175ce1fba,hotpotqa::5a85597c5542997175ce1fba,1,negation_suspect,15,True,Brazilian,Swedish,Canadian,"The actor playing a Russian hostage taker in ""Hostage for a Day"" was not Brazilian",actor playing russian hostage taker in hostage for day was not brazilian,12,1,google/gemini-2.5-flash,negates,False,100,"The final answer explicitly states that the actor was 'not Brazilian', directly negating the candidate string.",True,397,64,0.0002791,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that the actor was 'not Brazilian', directly negating the candidate string.""
+}
+```"
+mistral::hotpotqa::5a8574945542997b5ce3fffb::contain_ans_in_h,mistral,hotpotqa,5a8574945542997b5ce3fffb,hotpotqa::5a8574945542997b5ce3fffb,0,contain_ans_in_h,73,True,Gimme Shelter documentary,Oscar nominated film,LaLee's Kin: The Legacy of Cotton,Gimme Shelter,gimme shelter,2,3,google/gemini-2.5-flash,asserts,True,95,The final answer 'Gimme Shelter' is a direct match for the core entity in the candidate string 'Gimme Shelter documentary'.,True,396,69,0.0002913,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Gimme Shelter' is a direct match for the core entity in the candidate string 'Gimme Shelter documentary'.""
+}
+```"
+mistral::hotpotqa::5a8e42d15542995a26add4a6::exact,mistral,hotpotqa,5a8e42d15542995a26add4a6,hotpotqa::5a8e42d15542995a26add4a6,1,exact,551,True,Eastern China,Fujian Province,People's Republic of China,Eastern China,eastern china,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,376,57,0.0002553,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::hotpotqa::5a84d80c5542992a431d1ab5::contain_h_in_ans,mistral,hotpotqa,5a84d80c5542992a431d1ab5,hotpotqa::5a84d80c5542992a431d1ab5,1,contain_h_in_ans,75,True,Park Avenue,Midtown Manhattan Tower,MiMA,270 Park Avenue,270 park avenue,3,2,google/gemini-2.5-flash,asserts,True,100,"The final answer explicitly states '270 Park Avenue', which is a more specific version of the candidate 'Park Avenue' and clearly refers to the same entity in the context of the question.",True,384,83,0.0003227,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states '270 Park Avenue', which is a more specific version of the candidate 'Park Avenue' and clearly refers to the same entity in the context of the question.""
+}
+```"
+mistral::hotpotqa::5ab281f45542993be8fa9938::contain_h_in_ans,mistral,hotpotqa,5ab281f45542993be8fa9938,hotpotqa::5ab281f45542993be8fa9938,0,contain_h_in_ans,75,True,years old,when certified,"William Bradley DuVall (born September 6, 1967)",34 years old,34 years old,3,2,google/gemini-2.5-flash,asserts,True,95,The final answer contains the candidate string 'years old' as part of its response.,True,384,60,0.0002652,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer contains the candidate string 'years old' as part of its response.""
+}
+```"
+mistral::hotpotqa::5a88b513554299206df2b338::contain_h_in_ans,mistral,hotpotqa,5a88b513554299206df2b338,hotpotqa::5a88b513554299206df2b338,1,contain_h_in_ans,75,True,suburb,shopping district,city,Suburbs of Adelaide,suburbs adelaide,2,1,google/gemini-2.5-flash,asserts,True,95,"The final answer 'Suburbs of Adelaide' directly states 'suburbs', which is the plural form of the candidate 'suburb', as the common type of place.",True,384,77,0.0003077,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Suburbs of Adelaide' directly states 'suburbs', which is the plural form of the candidate 'suburb', as the common type of place.""
+}
+```"
+mistral::hotpotqa::5a8d1f015542994ba4e3dc08::contain_h_in_ans,mistral,hotpotqa,5a8d1f015542994ba4e3dc08,hotpotqa::5a8d1f015542994ba4e3dc08,1,contain_h_in_ans,75,True,Dodona and Arta,Epirus and Aetolia,Pandosia and Heraclea,The king of the Molossians and Epirus encamped between Dodona and Arta,king molossians and epirus encamped between dodona and arta,9,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer directly states the candidate string as the answer to the question.,True,398,62,0.0002744,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer directly states the candidate string as the answer to the question.""
+}
+```"
+mistral::hotpotqa::5ab42b905542992339550040::contain_h_in_ans,mistral,hotpotqa,5ab42b905542992339550040,hotpotqa::5ab42b905542992339550040,1,contain_h_in_ans,75,True,R&B ballads,indie rock,gospel,Firework's artist made R&B ballads before getting into pop,firework s artist made r b ballads before getting into pop,11,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer directly states the candidate string as the answer to the question.,True,392,62,0.0002726,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer directly states the candidate string as the answer to the question.""
+}
+```"
+mistral::hotpotqa::5ab5e9865542992aa134a3db::contain_h_in_ans,mistral,hotpotqa,5ab5e9865542992aa134a3db,hotpotqa::5ab5e9865542992aa134a3db,1,contain_h_in_ans,75,True,Ancient polytheistic legends,Celestial divine narratives,Greek mythology,Mount Ida and Rhea are both associated with ancient polytheistic legends,mount ida and rhea are both associated with ancient polytheistic legends,11,3,google/gemini-2.5-flash,asserts,True,95,"The final answer directly states that Mount Ida and Rhea are associated with 'ancient polytheistic legends', which is the candidate string.",True,389,69,0.0002892,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer directly states that Mount Ida and Rhea are associated with 'ancient polytheistic legends', which is the candidate string.""
+}
+```"
+mistral::hotpotqa::5ab3e07e55429969a97a81e5::exact,mistral,hotpotqa,5ab3e07e55429969a97a81e5,hotpotqa::5ab3e07e55429969a97a81e5,1,exact,551,True,John Surtees Racing Team,Motorsport Development Company,Surtees Racing Organisation team,John Surtees Racing Team,john surtees racing team,4,4,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,390,57,0.0002595,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::hotpotqa::5a8fb65d5542997ba9cb32fa::exact,mistral,hotpotqa,5a8fb65d5542997ba9cb32fa,hotpotqa::5a8fb65d5542997ba9cb32fa,1,exact,551,True,Chaosium,Judges Guild,Flying Buffalo,Chaosium,chaosium,1,1,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,397,57,0.0002616,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::hotpotqa::5ab5f249554299488d4d9a5d::contain_h_in_ans,mistral,hotpotqa,5ab5f249554299488d4d9a5d,hotpotqa::5ab5f249554299488d4d9a5d,1,contain_h_in_ans,75,True,Yamaha YZF-R,Yamaha TZ,Yamaha 600 class,Yamaha YZF-R6,yamaha yzf r6,3,3,google/gemini-2.5-flash,different,False,100,"The model's answer 'Yamaha YZF-R6' is a more specific model than the candidate 'Yamaha YZF-R', making it a different answer.",True,411,79,0.0003208,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Yamaha YZF-R6' is a more specific model than the candidate 'Yamaha YZF-R', making it a different answer.""
+}
+```"
+mistral::hotpotqa::5ab55455554299488d4d993b::contain_h_in_ans,mistral,hotpotqa,5ab55455554299488d4d993b,hotpotqa::5ab55455554299488d4d993b,0,contain_h_in_ans,75,True,",000 acres","nearly 900,000 acres",over 1 million,"10,000 acres",10 000 acres,3,2,google/gemini-2.5-flash,different,False,100,"The final answer provides '10,000 acres' which includes the candidate string but also adds '1' making it a different, more specific answer.",True,387,76,0.0003061,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer provides '10,000 acres' which includes the candidate string but also adds '1' making it a different, more specific answer.""
+}
+```"
+mistral::hotpotqa::5ab97c0255429970cfb8eb1f::negation_suspect,mistral,hotpotqa,5ab97c0255429970cfb8eb1f,hotpotqa::5ab97c0255429970cfb8eb1f,1,negation_suspect,15,True,FC Bayern,German National Team,Bayern Munich,"No, Mario Gomez and Javi Martinez did not both play for FC Bayern",no mario gomez and javi martinez did not both play for fc bayern,13,2,google/gemini-2.5-flash,negates,False,100,"The final answer explicitly states that Mario Gomez and Javi Martinez did not both play for FC Bayern, thereby negating the candidate.",True,389,70,0.0002917,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that Mario Gomez and Javi Martinez did not both play for FC Bayern, thereby negating the candidate.""
+}
+```"
+mistral::hotpotqa::5abbfa8f55429965836003cc::exact,mistral,hotpotqa,5abbfa8f55429965836003cc,hotpotqa::5abbfa8f55429965836003cc,1,exact,551,True,Northern District League,Holstein Regional Division,Regional League North,Northern District League,northern district league,3,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,403,57,0.0002634,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::hotpotqa::5abbcba05542992ccd8e7fa3::exact,mistral,hotpotqa,5abbcba05542992ccd8e7fa3,hotpotqa::5abbcba05542992ccd8e7fa3,1,exact,551,True,Unilever Soap Company,Indo-Dutch Chemical Works,Margarine Unie,Unilever Soap Company,unilever soap company,3,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match for the candidate string.,True,379,59,0.0002612,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match for the candidate string.""
+}
+```"
+mistral::hotpotqa::5abec8e45542997ec76fd364::negation_suspect,mistral,hotpotqa,5abec8e45542997ec76fd364,hotpotqa::5abec8e45542997ec76fd364,1,negation_suspect,15,True,Irish Civil War,Northern Ireland Conflict,the Troubles,The assassination of the person who led the Loyalist Volunteer Force was not directly related to the Irish Civil War,assassination person who led loyalist volunteer force was not directly related to irish civil war,15,3,google/gemini-2.5-flash,negates,False,100,"The final answer explicitly states that the assassination was 'not directly related to the Irish Civil War', thereby negating the candidate.",True,404,69,0.0002937,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that the assassination was 'not directly related to the Irish Civil War', thereby negating the candidate.""
+}
+```"
+mistral::hotpotqa::5ab7b0575542992aa3b8c83d::contain_h_in_ans,mistral,hotpotqa,5ab7b0575542992aa3b8c83d,hotpotqa::5ab7b0575542992aa3b8c83d,0,contain_h_in_ans,75,True,mi,mi,3.9 mi,14.5 miles (23.3 kilometers),14 5 miles 23 3 kilometers,6,1,google/gemini-2.5-flash,different,False,100,"The candidate 'mi' is a unit of measurement, while the answer provides a numerical value with units.",True,390,64,0.000277,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The candidate 'mi' is a unit of measurement, while the answer provides a numerical value with units.""
+}
+```"
+mistral::hotpotqa::5abc091555429965836003f6::contain_ans_in_h,mistral,hotpotqa,5abc091555429965836003f6,hotpotqa::5abc091555429965836003f6,1,contain_ans_in_h,73,True,Black Swan's Adaptation,Bolshoi Ballet Story,Swan Lake,Black Swan,black swan,2,4,google/gemini-2.5-flash,asserts,True,95,The final answer 'Black Swan' is a direct and unambiguous assertion of the core entity from the candidate string 'Black Swan's Adaptation'.,True,380,71,0.0002915,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Black Swan' is a direct and unambiguous assertion of the core entity from the candidate string 'Black Swan's Adaptation'.""
+}
+```"
+mistral::hotpotqa::5ac261265542992f1f2b3896::contain_h_in_ans,mistral,hotpotqa,5ac261265542992f1f2b3896,hotpotqa::5ac261265542992f1f2b3896,1,contain_h_in_ans,75,True,Washington Post,New York Times,"""Time""","The American Independent Institute was founded by a person who was incorrectly described as ""one of the most influential operatives in the Democratic Party"" by the Washington Post",american independent institute was founded by person who was incorrectly described as one most influential operatives in democratic party by washington post,22,2,google/gemini-2.5-flash,asserts,True,95,"The final answer explicitly states that the Washington Post described the person, directly answering the question.",True,420,61,0.0002785,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer explicitly states that the Washington Post described the person, directly answering the question.""
+}
+```"
+mistral::hotpotqa::5adbda2755429944faac2385::exact,mistral,hotpotqa,5adbda2755429944faac2385,hotpotqa::5adbda2755429944faac2385,1,exact,551,True,Robert A. Heinlein,Ursula K. Le Guin,Philip K. Dick,Robert A. Heinlein,robert heinlein,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match for the candidate string.,True,398,59,0.0002669,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match for the candidate string.""
+}
+```"
+mistral::hotpotqa::5ac279345542990b17b153b0::contain_h_in_ans,mistral,hotpotqa,5ac279345542990b17b153b0,hotpotqa::5ac279345542990b17b153b0,1,contain_h_in_ans,75,True,March,September,28 January 1864,"March 1, 1835",march 1 1835,3,1,google/gemini-2.5-flash,different,False,95,"The model's answer 'March 1, 1835' is a specific date, which is a narrower and more complete answer than the candidate 'March'.",True,389,77,0.0003092,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'March 1, 1835' is a specific date, which is a narrower and more complete answer than the candidate 'March'.""
+}
+```"
+mistral::hotpotqa::5adcd28c5542994d58a2f6ea::contain_h_in_ans,mistral,hotpotqa,5adcd28c5542994d58a2f6ea,hotpotqa::5adcd28c5542994d58a2f6ea,0,contain_h_in_ans,75,True,st Century Fox,Media News Group,News Corp.,21st Century Fox,21st century fox,3,3,google/gemini-2.5-flash,asserts,True,100,"The model's final answer '21st Century Fox' is an unambiguous equivalent of the candidate string 'st Century Fox', with the missing '21' being an obvious omission in the candidate.",True,400,85,0.0003325,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer '21st Century Fox' is an unambiguous equivalent of the candidate string 'st Century Fox', with the missing '21' being an obvious omission in the candidate.""
+}
+```"
+mistral::hotpotqa::5ac26d4d55429951e9e685b7::contain_h_in_ans,mistral,hotpotqa,5ac26d4d55429951e9e685b7,hotpotqa::5ac26d4d55429951e9e685b7,1,contain_h_in_ans,75,True,during colonial times,after the slave trade,in the early 17th-century,The Black Angolan was one of the earliest African-American landowners in what would become the United States. He achieved his freedom during colonial times,black angolan was one earliest african american landowners in what would become united states he achieved his freedom during colonial times,21,3,google/gemini-2.5-flash,asserts,True,100,"The final answer explicitly states that he achieved his freedom 'during colonial times', which directly matches the candidate string.",True,416,66,0.0002898,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that he achieved his freedom 'during colonial times', which directly matches the candidate string.""
+}
+```"
+mistral::hotpotqa::5adf03765542995534e8c72b::contain_h_in_ans,mistral,hotpotqa,5adf03765542995534e8c72b,hotpotqa::5adf03765542995534e8c72b,1,contain_h_in_ans,75,True,Flight tracking systems,Digital passenger logistics,Computer reservations,"Axess provides IT solutions and services to the aviation industry, including flight tracking systems",axess provides it solutions and services to aviation industry including flight tracking systems,13,3,google/gemini-2.5-flash,asserts,True,95,"The final answer explicitly states that Axess provides 'flight tracking systems', which is the candidate string.",True,401,63,0.0002778,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer explicitly states that Axess provides 'flight tracking systems', which is the candidate string.""
+}
+```"
+mistral::hotpotqa::5add44c25542997545bbbd0a::contain_ans_in_h,mistral,hotpotqa,5add44c25542997545bbbd0a,hotpotqa::5add44c25542997545bbbd0a,0,contain_ans_in_h,73,True,Roman Polanskis,Thierry Polonais,Rajmund Roman Thierry Polański,Roman Polanski,roman polanski,2,2,google/gemini-2.5-flash,asserts,True,95,"The model's answer 'Roman Polanski' is an unambiguous equivalent of the candidate string 'Roman Polanskis', differing only by a possessive 's' which is not relevant in this context.",True,384,79,0.0003127,"{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Roman Polanski' is an unambiguous equivalent of the candidate string 'Roman Polanskis', differing only by a possessive 's' which is not relevant in this context.""
+}"
+mistral::hotpotqa::5adf734b5542995ec70e9016::parser_negative,mistral,hotpotqa,5adf734b5542995ec70e9016,hotpotqa::5adf734b5542995ec70e9016,-1,parser_negative,1702,False,After Lately,Chelsea Lately,Chelsea Does,Chelsea Lately,chelsea lately,2,2,google/gemini-2.5-flash,different,False,100,The model's answer 'Chelsea Lately' is a different show title than the candidate 'After Lately'.,True,381,64,0.0002743,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Chelsea Lately' is a different show title than the candidate 'After Lately'.""
+}
+```"
+mistral::hotpotqa::5adf2fa35542993344016c11::contain_h_in_ans,mistral,hotpotqa,5adf2fa35542993344016c11,hotpotqa::5adf2fa35542993344016c11,0,contain_h_in_ans,75,True,Pete Doherty,Jonny Craig mostly,"Jonny"" Craig",Pete Doherty has been a member of more bands,pete doherty has been member more bands,7,2,google/gemini-2.5-flash,asserts,True,100,"The final answer explicitly states 'Pete Doherty has been a member of more bands', directly asserting the candidate 'Pete Doherty' as the answer to the question.",True,384,75,0.0003027,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states 'Pete Doherty has been a member of more bands', directly asserting the candidate 'Pete Doherty' as the answer to the question.""
+}
+```"
+mistral::hotpotqa::5ae0e183554299422ee9953f::contain_h_in_ans,mistral,hotpotqa,5ae0e183554299422ee9953f,hotpotqa::5ae0e183554299422ee9953f,1,contain_h_in_ans,75,True,"Qionghai's population was 658,","Suining totaled 658,798 residents","In 2002, Suining had a population of 658,798.","Qionghai's population was 658,798 in 2002",qionghai s population was 658 798 in 2002,8,5,google/gemini-2.5-flash,asserts,True,100,"The model's final answer directly states the candidate string, completing the population number that was truncated in the candidate.",True,421,67,0.0002938,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer directly states the candidate string, completing the population number that was truncated in the candidate.""
+}
+```"
+mistral::hotpotqa::5ae08a0455429924de1b70fc::parser_negative,mistral,hotpotqa,5ae08a0455429924de1b70fc,hotpotqa::5ae08a0455429924de1b70fc,-1,parser_negative,1702,False,Project X,Zero Project,Enigma,Unknown,unknown,1,2,google/gemini-2.5-flash,negates,False,100,"The model's answer 'Unknown' explicitly states that it does not know the answer, thereby negating any specific candidate.",True,379,69,0.0002862,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Unknown' explicitly states that it does not know the answer, thereby negating any specific candidate.""
+}
+```"
+mistral::hotpotqa::5ae13b085542997b2ef7d146::contain_h_in_ans,mistral,hotpotqa,5ae13b085542997b2ef7d146,hotpotqa::5ae13b085542997b2ef7d146,0,contain_h_in_ans,75,True,",000 acres",",000 acres","250,000","1,000 acres",1 000 acres,3,2,google/gemini-2.5-flash,asserts,True,100,"The model's final answer is identical to the candidate string, with the leading comma removed which is a formatting difference.",True,400,68,0.00029,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string, with the leading comma removed which is a formatting difference.""
+}
+```"
+mistral::hotpotqa::5ae33a3b5542992f92d8224a::contain_ans_in_h,mistral,hotpotqa,5ae33a3b5542992f92d8224a,hotpotqa::5ae33a3b5542992f92d8224a,1,contain_ans_in_h,73,True,rowing champion,javelin thrower,bobsledder,rowing,rowing,1,2,google/gemini-2.5-flash,asserts,True,95,The model's answer 'rowing' is a direct and unambiguous assertion of the core information in the candidate string 'rowing champion'.,True,392,71,0.0002951,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'rowing' is a direct and unambiguous assertion of the core information in the candidate string 'rowing champion'.""
+}
+```"
+mistral::hotpotqa::5ae1d4e75542997f29b3c143::exact,mistral,hotpotqa,5ae1d4e75542997f29b3c143,hotpotqa::5ae1d4e75542997f29b3c143,1,exact,551,True,Antti Hietala,Erkki Liikanen,Marco Hietala,Antti Hietala,antti hietala,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,386,57,0.0002583,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::hotpotqa::5ae5feaf5542996de7b71ac6::exact,mistral,hotpotqa,5ae5feaf5542996de7b71ac6,hotpotqa::5ae5feaf5542996de7b71ac6,1,exact,551,True,Bishop Aethelwold,Archbishop Dunstan,Leofric,Bishop Aethelwold,bishop aethelwold,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,393,59,0.0002654,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+mistral::hotpotqa::5ae7739c5542997b22f6a775::negation_suspect,mistral,hotpotqa,5ae7739c5542997b22f6a775,hotpotqa::5ae7739c5542997b22f6a775,1,negation_suspect,15,True,Group therapy,Child psychotherapy,Morita therapy,Melanie Klein was not known for her work in group therapy,melanie klein was not known for her work in group therapy,11,2,google/gemini-2.5-flash,negates,False,100,"The final answer explicitly states that Melanie Klein was NOT known for her work in group therapy, thereby negating the candidate.",True,402,68,0.0002906,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that Melanie Klein was NOT known for her work in group therapy, thereby negating the candidate.""
+}
+```"
+mistral::hotpotqa::5ae72f75554299572ea5476c::contain_h_in_ans,mistral,hotpotqa,5ae72f75554299572ea5476c,hotpotqa::5ae72f75554299572ea5476c,1,contain_h_in_ans,75,True,Black Enterprise Shipping,African Repatriation Company,Colonization movement or Black Zionism,"Black Enterprise Shipping, Black Star Shipping",black enterprise shipping black star shipping,6,3,google/gemini-2.5-flash,different,True,95,"The final answer includes the candidate string but also adds another name, making the overall answer different from just the candidate.",True,388,60,0.0002664,"{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer includes the candidate string but also adds another name, making the overall answer different from just the candidate.""
+}"
+mistral::triviaqa::bb_3321::parser_negative,mistral,triviaqa,bb_3321,triviaqa::bb_3321,-1,parser_negative,1702,False,Daman and Diu,Puducherry Territory,Goan Portuguese,Goa,goa,1,3,google/gemini-2.5-flash,different,False,100,The model's answer 'Goa' is a different state than the candidate 'Daman and Diu'.,True,376,66,0.0002778,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Goa' is a different state than the candidate 'Daman and Diu'.""
+}
+```"
+mistral::triviaqa::bb_5768::contain_ans_in_h,mistral,triviaqa,bb_5768,triviaqa::bb_5768,1,contain_ans_in_h,73,True,Herman Cain Pizza Pioneer,Mitt Romney Bain Capital,Donald J. Trump Signature Collection,Herman Cain,herman cain,2,4,google/gemini-2.5-flash,asserts,True,95,The final answer 'Herman Cain' is a direct match for the name part of the candidate string 'Herman Cain Pizza Pioneer'.,True,385,70,0.0002905,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Herman Cain' is a direct match for the name part of the candidate string 'Herman Cain Pizza Pioneer'.""
+}
+```"
+mistral::hotpotqa::5ae60d36554299546bf8303e::contain_h_in_ans,mistral,hotpotqa,5ae60d36554299546bf8303e,hotpotqa::5ae60d36554299546bf8303e,0,contain_h_in_ans,75,True,May,June,22 and 23 May 2015,"May 21, 2011",may 21 2011,3,1,google/gemini-2.5-flash,asserts,True,95,"The final answer 'May 21, 2011' includes 'May' as the month, directly asserting the candidate.",True,385,71,0.000293,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'May 21, 2011' includes 'May' as the month, directly asserting the candidate.""
+}
+```"
+mistral::triviaqa::bb_8388::contain_ans_in_h,mistral,triviaqa,bb_8388,triviaqa::bb_8388,1,contain_ans_in_h,73,True,Guernsey Border Junction,Great Britain Junction,Channel Islands (Jersey),Guernsey,guernsey,1,3,google/gemini-2.5-flash,different,False,90,The model's answer 'Guernsey' is a part of the candidate 'Guernsey Border Junction' but not the full candidate itself.,True,374,70,0.0002872,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The model's answer 'Guernsey' is a part of the candidate 'Guernsey Border Junction' but not the full candidate itself.""
+}
+```"
+mistral::triviaqa::bb_4467::contain_h_in_ans,mistral,triviaqa,bb_4467,triviaqa::bb_4467,0,contain_h_in_ans,75,True,Six Principles,Six Points,Arrows of English Warbows,Kemalism is also called the Six Principles,kemalism is also called six principles,6,2,google/gemini-2.5-flash,asserts,True,100,The final answer directly states the candidate string as the answer to the question.,True,393,59,0.0002654,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The final answer directly states the candidate string as the answer to the question.""
+}
+```"
+mistral::triviaqa::bb_3373::contain_ans_in_h,mistral,triviaqa,bb_3373,triviaqa::bb_3373,1,contain_ans_in_h,73,True,Iran launches rocket,Pakistan tests missile,Democratic People's Republic of Korea (North Korea),Iran,iran,1,3,google/gemini-2.5-flash,asserts,True,95,The model's final answer 'Iran' directly asserts the nation mentioned in the candidate string 'Iran launches rocket' as the answer to the question.,True,379,73,0.0002962,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's final answer 'Iran' directly asserts the nation mentioned in the candidate string 'Iran launches rocket' as the answer to the question.""
+}
+```"
+mistral::triviaqa::bt_1871::exact,mistral,triviaqa,bt_1871,triviaqa::bt_1871,1,exact,551,True,Bon Chemin!,Au Revoir!,Bon Voyage! (disambiguation),Bon Chemin!,bon chemin,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,375,57,0.000255,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::triviaqa::dpql_3743::contain_h_in_ans,mistral,triviaqa,dpql_3743,triviaqa::dpql_3743,1,contain_h_in_ans,75,True,Every single letter,Most common characters,All the letters of the alphabet,A pangram is a sentence containing every single letter of the alphabet,pangram is sentence containing every single letter alphabet,8,3,google/gemini-2.5-flash,asserts,True,95,"The model's answer includes the candidate string 'every single letter' and adds 'of the alphabet', which clarifies but does not change the core assertion.",True,383,74,0.0002999,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer includes the candidate string 'every single letter' and adds 'of the alphabet', which clarifies but does not change the core assertion.""
+}
+```"
+mistral::triviaqa::dpql_4042::contain_h_in_ans,mistral,triviaqa,dpql_4042,triviaqa::dpql_4042,1,contain_h_in_ans,75,True,Welter,weight,Middle-weight,Randolph Turpin won the WBA Welterweight Championship at 147 pounds (66 kg) and Nigel Benn won the WBC Middleweight Championship at 160 pounds (72 kg),randolph turpin won wba welterweight championship at 147 pounds 66 kg and nigel benn won wbc middleweight championship at 160 pounds 72 kg,23,1,google/gemini-2.5-flash,different,False,100,"The final answer states that Randolph Turpin won a welterweight title, but Nigel Benn won a middleweight title, meaning they did not both win at 'Welter'.",True,418,77,0.0003179,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer states that Randolph Turpin won a welterweight title, but Nigel Benn won a middleweight title, meaning they did not both win at 'Welter'.""
+}
+```"
+mistral::triviaqa::dpql_829::contain_h_in_ans,mistral,triviaqa,dpql_829,triviaqa::dpql_829,1,contain_h_in_ans,75,True,Winter headwear,Knitted ski cap,Sweatband (hat),A toque is a type of winter headwear,toque is type winter headwear,5,2,google/gemini-2.5-flash,asserts,True,100,"The final answer directly states that a toque is 'winter headwear', which is the candidate string.",True,378,64,0.0002734,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The final answer directly states that a toque is 'winter headwear', which is the candidate string.""
+}
+```"
+mistral::triviaqa::odql_12402::exact,mistral,triviaqa,odql_12402,triviaqa::odql_12402,0,exact,551,True,Trench foot syndrome,Battlefield immersion disease,Warm water immersion foot,Trench foot syndrome,trench foot syndrome,3,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,388,59,0.0002639,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+mistral::triviaqa::jp_4031::contain_ans_in_h,mistral,triviaqa,jp_4031,triviaqa::jp_4031,1,contain_ans_in_h,73,True,King Ghidorah's destructive rage,Mechagodzilla's metallic menace,Powers and abilities of godzilla,King Ghidorah,king ghidorah,2,5,google/gemini-2.5-flash,asserts,True,95,The final answer 'King Ghidorah' is a direct assertion of the core entity mentioned in the candidate string 'King Ghidorah's destructive rage'.,True,379,75,0.0003012,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'King Ghidorah' is a direct assertion of the core entity mentioned in the candidate string 'King Ghidorah's destructive rage'.""
+}
+```"
+mistral::triviaqa::dpql_5899::contain_h_in_ans,mistral,triviaqa,dpql_5899,triviaqa::dpql_5899,0,contain_h_in_ans,75,True,Spiced chicken dish,Bird meat protein,Gallus gallus domesticus,Murgh is a spiced chicken dish in Indian cuisine,murgh is spiced chicken dish in indian cuisine,8,3,google/gemini-2.5-flash,asserts,True,100,"The final answer directly states that 'Murgh is a spiced chicken dish', which is the candidate string.",True,381,65,0.0002768,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The final answer directly states that 'Murgh is a spiced chicken dish', which is the candidate string.""
+}
+```"
+mistral::triviaqa::odql_3385::contain_ans_in_h,mistral,triviaqa,odql_3385,triviaqa::odql_3385,1,contain_ans_in_h,73,True,Sweet Valencia orange,Rainier cherry,Ruby Red grapefruit,Valencia orange,valencia orange,2,3,google/gemini-2.5-flash,different,False,95,"The model's answer 'Valencia orange' is a specific type of orange, while the candidate 'Sweet Valencia orange' is a more specific description of that type, making them different in specificity.",True,375,81,0.000315,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Valencia orange' is a specific type of orange, while the candidate 'Sweet Valencia orange' is a more specific description of that type, making them different in specificity.""
+}
+```"
+mistral::triviaqa::odql_12679::contain_ans_in_h,mistral,triviaqa,odql_12679,triviaqa::odql_12679,0,contain_ans_in_h,73,True,The Great Minch,Hebrides Sound,An Cuan Leòdhasach,The Minch,minch,1,2,google/gemini-2.5-flash,asserts,True,95,"The model's answer 'The Minch' is a common and unambiguous abbreviation for 'The Great Minch' in this context, referring to the same geographical feature.",True,397,77,0.0003116,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'The Minch' is a common and unambiguous abbreviation for 'The Great Minch' in this context, referring to the same geographical feature.""
+}
+```"
+mistral::triviaqa::odql_4253::negation_suspect,mistral,triviaqa,odql_4253,triviaqa::odql_4253,1,negation_suspect,15,True,The Magic Flute,Carmen of Spain,Norma (disambiguation),"The heroine in ""The Magic Flute"" is not a Druid priestess",heroine in magic flute is not druid priestess,8,2,google/gemini-2.5-flash,negates,False,100,"The final answer explicitly states that the heroine in 'The Magic Flute' is NOT a Druid priestess, thereby denying the candidate as the answer to the question.",True,390,78,0.000312,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that the heroine in 'The Magic Flute' is NOT a Druid priestess, thereby denying the candidate as the answer to the question.""
+}
+```"
+mistral::triviaqa::odql_14857::contain_h_in_ans,mistral,triviaqa,odql_14857,triviaqa::odql_14857,1,contain_h_in_ans,75,True,Help the Elderly Foundation,Senior Citizens Alliance,National Old People's Welfare Council,Help the Elderly Foundation merged with Age Concern in 2009 to form Age UK,help elderly foundation merged with age concern in 2009 to form age uk,13,3,google/gemini-2.5-flash,different,False,100,"The model's answer states that 'Help the Elderly Foundation merged with Age Concern', implying that 'Age Concern' is the other charity, not 'Help the Elderly Foundation' itself.",True,399,80,0.0003197,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer states that 'Help the Elderly Foundation merged with Age Concern', implying that 'Age Concern' is the other charity, not 'Help the Elderly Foundation' itself.""
+}
+```"
+mistral::triviaqa::odql_13449::contain_h_in_ans,mistral,triviaqa,odql_13449,triviaqa::odql_13449,0,contain_h_in_ans,75,True,Carbon,Stable Carbon,Radiocarbon,Carbon-14,carbon 14,2,1,google/gemini-2.5-flash,different,False,100,"The model's answer 'Carbon-14' is a specific isotope, which is a narrower and different answer than the general 'Carbon' provided in the candidate string.",True,374,78,0.0003072,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Carbon-14' is a specific isotope, which is a narrower and different answer than the general 'Carbon' provided in the candidate string.""
+}
+```"
+mistral::triviaqa::odql_6053::exact,mistral,triviaqa,odql_6053,triviaqa::odql_6053,1,exact,551,True,High-functioning autism spectrum,Obsessive compulsive disorder,List of further reading on Asperger syndrome,High-functioning autism spectrum,high functioning autism spectrum,4,4,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,395,59,0.000266,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+mistral::triviaqa::odql_762::contain_h_in_ans,mistral,triviaqa,odql_762,triviaqa::odql_762,1,contain_h_in_ans,75,True,Blink,Sum,Montauk Mantis Records,Blink-182,blink 182,2,1,google/gemini-2.5-flash,different,False,95,"The model's answer 'Blink-182' is a more specific and complete name than the candidate 'Blink', making it a different answer.",True,397,75,0.0003066,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Blink-182' is a more specific and complete name than the candidate 'Blink', making it a different answer.""
+}
+```"
+mistral::triviaqa::odql_9476::contain_h_in_ans,mistral,triviaqa,odql_9476,triviaqa::odql_9476,1,contain_h_in_ans,75,True,X Factor Musical Challenge,Pop Idol Champions,Britains Got Talent Format and Rules,Collabro won the X Factor Musical Challenge in 2014,collabro won x factor musical challenge in 2014,8,4,google/gemini-2.5-flash,different,False,100,"The model's answer states 'X Factor Musical Challenge' was won, but the question asks for the T.V competition, and the candidate is 'X Factor Musical Challenge', which is not a TV competition.",True,395,86,0.0003335,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer states 'X Factor Musical Challenge' was won, but the question asks for the T.V competition, and the candidate is 'X Factor Musical Challenge', which is not a TV competition.""
+}
+```"
+mistral::triviaqa::qb_4599::exact,mistral,triviaqa,qb_4599,triviaqa::qb_4599,1,exact,551,True,Rings of Saturn,Neptune's Dark Bands,Magnetosphere of Uranus,Rings of Saturn,rings saturn,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,386,57,0.0002583,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::triviaqa::qf_1649::contain_ans_in_h,mistral,triviaqa,qf_1649,triviaqa::qf_1649,0,contain_ans_in_h,73,True,Pope John Paul II,Cardinal Ratzinger,Albino Cardinal Luciani,Pope John Paul I,pope john paul i,4,4,google/gemini-2.5-flash,different,False,100,The model's answer 'Pope John Paul I' is a different entity than the candidate 'Pope John Paul II'.,True,385,67,0.000283,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Pope John Paul I' is a different entity than the candidate 'Pope John Paul II'.""
+}
+```"
+mistral::triviaqa::qb_4230::parser_negative,mistral,triviaqa,qb_4230,triviaqa::qb_4230,-1,parser_negative,1702,False,Mining History of Nevada,Salt Preservation in Idaho,History of mining in Utah,Utah,utah,1,3,google/gemini-2.5-flash,different,False,100,"The final answer 'Utah' is a US state, while the candidate string 'Mining History of Nevada' is a topic, making them different types of answers.",True,374,75,0.0002997,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer 'Utah' is a US state, while the candidate string 'Mining History of Nevada' is a topic, making them different types of answers.""
+}
+```"
+mistral::triviaqa::qf_2274::negation_suspect,mistral,triviaqa,qf_2274,triviaqa::qf_2274,0,negation_suspect,15,True,Limestone dust,Marble powder,Tailor's chalk,Calcium Carbonate is not commonly known as limestone dust,calcium carbonate is not commonly known as limestone dust,9,2,google/gemini-2.5-flash,negates,False,100,"The model's answer explicitly states that Calcium Carbonate is NOT commonly known as limestone dust, directly negating the candidate.",True,381,69,0.0002868,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer explicitly states that Calcium Carbonate is NOT commonly known as limestone dust, directly negating the candidate.""
+}
+```"
+mistral::triviaqa::qf_3689::parser_negative,mistral,triviaqa,qf_3689,triviaqa::qf_3689,-1,parser_negative,1702,False,Somalia,Sudan,Federal Democratic Republic of Ethiopia,Ethiopia,ethiopia,1,1,google/gemini-2.5-flash,different,False,100,The model's answer 'Ethiopia' is a different country than the candidate 'Somalia'.,True,373,63,0.0002694,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Ethiopia' is a different country than the candidate 'Somalia'.""
+}
+```"
+mistral::triviaqa::qb_3312::contain_ans_in_h,mistral,triviaqa,qb_3312,triviaqa::qb_3312,1,contain_ans_in_h,73,True,Long jump gone wild,Olympic track chaos,"Hop, skip, and a jump",Long jump,long jump,2,4,google/gemini-2.5-flash,different,False,95,"The model's answer 'Long jump' is a narrower concept than the candidate 'Long jump gone wild', making it a different answer.",True,379,70,0.0002887,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Long jump' is a narrower concept than the candidate 'Long jump gone wild', making it a different answer.""
+}
+```"
+mistral::triviaqa::qg_688::contain_h_in_ans,mistral,triviaqa,qg_688,triviaqa::qg_688,1,contain_h_in_ans,75,True,Carlos Alberto Estévez,Miguel Ángel Estévez,Ramón Gerardo Antonio Estévez,Martin Sheen (Carlos Alberto Estévez),martin sheen carlos alberto este vez,6,4,google/gemini-2.5-flash,asserts,True,95,The final answer explicitly provides the candidate string in parentheses as an alternative name for the asserted answer.,True,400,62,0.000275,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer explicitly provides the candidate string in parentheses as an alternative name for the asserted answer.""
+}
+```"
+llama::hotpotqa::5a77857155429949eeb29ebf::exact,llama,hotpotqa,5a77857155429949eeb29ebf,hotpotqa::5a77857155429949eeb29ebf,1,exact,551,True,Zoo TV World Tour,Joshua Tree International Tour,U2 360° Tour,Zoo TV World Tour,zoo tv world tour,4,4,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match for the candidate string.,True,389,59,0.0002642,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match for the candidate string.""
+}
+```"
+mistral::triviaqa::qw_14698::exact,mistral,triviaqa,qw_14698,triviaqa::qw_14698,1,exact,551,True,Camera Crane,Tracking Mount,Dolly (disambiguation),Camera Crane,camera crane,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is an exact match to the candidate string.,True,372,59,0.0002591,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is an exact match to the candidate string.""
+}
+```"
+mistral::triviaqa::qw_3863::contain_h_in_ans,mistral,triviaqa,qw_3863,triviaqa::qw_3863,1,contain_h_in_ans,75,True,A Yorkshire Terrier,Pigeon on a Windowsill,Felis silvestris domesticus,"Tilly, the Yorkshire Terrier owned by Emily Weatherfield",tilly yorkshire terrier owned by emily weatherfield,7,2,google/gemini-2.5-flash,asserts,True,95,The final answer explicitly states 'the Yorkshire Terrier' which is the candidate string.,True,391,59,0.0002648,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer explicitly states 'the Yorkshire Terrier' which is the candidate string.""
+}
+```"
+mistral::triviaqa::qw_6761::contain_h_in_ans,mistral,triviaqa,qw_6761,triviaqa::qw_6761,1,contain_h_in_ans,75,True,Southern provinces of France,"Walloon Mountains, Switzerland",Administrative divisions of Belgium,"The origins of the Walloons are unclear, but they may have originally come from the southern provinces of France",origins walloons are unclear but they may have originally come from southern provinces france,14,3,google/gemini-2.5-flash,ambiguous,False,80,"The answer states 'may have originally come from' the candidate, which is not a definitive assertion.",True,390,63,0.0002745,"```json
+{
+  ""verdict"": ""ambiguous"",
+  ""asserts_candidate"": false,
+  ""confidence"": 80,
+  ""reason"": ""The answer states 'may have originally come from' the candidate, which is not a definitive assertion.""
+}
+```"
+mistral::triviaqa::sfq_16493::contain_ans_in_h,mistral,triviaqa,sfq_16493,triviaqa::sfq_16493,1,contain_ans_in_h,73,True,Discovery II,Antarctic Explorer,Terra Nova (disambiguation),Discovery,discovery,1,2,google/gemini-2.5-flash,different,False,100,The model's answer 'Discovery' is a different ship name than the candidate 'Discovery II'.,True,383,58,0.0002599,"{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Discovery' is a different ship name than the candidate 'Discovery II'.""
+}"
+mistral::triviaqa::qz_1658::contain_ans_in_h,mistral,triviaqa,qz_1658,triviaqa::qz_1658,1,contain_ans_in_h,73,True,Ben Jonson's literary works,Christopher Marlowe's plays,William Shakespeare biography,Ben Jonson,ben jonson,2,5,google/gemini-2.5-flash,asserts,True,95,The model's answer 'Ben Jonson' is a direct assertion of the core entity from the candidate 'Ben Jonson's literary works'.,True,381,73,0.0002968,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The model's answer 'Ben Jonson' is a direct assertion of the core entity from the candidate 'Ben Jonson's literary works'.""
+}
+```"
+mistral::triviaqa::sfq_239::exact,mistral,triviaqa,sfq_239,triviaqa::sfq_239,0,exact,551,True,Pittsburgh Steelers,Steel City Football Club,Frick International Studies Academy Middle School,Pittsburgh Steelers,pittsburgh steelers,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,372,57,0.0002541,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::triviaqa::sfq_21188::parser_negative,mistral,triviaqa,sfq_21188,triviaqa::sfq_21188,-1,parser_negative,1702,False,Thomas Shadwell,Ben Jonson,John Dryden (writer),Andrew Marvell,andrew marvell,2,2,google/gemini-2.5-flash,different,False,100,The model's answer 'Andrew Marvell' is a different poet than the candidate 'Thomas Shadwell'.,True,387,60,0.0002661,"{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Andrew Marvell' is a different poet than the candidate 'Thomas Shadwell'.""
+}"
+mistral::triviaqa::sfq_2116::contain_ans_in_h,mistral,triviaqa,sfq_2116,triviaqa::sfq_2116,1,contain_ans_in_h,73,True,Geography of Herefordshire,Midlands of Worcestershire,Geography of Shropshire,Herefordshire,herefordshire,1,2,google/gemini-2.5-flash,different,False,95,"The final answer 'Herefordshire' is a county, while the candidate 'Geography of Herefordshire' is a broader topic or category, not a direct answer to 'which English county?'.",True,373,80,0.0003119,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 95,
+  ""reason"": ""The final answer 'Herefordshire' is a county, while the candidate 'Geography of Herefordshire' is a broader topic or category, not a direct answer to 'which English county?'.""
+}
+```"
+mistral::triviaqa::sfq_5692::contain_h_in_ans,mistral,triviaqa,sfq_5692,triviaqa::sfq_5692,1,contain_h_in_ans,75,True,Nicholas Churchill,Winston Soames,Arthur Nicholas Winston Soames,"Randolph Churchill's son, Nicholas Churchill",randolph churchill s son nicholas churchill,6,2,google/gemini-2.5-flash,asserts,True,95,"The final answer explicitly states 'Nicholas Churchill', which is the candidate string.",True,389,58,0.0002617,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 95,
+  ""reason"": ""The final answer explicitly states 'Nicholas Churchill', which is the candidate string.""
+}
+```"
+mistral::triviaqa::sfq_729::exact,mistral,triviaqa,sfq_729,triviaqa::sfq_729,1,exact,551,True,Target Archery Technique,Olympic Bow Shooting,National Archery in the Schools Program,Target Archery Technique,target archery technique,3,3,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,376,57,0.0002553,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::triviaqa::sfq_7672::parser_negative,mistral,triviaqa,sfq_7672,triviaqa::sfq_7672,-1,parser_negative,1702,False,Belize City,Port City,Capital of Belize,Belmopan,belmopan,1,2,google/gemini-2.5-flash,different,False,100,The model's answer 'Belmopan' is a different city than the candidate 'Belize City'.,True,377,65,0.0002756,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Belmopan' is a different city than the candidate 'Belize City'.""
+}
+```"
+mistral::triviaqa::tb_1161::contain_ans_in_h,mistral,triviaqa,tb_1161,triviaqa::tb_1161,1,contain_ans_in_h,73,True,Staten Island Geography,Manhattan Urban Landscape,Government and politics of the Bronx,Staten Island,staten island,2,3,google/gemini-2.5-flash,different,False,90,The candidate string 'Staten Island Geography' is broader than the final answer 'Staten Island'.,True,396,62,0.0002738,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 90,
+  ""reason"": ""The candidate string 'Staten Island Geography' is broader than the final answer 'Staten Island'.""
+}
+```"
+mistral::triviaqa::sfq_891::negation_suspect,mistral,triviaqa,sfq_891,triviaqa::sfq_891,1,negation_suspect,15,True,Sherrinford Holmes,Ernest Doyle,Mycroft (disambiguation),Sherlock Holmes did not have a brother named Sherrinford Holmes,sherlock holmes did not have brother named sherrinford holmes,9,2,google/gemini-2.5-flash,negates,False,100,"The final answer explicitly states that Sherlock Holmes did not have a brother named Sherrinford Holmes, thereby negating the candidate.",True,383,69,0.0002874,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The final answer explicitly states that Sherlock Holmes did not have a brother named Sherrinford Holmes, thereby negating the candidate.""
+}
+```"
+mistral::triviaqa::tc_495::exact,mistral,triviaqa,tc_495,triviaqa::tc_495,1,exact,551,True,Punjab Warrior,Turban Defender,Five rivers of the Punjab,Punjab Warrior,punjab warrior,2,2,google/gemini-2.5-flash,asserts,True,100,The model's final answer is identical to the candidate string.,True,387,57,0.0002586,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer is identical to the candidate string.""
+}
+```"
+mistral::triviaqa::wh_3802::contain_h_in_ans,mistral,triviaqa,wh_3802,triviaqa::wh_3802,1,contain_h_in_ans,75,True,Digital Cameras,Space Photography,PHOTOGRAPHIC EQUIPMENT,High-end digital cameras,high end digital cameras,4,2,google/gemini-2.5-flash,asserts,True,90,"The model's answer 'High-end digital cameras' is a more specific type of 'Digital Cameras', thus asserting the candidate.",True,380,70,0.000289,"```json
+{
+  ""verdict"": ""asserts"",
+  ""asserts_candidate"": true,
+  ""confidence"": 90,
+  ""reason"": ""The model's answer 'High-end digital cameras' is a more specific type of 'Digital Cameras', thus asserting the candidate.""
+}
+```"
+mistral::triviaqa::tb_384::contain_ans_in_h,mistral,triviaqa,tb_384,triviaqa::tb_384,1,contain_ans_in_h,73,True,Gravity's Space Disaster,Rocket's Final Journey,"Houston, we've had a problem here",Gravity,gravity,1,4,google/gemini-2.5-flash,different,False,100,The model's answer 'Gravity' is a different movie title than the candidate 'Gravity's Space Disaster'.,True,385,66,0.0002805,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Gravity' is a different movie title than the candidate 'Gravity's Space Disaster'.""
+}
+```"
+mistral::triviaqa::tc_1483::negation_suspect,mistral,triviaqa,tc_1483,triviaqa::tc_1483,1,negation_suspect,15,True,Equestrian Cross Country,Olympic Dressage,Grand Prix show jumping,Not Equestrian Cross Country,not equestrian cross country,4,3,google/gemini-2.5-flash,negates,False,100,"The model's final answer explicitly states 'Not Equestrian Cross Country', which directly negates the candidate string.",True,386,66,0.0002808,"```json
+{
+  ""verdict"": ""negates"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's final answer explicitly states 'Not Equestrian Cross Country', which directly negates the candidate string.""
+}
+```"
+mistral::triviaqa::tc_885::contain_h_in_ans,mistral,triviaqa,tc_885,triviaqa::tc_885,1,contain_h_in_ans,75,True,John Kander,Fred Ebb,Robert Louis Fosse,John Kander and Fred Ebb,john kander and fred ebb,5,2,google/gemini-2.5-flash,different,False,100,"The model's answer includes the candidate but also adds another name, making it a different answer than the candidate alone.",True,376,67,0.0002803,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer includes the candidate but also adds another name, making it a different answer than the candidate alone.""
+}
+```"
+mistral::triviaqa::wh_1119::contain_ans_in_h,mistral,triviaqa,wh_1119,triviaqa::wh_1119,0,contain_ans_in_h,73,True,Chow mein special,Egg foo young,Chop suey sandwich,Chow mein,chow mein,2,3,google/gemini-2.5-flash,different,False,100,"The model's answer 'Chow mein' is a broader category than the candidate 'Chow mein special', making it a different answer.",True,395,72,0.0002985,"```json
+{
+  ""verdict"": ""different"",
+  ""asserts_candidate"": false,
+  ""confidence"": 100,
+  ""reason"": ""The model's answer 'Chow mein' is a broader category than the candidate 'Chow mein special', making it a different answer.""
+}
+```"

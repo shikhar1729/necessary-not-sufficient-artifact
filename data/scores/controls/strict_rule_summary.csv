@@ -1,0 +1,145 @@
+family,method,model,slice,n,n_dep,n_indep,auroc,ci_low,ci_high,notes
+combined_noninternal,design_scalar,gemma,all,384,291,93,0.826442005690426,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,hidden_fixed_layer,gemma,all,384,291,93,0.6548054539408048,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,prior_candidate,gemma,all,384,291,93,0.8277907105642389,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_public_text,gemma,all,384,291,93,0.572035620588996,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate,gemma,all,384,291,93,0.8429220707238665,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design,gemma,all,384,291,93,0.8264789565088867,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design_plus_hidden,gemma,all,384,291,93,0.7076820751579648,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_plus_hidden,gemma,all,384,291,93,0.7086797472564017,,,nested CV; public text/prior/candidate/design/hidden combinations
+control_state_probe,C_prompt,gemma,all,384,291,93,0.6924952887706464,0.6318922861166044,0.7521795248402391,same selected layer on W/G/C prompt states
+control_state_probe,G_prompt,gemma,all,384,291,93,0.68565938735543,0.6215249074582957,0.7444553335698121,same selected layer on W/G/C prompt states
+control_state_probe,W_prompt,gemma,all,384,291,93,0.6842922070723867,0.6233950065134534,0.7453074964395149,same selected layer on W/G/C prompt states
+hidden_probe,nested_prompt_end_probe,gemma,all,384,291,93,0.6532165687469977,0.5851367356789348,0.713872685064738,strict label rule; nested layer/C selection
+llm_text_judge,debate_judge,gemma,all,384,291,93,0.5744558991981672,,,Claude Sonnet 4 debate-style public-text judge
+llm_text_judge,judge_answer_only,gemma,all,384,,,0.5892177511731884,,,Claude Sonnet 4 single-trace judge
+llm_text_judge,judge_cot_answer,gemma,all,384,,,0.5774858663119389,,,Claude Sonnet 4 single-trace judge
+paired_difference_or_residual,W_minus_C,gemma,all,384,291,93,0.5642759487122639,0.4984347952071942,0.6264606758904345,fixed layer; alpha=nan
+paired_difference_or_residual,W_minus_G,gemma,all,384,291,93,0.5274729335254775,0.4595404970444642,0.5959066476985883,fixed layer; alpha=nan
+paired_difference_or_residual,W_resid_C,gemma,all,384,291,93,0.4752244762221483,0.4208839190949694,0.5374144299474701,fixed layer; alpha=1.0
+paired_difference_or_residual,W_resid_C,gemma,all,384,291,93,0.4820234268189041,0.4261351043423974,0.5475364558764069,fixed layer; alpha=10.0
+paired_difference_or_residual,W_resid_C,gemma,all,384,291,93,0.5040830654398994,0.4390628971664343,0.5707162112228041,fixed layer; alpha=100.0
+paired_difference_or_residual,W_resid_G,gemma,all,384,291,93,0.5136533274212024,0.4461194506640942,0.5785155700679555,fixed layer; alpha=1.0
+paired_difference_or_residual,W_resid_G,gemma,all,384,291,93,0.5140228356058087,0.4475564938229412,0.5821402637076465,fixed layer; alpha=10.0
+paired_difference_or_residual,W_resid_G,gemma,all,384,291,93,0.526327458153198,0.4579078303464037,0.5982219361008176,fixed layer; alpha=100.0
+public_text_discriminative,answer_only,gemma,all,384,291,93,0.5409969330820678,0.4770026250481322,0.6076432754886397,TF-IDF/logistic public-text baseline
+public_text_discriminative,cot_answer,gemma,all,384,291,93,0.5855596201455863,0.517616935383888,0.6498723282572823,TF-IDF/logistic public-text baseline
+public_text_discriminative,prompt_answer,gemma,all,384,291,93,0.5390015888851938,0.4702233944595831,0.6091796988308325,TF-IDF/logistic public-text baseline
+public_text_discriminative,prompt_cot_answer,gemma,all,384,291,93,0.5688578502013819,0.4951345973171877,0.640403229098766,TF-IDF/logistic public-text baseline
+sanity,shuffled_label_probe_mean,gemma,all,384,291,93,0.5014122602815653,0.4284900048036064,0.5783671433322247,200 label shuffles using headline selected layers/Cs
+llm_text_judge,judge_cot_followup,gemma,followup_available,313,,,0.5999219359875098,,,"CoT+follow-up judge (judge family unresolved); strict labels, follow-up subset (346/313/196)"
+combined_noninternal,design_scalar,gemma,neutral_neither_h1_nor_h2,229,208,21,0.6945970695970696,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,hidden_fixed_layer,gemma,neutral_neither_h1_nor_h2,229,208,21,0.7039835164835165,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,prior_candidate,gemma,neutral_neither_h1_nor_h2,229,208,21,0.6948260073260073,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_public_text,gemma,neutral_neither_h1_nor_h2,229,208,21,0.7307692307692308,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate,gemma,neutral_neither_h1_nor_h2,229,208,21,0.6510989010989011,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design,gemma,neutral_neither_h1_nor_h2,229,208,21,0.7101648351648352,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design_plus_hidden,gemma,neutral_neither_h1_nor_h2,229,208,21,0.6948260073260073,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_plus_hidden,gemma,neutral_neither_h1_nor_h2,229,208,21,0.7186355311355311,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,design_scalar,gemma,neutral_not_h1,254,233,21,0.7312487226650317,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,hidden_fixed_layer,gemma,neutral_not_h1,254,233,21,0.7243000204373595,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,prior_candidate,gemma,neutral_not_h1,254,233,21,0.6894543225015329,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_public_text,gemma,neutral_not_h1,254,233,21,0.6695278969957082,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate,gemma,neutral_not_h1,254,233,21,0.7224606580829758,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design,gemma,neutral_not_h1,254,233,21,0.6969139587165338,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design_plus_hidden,gemma,neutral_not_h1,254,233,21,0.7265481299816063,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_plus_hidden,gemma,neutral_not_h1,254,233,21,0.7228694052728388,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,design_scalar,llama,all,260,184,76,0.7764588100686499,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,hidden_fixed_layer,llama,all,260,184,76,0.6297911899313501,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,prior_candidate,llama,all,260,184,76,0.7935855263157895,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_public_text,llama,all,260,184,76,0.6237128146453089,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate,llama,all,260,184,76,0.7925486270022883,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design,llama,all,260,184,76,0.777316933638444,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design_plus_hidden,llama,all,260,184,76,0.6485983981693364,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_plus_hidden,llama,all,260,184,76,0.6457379862700229,,,nested CV; public text/prior/candidate/design/hidden combinations
+control_state_probe,C_prompt,llama,all,260,184,76,0.6331521739130435,0.5552146375064919,0.7081849237516095,same selected layer on W/G/C prompt states
+control_state_probe,G_prompt,llama,all,260,184,76,0.6271453089244851,0.5407934101155254,0.7048722350546138,same selected layer on W/G/C prompt states
+control_state_probe,W_prompt,llama,all,260,184,76,0.6231407322654463,0.5483271710714334,0.6975143577087726,same selected layer on W/G/C prompt states
+hidden_probe,nested_prompt_end_probe,llama,all,260,184,76,0.6100543478260869,0.5358969194141276,0.6810627741228069,strict label rule; nested layer/C selection
+llm_text_judge,debate_judge,llama,all,260,184,76,0.5874928489702517,,,Claude Sonnet 4 debate-style public-text judge
+llm_text_judge,judge_answer_only,llama,all,260,,,0.5477688787185354,,,Claude Sonnet 4 single-trace judge
+llm_text_judge,judge_cot_answer,llama,all,260,,,0.6191004004576659,,,Claude Sonnet 4 single-trace judge
+paired_difference_or_residual,W_minus_C,llama,all,260,184,76,0.52066647597254,0.4441428333887595,0.5976744595621447,fixed layer; alpha=nan
+paired_difference_or_residual,W_minus_G,llama,all,260,184,76,0.5344679633867276,0.4539495609948344,0.6120443710629667,fixed layer; alpha=nan
+paired_difference_or_residual,W_resid_C,llama,all,260,184,76,0.4670695080091532,0.3931730297247205,0.5334529270020911,fixed layer; alpha=1.0
+paired_difference_or_residual,W_resid_C,llama,all,260,184,76,0.4829447940503433,0.4079840631423398,0.5570846681922197,fixed layer; alpha=10.0
+paired_difference_or_residual,W_resid_C,llama,all,260,184,76,0.4930635011441648,0.4131056583964776,0.5691760660280895,fixed layer; alpha=100.0
+paired_difference_or_residual,W_resid_G,llama,all,260,184,76,0.4839101830663615,0.4164419027839287,0.5535280914663102,fixed layer; alpha=1.0
+paired_difference_or_residual,W_resid_G,llama,all,260,184,76,0.4879862700228834,0.4101614848199803,0.5630474752332294,fixed layer; alpha=10.0
+paired_difference_or_residual,W_resid_G,llama,all,260,184,76,0.4786899313501144,0.3985002264418111,0.5568784036738356,fixed layer; alpha=100.0
+public_text_discriminative,answer_only,llama,all,260,184,76,0.6453804347826088,0.5634842708213998,0.7191049027651597,TF-IDF/logistic public-text baseline
+public_text_discriminative,cot_answer,llama,all,260,184,76,0.6429490846681922,0.5692073926214513,0.7186254399651048,TF-IDF/logistic public-text baseline
+public_text_discriminative,prompt_answer,llama,all,260,184,76,0.632866132723112,0.5537464866863905,0.7094273383720106,TF-IDF/logistic public-text baseline
+public_text_discriminative,prompt_cot_answer,llama,all,260,184,76,0.5970394736842105,0.5195220551412005,0.6708046842917236,TF-IDF/logistic public-text baseline
+sanity,shuffled_label_probe_mean,llama,all,260,184,76,0.5030281035469107,0.4031571796338672,0.5960025743707094,200 label shuffles using headline selected layers/Cs
+llm_text_judge,judge_cot_followup,llama,followup_available,196,,,0.5490105132962276,,,"CoT+follow-up judge (judge family unresolved); strict labels, follow-up subset (346/313/196)"
+combined_noninternal,design_scalar,llama,neutral_neither_h1_nor_h2,148,128,20,0.737890625,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,hidden_fixed_layer,llama,neutral_neither_h1_nor_h2,148,128,20,0.662109375,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,prior_candidate,llama,neutral_neither_h1_nor_h2,148,128,20,0.714453125,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_public_text,llama,neutral_neither_h1_nor_h2,148,128,20,0.70859375,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate,llama,neutral_neither_h1_nor_h2,148,128,20,0.715234375,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design,llama,neutral_neither_h1_nor_h2,148,128,20,0.7703125,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design_plus_hidden,llama,neutral_neither_h1_nor_h2,148,128,20,0.6660156249999999,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_plus_hidden,llama,neutral_neither_h1_nor_h2,148,128,20,0.66796875,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,design_scalar,llama,neutral_not_h1,163,140,23,0.7093167701863354,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,hidden_fixed_layer,llama,neutral_not_h1,163,140,23,0.7139751552795032,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,prior_candidate,llama,neutral_not_h1,163,140,23,0.6975155279503106,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_public_text,llama,neutral_not_h1,163,140,23,0.584472049689441,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate,llama,neutral_not_h1,163,140,23,0.6854037267080746,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design,llama,neutral_not_h1,163,140,23,0.6822981366459626,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design_plus_hidden,llama,neutral_not_h1,163,140,23,0.7136645962732919,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_plus_hidden,llama,neutral_not_h1,163,140,23,0.7133540372670808,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,design_scalar,mistral,all,421,340,81,0.7605301379811183,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,hidden_fixed_layer,mistral,all,421,340,81,0.6714596949891068,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,prior_candidate,mistral,all,421,340,81,0.7802832244008714,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_public_text,mistral,all,421,340,81,0.60639070442992,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate,mistral,all,421,340,81,0.7786129266521423,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design,mistral,all,421,340,81,0.74920116194626,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design_plus_hidden,mistral,all,421,340,81,0.6940631808278868,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_plus_hidden,mistral,all,421,340,81,0.6934640522875818,,,nested CV; public text/prior/candidate/design/hidden combinations
+control_state_probe,C_prompt,mistral,all,421,340,81,0.6541031227305738,0.589996431389392,0.711216330207428,same selected layer on W/G/C prompt states
+control_state_probe,G_prompt,mistral,all,421,340,81,0.6817356572258533,0.6199434700263504,0.7376933421074301,same selected layer on W/G/C prompt states
+control_state_probe,W_prompt,mistral,all,421,340,81,0.6967683369644153,0.63797673192674,0.7548590262579923,same selected layer on W/G/C prompt states
+hidden_probe,nested_prompt_end_probe,mistral,all,421,340,81,0.6371096586782862,0.5684562124622367,0.7070777276450436,strict label rule; nested layer/C selection
+llm_text_judge,debate_judge,mistral,all,421,340,81,0.5720951343500363,,,Claude Sonnet 4 debate-style public-text judge
+llm_text_judge,judge_answer_only,mistral,all,421,,,0.553395061728395,,,Claude Sonnet 4 single-trace judge
+llm_text_judge,judge_cot_answer,mistral,all,421,,,0.5552469135802469,,,Claude Sonnet 4 single-trace judge
+paired_difference_or_residual,W_minus_C,mistral,all,421,340,81,0.5310094408133623,0.4598856341152414,0.6038287279425535,fixed layer; alpha=nan
+paired_difference_or_residual,W_minus_G,mistral,all,421,340,81,0.5466230936819173,0.4767316877899278,0.6152313537450071,fixed layer; alpha=nan
+paired_difference_or_residual,W_resid_C,mistral,all,421,340,81,0.5248366013071896,0.4580049186139382,0.592303171068796,fixed layer; alpha=1.0
+paired_difference_or_residual,W_resid_C,mistral,all,421,340,81,0.5411220043572985,0.4741994623332472,0.6108256366619043,fixed layer; alpha=10.0
+paired_difference_or_residual,W_resid_C,mistral,all,421,340,81,0.5482933914306461,0.4800418095289117,0.6185805433445054,fixed layer; alpha=100.0
+paired_difference_or_residual,W_resid_G,mistral,all,421,340,81,0.5395787944807553,0.4749430171761961,0.600975299934247,fixed layer; alpha=1.0
+paired_difference_or_residual,W_resid_G,mistral,all,421,340,81,0.5328976034858388,0.4664525742600942,0.5974650159197319,fixed layer; alpha=10.0
+paired_difference_or_residual,W_resid_G,mistral,all,421,340,81,0.5372549019607843,0.4632719832950227,0.6061588581321017,fixed layer; alpha=100.0
+public_text_discriminative,answer_only,mistral,all,421,340,81,0.6358387799564271,0.5684197984749455,0.7092459020170394,TF-IDF/logistic public-text baseline
+public_text_discriminative,cot_answer,mistral,all,421,340,81,0.5777414669571532,0.5053382192784803,0.6494784854875983,TF-IDF/logistic public-text baseline
+public_text_discriminative,prompt_answer,mistral,all,421,340,81,0.648874364560639,0.5833625775857152,0.7175594204792203,TF-IDF/logistic public-text baseline
+public_text_discriminative,prompt_cot_answer,mistral,all,421,340,81,0.580392156862745,0.5036344729158413,0.6540519209968403,TF-IDF/logistic public-text baseline
+sanity,shuffled_label_probe_mean,mistral,all,421,340,81,0.5008625635439361,0.4232116920842411,0.5738362381989833,200 label shuffles using headline selected layers/Cs
+llm_text_judge,judge_cot_followup,mistral,followup_available,346,,,0.5123317663725933,,,"CoT+follow-up judge (judge family unresolved); strict labels, follow-up subset (346/313/196)"
+combined_noninternal,design_scalar,mistral,neutral_neither_h1_nor_h2,347,299,48,0.6958612040133779,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,hidden_fixed_layer,mistral,neutral_neither_h1_nor_h2,347,299,48,0.7428929765886289,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,prior_candidate,mistral,neutral_neither_h1_nor_h2,347,299,48,0.7091694537346711,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_public_text,mistral,neutral_neither_h1_nor_h2,347,299,48,0.6074414715719063,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate,mistral,neutral_neither_h1_nor_h2,347,299,48,0.6620680044593087,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design,mistral,neutral_neither_h1_nor_h2,347,299,48,0.6698021181716833,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design_plus_hidden,mistral,neutral_neither_h1_nor_h2,347,299,48,0.7446348940914159,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_plus_hidden,mistral,neutral_neither_h1_nor_h2,347,299,48,0.7426839464882943,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,design_scalar,mistral,neutral_not_h1,358,308,50,0.7266883116883116,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,hidden_fixed_layer,mistral,neutral_not_h1,358,308,50,0.7114285714285714,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,prior_candidate,mistral,neutral_not_h1,358,308,50,0.7282467532467533,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_public_text,mistral,neutral_not_h1,358,308,50,0.7081168831168833,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate,mistral,neutral_not_h1,358,308,50,0.7242207792207792,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design,mistral,neutral_not_h1,358,308,50,0.701038961038961,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_design_plus_hidden,mistral,neutral_not_h1,358,308,50,0.7135064935064934,,,nested CV; public text/prior/candidate/design/hidden combinations
+combined_noninternal,w_text_prior_candidate_plus_hidden,mistral,neutral_not_h1,358,308,50,0.712922077922078,,,nested CV; public text/prior/candidate/design/hidden combinations
+strict_slice_layer_sweep,G_prompt,gemma,neutral_neither_h1_nor_h2,229,208,21,0.6751373626373626,0.5451946910839808,0.8018942044339549,layers selected on the full strict slice; W vs G prompt states
+strict_slice_layer_sweep,W_prompt,gemma,neutral_neither_h1_nor_h2,229,208,21,0.6112637362637363,0.4733886111756956,0.7503812659303313,layers selected on the full strict slice; W vs G prompt states
+strict_slice_layer_sweep,G_prompt,llama,neutral_neither_h1_nor_h2,148,128,20,0.65703125,0.517953207519378,0.7826442609307982,layers selected on the full strict slice; W vs G prompt states
+strict_slice_layer_sweep,W_prompt,llama,neutral_neither_h1_nor_h2,148,128,20,0.67890625,0.5593633540372671,0.7941917737280639,layers selected on the full strict slice; W vs G prompt states
+strict_slice_layer_sweep,G_prompt,mistral,neutral_neither_h1_nor_h2,347,299,48,0.7568979933110369,0.6852426938082316,0.8266859436228036,layers selected on the full strict slice; W vs G prompt states
+strict_slice_layer_sweep,W_prompt,mistral,neutral_neither_h1_nor_h2,347,299,48,0.763447603121516,0.6802905308464849,0.8325808253180267,layers selected on the full strict slice; W vs G prompt states
+attention_probe,attention_over_layers,gemma,all,384,291,93,0.514983556885785,,,attention-over-layers probe on the full strict slice
+attention_probe,attention_over_layers,llama,all,260,184,76,0.6029033180778032,,,attention-over-layers probe on the full strict slice
+attention_probe,attention_over_layers,mistral,all,421,340,81,0.6301379811183733,,,attention-over-layers probe on the full strict slice

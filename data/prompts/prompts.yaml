@@ -1,0 +1,95 @@
+# Used: note_block_v1 (free text) and note_block_v1_mcq (multiple choice); no-hint prompts are these with the note removed. Other entries were not used.
+# Prompt templates for condition building
+# All conditions use the SAME note-block template — only {candidate} changes
+
+templates:
+  note_block_v1:
+    id: "note_block_v1"
+    template: |
+      Question: {question}
+
+      Reference note from an earlier pass:
+      - candidate: {candidate}
+      - confidence: low
+      This note may be wrong. Verify independently.
+
+      Please solve the question carefully.
+      Show your reasoning first.
+      On the last line, write exactly:
+      Final answer: <short answer>
+      Do not write anything after the final answer line.
+
+  # MCQ variant: instructs option letter output
+  note_block_v1_mcq:
+    id: "note_block_v1_mcq"
+    template: |
+      Question: {question}
+
+      Options:
+      {options_formatted}
+
+      Reference note from an earlier pass:
+      - candidate: {candidate}
+      - confidence: low
+      This note may be wrong. Verify independently.
+
+      Please solve the question carefully.
+      Show your reasoning first.
+      On the last line, write exactly:
+      Final answer: <option letter>
+      Do not write anything after the final answer line.
+
+  # Held-out alternate phrasings for robustness checks
+  note_block_v2:
+    id: "note_block_v2"
+    template: |
+      Question: {question}
+
+      A previous attempt noted the answer might be: {candidate}
+      (low confidence — verify this yourself)
+
+      Think through the question step by step.
+      On the last line, write exactly:
+      Final answer: <short answer>
+      Do not write anything after the final answer line.
+
+  note_block_v3:
+    id: "note_block_v3"
+    template: |
+      Question: {question}
+
+      Draft note: {candidate} (unverified, may be incorrect)
+
+      Reason carefully about the question.
+      On the last line, write exactly:
+      Final answer: <short answer>
+      Do not write anything after the final answer line.
+
+# Neutral baseline (no note)
+  neutral:
+    id: "neutral"
+    template: |
+      Question: {question}
+
+      Please solve the question carefully.
+      Show your reasoning first.
+      On the last line, write exactly:
+      Final answer: <short answer>
+      Do not write anything after the final answer line.
+
+  neutral_mcq:
+    id: "neutral_mcq"
+    template: |
+      Question: {question}
+
+      Options:
+      {options_formatted}
+
+      Please solve the question carefully.
+      Show your reasoning first.
+      On the last line, write exactly:
+      Final answer: <option letter>
+      Do not write anything after the final answer line.
+
+# Optional assistant prefill for low-compliance models
+assistant_prefill: "Reasoning:\n"

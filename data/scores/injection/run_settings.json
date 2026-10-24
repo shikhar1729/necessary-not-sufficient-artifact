@@ -1,0 +1,74 @@
+{
+  "mistral": {
+    "model": "mistral",
+    "model_id": "mistralai/Mistral-7B-Instruct-v0.1",
+    "n_records": 3192,
+    "cells": [
+      "adv_warn",
+      "adv_nowarn",
+      "ben_warn",
+      "ben_nowarn"
+    ],
+    "datasets": [
+      "triviaqa",
+      "hotpotqa",
+      "mmlu_pro",
+      "gpqa"
+    ],
+    "questions_per_dataset": 100,
+    "max_new_tokens": 512,
+    "generate_seconds": 2919.2,
+    "extract_seconds": 361.3,
+    "generate_batch_size": 24,
+    "extract_batch_size": 8,
+    "seed": 2027
+  },
+  "gemma": {
+    "model": "gemma",
+    "model_id": "google/gemma-2-9b-it",
+    "n_records": 3192,
+    "cells": [
+      "adv_warn",
+      "adv_nowarn",
+      "ben_warn",
+      "ben_nowarn"
+    ],
+    "datasets": [
+      "triviaqa",
+      "hotpotqa",
+      "mmlu_pro",
+      "gpqa"
+    ],
+    "questions_per_dataset": 100,
+    "max_new_tokens": 512,
+    "generate_seconds": 3572.7,
+    "extract_seconds": 300.1,
+    "generate_batch_size": 24,
+    "extract_batch_size": 8,
+    "seed": 2027
+  },
+  "llama": {
+    "model": "llama",
+    "model_id": "meta-llama/Llama-3.1-8B-Instruct",
+    "n_records": 3192,
+    "cells": [
+      "adv_warn",
+      "adv_nowarn",
+      "ben_warn",
+      "ben_nowarn"
+    ],
+    "datasets": [
+      "triviaqa",
+      "hotpotqa",
+      "mmlu_pro",
+      "gpqa"
+    ],
+    "questions_per_dataset": 100,
+    "max_new_tokens": 640,
+    "generate_seconds": 3835.4,
+    "extract_seconds": 259.3,
+    "generate_batch_size": 24,
+    "extract_batch_size": 8,
+    "seed": 2027
+  }
+}

@@ -1,0 +1,16 @@
+model,cell,pairs,both_parse_ok,a_W_is_h,a_W_not_gold
+mistral,adv_warn,399,301,140,136
+mistral,adv_nowarn,399,312,178,175
+mistral,ben_warn,399,320,139,135
+mistral,ben_nowarn,399,330,155,154
+mistral,main_task,1728,1395,440,421
+gemma,adv_warn,399,386,187,182
+gemma,adv_nowarn,399,380,191,187
+gemma,ben_warn,399,382,163,157
+gemma,ben_nowarn,399,377,162,155
+gemma,main_task,1728,1699,413,384
+llama,adv_warn,399,294,106,102
+llama,adv_nowarn,399,297,130,126
+llama,ben_warn,399,282,79,76
+llama,ben_nowarn,399,294,101,97
+llama,main_task,1728,1328,286,260

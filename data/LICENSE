@@ -1,0 +1,15 @@
+Copyright (c) 2026 Shikhar Shiromani and Leo Richter
+
+The labels, scores, judge outputs and prompt files in this directory are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0). Full text:
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Question and answer text taken from the source datasets keeps the licence of its source:
+TriviaQA (Apache-2.0), HotpotQA (CC BY-SA 4.0) and MMLU-Pro (MIT). GPQA text is not included.
+Model outputs come from Mistral-7B-Instruct-v0.1 (Apache-2.0), Gemma-2-9B-it (Gemma Terms of Use)
+and Llama-3.1-8B-Instruct (Llama 3.1 Community License). Judge, candidate and adjudication outputs come
+from Claude Sonnet 4, Claude 3.5 Haiku, Claude Haiku 4.5 and Claude Sonnet 4.5 (Anthropic), GPT-4.1 and
+GPT-4.1-mini (OpenAI) and Gemini 2.5 Flash (Google), accessed through OpenRouter, and are subject to
+those providers' terms.
+
+The code in this repository is licensed separately under the MIT License (../LICENSE).

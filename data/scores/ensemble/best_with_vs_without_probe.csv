@@ -1,0 +1,4 @@
+model,best_with_probe,auroc_with_probe,best_text_only,auroc_text_only,gap
+mistral,rank_avg(na_cot+prior+cf_para+tfidf+probe),0.7495279593318809,rank_avg(na_cot+prior+cf_para+tfidf),0.7405228758169935,0.00900508351488738
+gemma,rank_avg(prior+cf_para+probe),0.7682998928426265,rank_avg(prior+cf_para),0.743949303477072,0.024350589365554454
+llama,rank_avg(na_cot+prior+cf_para+tfidf+probe),0.7556850686498856,rank_avg(na_cot+prior+cf_para+tfidf),0.7578303775743707,-0.0021453089244850565

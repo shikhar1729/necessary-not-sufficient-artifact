@@ -1,0 +1,261 @@
+model,dataset,question_id,group,label,answer_type,h1,h2,correct_answer,final_answer_W,final_answer_G,final_answer_C,fold
+llama,gpqa,gpqa_0,gpqa::gpqa_0,1,mcq,C,B,D,c,b,c,4
+llama,gpqa,gpqa_10,gpqa::gpqa_10,1,mcq,C,A,B,c,d,b,1
+llama,gpqa,gpqa_106,gpqa::gpqa_106,0,mcq,A,D,C,a,a,c,0
+llama,gpqa,gpqa_108,gpqa::gpqa_108,1,mcq,C,B,D,c,a,d,4
+llama,gpqa,gpqa_109,gpqa::gpqa_109,0,mcq,D,C,B,d,d,d,3
+llama,gpqa,gpqa_110,gpqa::gpqa_110,0,mcq,C,D,B,c,c,b,2
+llama,gpqa,gpqa_113,gpqa::gpqa_113,0,mcq,C,D,B,c,c,c,1
+llama,gpqa,gpqa_117,gpqa::gpqa_117,0,mcq,D,C,B,d,d,c,0
+llama,gpqa,gpqa_119,gpqa::gpqa_119,1,mcq,D,B,A,d,c,,4
+llama,gpqa,gpqa_12,gpqa::gpqa_12,1,mcq,B,A,C,b,a,c,3
+llama,gpqa,gpqa_123,gpqa::gpqa_123,0,mcq,C,B,A,c,c,d,2
+llama,gpqa,gpqa_127,gpqa::gpqa_127,0,mcq,C,B,A,c,c,c,1
+llama,gpqa,gpqa_128,gpqa::gpqa_128,0,mcq,B,A,C,b,b,d,0
+llama,gpqa,gpqa_131,gpqa::gpqa_131,1,mcq,D,C,A,d,a,d,4
+llama,gpqa,gpqa_133,gpqa::gpqa_133,1,mcq,D,A,B,d,c,,3
+llama,gpqa,gpqa_145,gpqa::gpqa_145,1,mcq,A,B,C,a,b,b,2
+llama,gpqa,gpqa_147,gpqa::gpqa_147,0,mcq,B,C,A,b,b,b,1
+llama,gpqa,gpqa_148,gpqa::gpqa_148,0,mcq,B,C,A,b,b,a,0
+llama,gpqa,gpqa_152,gpqa::gpqa_152,1,mcq,D,A,C,d,c,c,4
+llama,gpqa,gpqa_155,gpqa::gpqa_155,0,mcq,D,A,B,d,d,b,3
+llama,gpqa,gpqa_164,gpqa::gpqa_164,1,mcq,B,C,A,b,a,a,2
+llama,gpqa,gpqa_167,gpqa::gpqa_167,1,mcq,B,A,D,b,c,b,1
+llama,gpqa,gpqa_172,gpqa::gpqa_172,0,mcq,B,C,A,b,b,c,0
+llama,gpqa,gpqa_174,gpqa::gpqa_174,0,mcq,D,A,C,d,d,a,4
+llama,gpqa,gpqa_183,gpqa::gpqa_183,1,mcq,A,C,D,a,c,c,3
+llama,gpqa,gpqa_190,gpqa::gpqa_190,0,mcq,A,C,D,a,a,b,2
+llama,gpqa,gpqa_25,gpqa::gpqa_25,0,mcq,C,A,B,c,c,c,1
+llama,gpqa,gpqa_26,gpqa::gpqa_26,1,mcq,A,B,C,a,d,c,0
+llama,gpqa,gpqa_28,gpqa::gpqa_28,0,mcq,A,B,C,a,a,b,4
+llama,gpqa,gpqa_32,gpqa::gpqa_32,1,mcq,C,D,A,c,a,c,3
+llama,gpqa,gpqa_36,gpqa::gpqa_36,1,mcq,B,C,D,b,a,a,2
+llama,gpqa,gpqa_37,gpqa::gpqa_37,1,mcq,D,A,B,d,a,c,3
+llama,gpqa,gpqa_48,gpqa::gpqa_48,0,mcq,A,D,C,a,a,a,4
+llama,gpqa,gpqa_53,gpqa::gpqa_53,1,mcq,C,A,D,c,a,c,0
+llama,gpqa,gpqa_57,gpqa::gpqa_57,0,mcq,C,D,B,c,c,c,3
+llama,gpqa,gpqa_68,gpqa::gpqa_68,1,mcq,C,B,A,c,d,a,2
+llama,gpqa,gpqa_7,gpqa::gpqa_7,1,mcq,B,D,A,b,a,b,1
+llama,gpqa,gpqa_71,gpqa::gpqa_71,1,mcq,D,A,B,d,b,d,0
+llama,gpqa,gpqa_81,gpqa::gpqa_81,1,mcq,A,C,D,a,c,d,4
+llama,gpqa,gpqa_83,gpqa::gpqa_83,0,mcq,D,B,A,d,d,d,3
+llama,gpqa,gpqa_86,gpqa::gpqa_86,0,mcq,D,C,B,d,d,d,2
+llama,gpqa,gpqa_93,gpqa::gpqa_93,0,mcq,B,A,D,b,b,c,1
+llama,gpqa,gpqa_94,gpqa::gpqa_94,0,mcq,A,D,C,a,a,c,0
+llama,gpqa,gpqa_95,gpqa::gpqa_95,1,mcq,B,A,D,b,c,b,4
+llama,gpqa,gpqa_99,gpqa::gpqa_99,1,mcq,A,D,B,a,d,b,3
+llama,hotpotqa,5a716f575542994082a3e82f,hotpotqa::5a716f575542994082a3e82f,0,span,Joseph Campbell,Ishmael Reed,Joseph John Campbell,joseph campbell,joseph campbell,joseph campbell,2
+llama,hotpotqa,5a722a6855429971e9dc9320,hotpotqa::5a722a6855429971e9dc9320,1,span,Detective Anna Petrova,Inspector Elena Sokolova,Chief Detective Maria Shvetsova,detective anna petrova,elena sokolova,maria shvetsova,1
+llama,hotpotqa,5a739b1955429978a71e9044,hotpotqa::5a739b1955429978a71e9044,1,span,Ball Corporation,Metal Container Company,Crown Holdings Incorporated,ball corporation,metal container company,crown holdings incorporated,4
+llama,hotpotqa,5a74ab6055429916b01641b9,hotpotqa::5a74ab6055429916b01641b9,0,span,Attack!,Monopoly,Can't Stop,attack,attack,attack,0
+llama,hotpotqa,5a74b66a55429929fddd84cb,hotpotqa::5a74b66a55429929fddd84cb,0,span,Lee Grant,Colin Campbell,James Colin Campbell,lee grant,lee grant,lee grant,3
+llama,hotpotqa,5a75092b55429916b0164242,hotpotqa::5a75092b55429916b0164242,0,span,Taken,Death Race,Transporter 3,taken 3,taken 3,transporter 3,2
+llama,hotpotqa,5a7561495542992db947364e,hotpotqa::5a7561495542992db947364e,1,span,Dangerous Game,Lover's Murder,Julie 2,dangerous game,lover s murder,julie 2,1
+llama,hotpotqa,5a7577785542992d0ec05fa0,hotpotqa::5a7577785542992d0ec05fa0,1,span,Dunham Massey,Lyme Park,Tatton Park,dunham massey,lyme park,tatton park,0
+llama,hotpotqa,5a76244c554299109176e65d,hotpotqa::5a76244c554299109176e65d,0,span,X&Y,Viva La Vida,A Rush of Blood to the Head,x y,x y,x y,4
+llama,hotpotqa,5a7652435542992d0ec060a5,hotpotqa::5a7652435542992d0ec060a5,1,span,Mikhail Glinka,Igor Stravinsky,Pyotr Ilyich Tchaikovsky,mikhail glinka,pyotr ilyich tchaikovsky,mikhail glinka,3
+llama,hotpotqa,5a772c925542993735360208,hotpotqa::5a772c925542993735360208,1,span,Polarity,Board Game First,The Farming Game,polarity,farming game,farming game,2
+llama,hotpotqa,5a7744555542994aec3b725b,hotpotqa::5a7744555542994aec3b725b,0,span,"Townsend, Tennessee","Gatlinburg, Tennessee","Elkmont, Tennessee",townsend tennessee,townsend,elkmont,1
+llama,hotpotqa,5a77857155429949eeb29ebf,hotpotqa::5a77857155429949eeb29ebf,1,span,Zoo TV World Tour,Joshua Tree International Tour,U2 360° Tour,zoo tv world tour,joshua tree tour,,0
+llama,hotpotqa,5a79db655542994bb94570f4,hotpotqa::5a79db655542994bb94570f4,1,span,"January 15,","March 3,","December 12, 1967",january 15,march 3,unknown,4
+llama,hotpotqa,5a79e7b45542994f819ef0ff,hotpotqa::5a79e7b45542994f819ef0ff,1,span,The Sexual Intellectual,Pornographic Lexicon,"""Darconville’s Cat""",sexual intellectual,pornographic lexicon,,3
+llama,hotpotqa,5a79ecd05542996c55b2dca1,hotpotqa::5a79ecd05542996c55b2dca1,1,span,Charlie Ward,Danny Kanell,Chris Weinke,charlie ward,danny kanell,chris weinke,2
+llama,hotpotqa,5a7af08655429931da12c989,hotpotqa::5a7af08655429931da12c989,1,span,radioactive elements,unstable isotopes,radionuclides,radioactive elements,radioactive isotopes,radionuclides,1
+llama,hotpotqa,5a7b1a4a55429927d897bf3b,hotpotqa::5a7b1a4a55429927d897bf3b,1,span,First Canadian train heist,Pioneering railway crime spree,Canada's first train robbery,first canadian train heist,hands up,,2
+llama,hotpotqa,5a7b4bc35542992d025e67e0,hotpotqa::5a7b4bc35542992d025e67e0,1,span,United Kingdom,Great Britain,England,united kingdom,great britain,england,1
+llama,hotpotqa,5a7b581a5542992d025e6815,hotpotqa::5a7b581a5542992d025e6815,1,span,Family-friendly adventure,s kid movie,American comedy,family friendly adventure,family movie,family comedies,0
+llama,hotpotqa,5a7c67c15542990527d55498,hotpotqa::5a7c67c15542990527d55498,1,span,John Murray,Lady Elizabeth Macquarie,Sir Edmund Barton,john murray,lady elizabeth macquarie,sir albert martin,4
+llama,hotpotqa,5a7d1765554299452d57bade,hotpotqa::5a7d1765554299452d57bade,1,span,Political maneuvering,Racial manipulation,filibuster,political maneuvering,racial manipulation,,0
+llama,hotpotqa,5a7d72bb5542990b8f50398e,hotpotqa::5a7d72bb5542990b8f50398e,1,span,Native land dispossession,Cultural genocide trends,the paternalistic policies enacted upon Native American tribes,native land dispossession,cultural genocide,,4
+llama,hotpotqa,5a7d7deb5542995f4f402282,hotpotqa::5a7d7deb5542995f4f402282,1,span,Paul Barker,Pete Wentz,Shifty Shellshock,paul barker,patrick stump,shifty shellshock,3
+llama,hotpotqa,5a7dc7735542990b8f503a93,hotpotqa::5a7dc7735542990b8f503a93,0,span,million,million,100 million,10 million,10 million,,2
+llama,hotpotqa,5a7de14a5542991319bc93fc,hotpotqa::5a7de14a5542991319bc93fc,1,span,"Centerville, Georgia","Oakdale, Minnesota","Jeffersontown, Kentucky",centerville georgia,oakdale minnesota,jeffersontown kentucky,1
+llama,hotpotqa,5a7f22005542993067513657,hotpotqa::5a7f22005542993067513657,1,span,Mirwais Ahmadzaï,William Orbit,Stuart Price,mirwais ahmadzai,william orbit,stuart price,0
+llama,hotpotqa,5a7f4cb055429969796c1a02,hotpotqa::5a7f4cb055429969796c1a02,1,span,Verizon,T-Mobile,AT&T,verizon,at t,at t,4
+llama,hotpotqa,5a7f7b365542992097ad2f80,hotpotqa::5a7f7b365542992097ad2f80,1,span,Beaulieu Mine produced gold,McIntyre exclusively extracted copper,The McIntyre also yielded a considerable amount of copper,gold,beaulieu mine yielded gold and mcintyre mines yielded copper and zinc,mcintyre mines,3
+llama,hotpotqa,5a802bf05542992bc0c4a6b7,hotpotqa::5a802bf05542992bc0c4a6b7,1,span,twelve,eleven,thirteen,twelve,eleven,13,2
+llama,hotpotqa,5a81ff1a554299676cceb1c2,hotpotqa::5a81ff1a554299676cceb1c2,1,span,black dog,furry panther,black cat,black dog,domestic cat,black cat,1
+llama,hotpotqa,5a820c0c554299676cceb1fc,hotpotqa::5a820c0c554299676cceb1fc,1,span,ANA Holdings,Japan Airlines,All Nippon,ana holdings,korean air lines corporation,ana holdings,0
+llama,hotpotqa,5a83b1e75542990548d0b220,hotpotqa::5a83b1e75542990548d0b220,1,span,film director,movie scriptwriter,screenwriter,film director,screenwriter,screenwriter,4
+llama,hotpotqa,5a840e8a5542992ef85e239e,hotpotqa::5a840e8a5542992ef85e239e,1,span,Hole has more members,Hole's lineup is larger,Mastodon,hole,4,mastodon,3
+llama,hotpotqa,5a851ba95542997175ce1f81,hotpotqa::5a851ba95542997175ce1f81,1,span,Dealey Plaza,Fort Worth,Dallas,dealey plaza,dallas,dallas,2
+llama,hotpotqa,5a8574945542997b5ce3fffb,hotpotqa::5a8574945542997b5ce3fffb,0,span,Gimme Shelter documentary,Oscar nominated film,LaLee's Kin: The Legacy of Cotton,gimme shelter,gimme shelter,gimme shelter,1
+llama,hotpotqa,5a85d4395542996432c570f5,hotpotqa::5a85d4395542996432c570f5,1,span,"Libby, Montana","Eureka, Montana","Troy, Montana",libby,eureka,troy,0
+llama,hotpotqa,5a8642045542991e771815e2,hotpotqa::5a8642045542991e771815e2,1,span,computer scientist,artificial intelligence researcher,professor of cognitive science,computer scientist,cognitive scientist,professor cognitive science,4
+llama,hotpotqa,5a875cd65542996e4f30879d,hotpotqa::5a875cd65542996e4f30879d,1,span,film producer,cinema producer,motion picture producer,film producer,executive producer,film producer,3
+llama,hotpotqa,5a8760e75542996e4f3087af,hotpotqa::5a8760e75542996e4f3087af,1,span,Cartoon Network Fridays,Adult Swim Lineup,Cartoon Cartoon Fridays,cartoon network fridays,cartoon cartoons,cartoon cartoon fridays,2
+llama,hotpotqa,5a87964c5542996e4f30885f,hotpotqa::5a87964c5542996e4f30885f,1,span,Tamannaah Bhatia,Rakul Preet Singh,Nivetha Thomas,tamannaah bhatia,rakul preet singh,nivetha thomas,1
+llama,hotpotqa,5a88b513554299206df2b338,hotpotqa::5a88b513554299206df2b338,1,span,suburb,shopping district,city,suburb,shopping district,city,0
+llama,hotpotqa,5a88f7bf5542997e5c09a6dd,hotpotqa::5a88f7bf5542997e5c09a6dd,1,span,This Is the End,Pineapple Express,The Interview,this is end,superbad,interview,4
+llama,hotpotqa,5a89810655429946c8d6e929,hotpotqa::5a89810655429946c8d6e929,1,span,miles,kilometers,37.5,40 miles,44,64,3
+llama,hotpotqa,5a89fc665542993b751ca9de,hotpotqa::5a89fc665542993b751ca9de,1,span,Universal Studios Hollywood,Universal Orlando Resort,Universal Studios Florida,universal studios hollywood,universal studios florida,universal studios florida,2
+llama,hotpotqa,5a8a12ae5542992d82986e92,hotpotqa::5a8a12ae5542992d82986e92,1,span,Highlands,Rocky terrain,Scotland,highlands,challenging terrain,scotland,1
+llama,hotpotqa,5a8a1a975542992e4fca8505,hotpotqa::5a8a1a975542992e4fca8505,1,span,Monongalia County,Marion County,Preston County,monongalia county,preston county,preston county,0
+llama,hotpotqa,5a8a521d5542992d82986f15,hotpotqa::5a8a521d5542992d82986f15,1,span,Rødovre Mighty Bulls,AaB Ice Hockey,Denmark men's national ice hockey,rødovre mighty bulls,aab ice hockey,denmark men s national ice hockey,4
+llama,hotpotqa,5a8ba67755429971feec4748,hotpotqa::5a8ba67755429971feec4748,1,span,ION Orchard,Somerset,Orchard Central,ion orchard,somerset,orchard central,3
+llama,hotpotqa,5a8baf635542996e8ac889c6,hotpotqa::5a8baf635542996e8ac889c6,1,span,Bulawayo,Mutare,Harare,bulawayo,mutare,unknown,2
+llama,hotpotqa,5a8bc3ac5542995e66a47501,hotpotqa::5a8bc3ac5542995e66a47501,1,span,"Macon, Georgia","Savannah, Georgia","Fort Valley, Georgia",macon georgia,fort valley georgia,fort valley georgia,1
+llama,hotpotqa,5a8cd291554299441c6b9f14,hotpotqa::5a8cd291554299441c6b9f14,1,span,OU Basketball Sooners,Oklahoma Basketball Team,Oklahoma Sooners men's basketball,ou basketball sooners,oklahoma sooners,oklahoma sooners men s basketball,1
+llama,hotpotqa,5a8d838955429941ae14dfe5,hotpotqa::5a8d838955429941ae14dfe5,1,span,"Chicago, Illinois",Pacific Northwest,United States,chicago illinois,illinois and new mexico,united states,2
+llama,hotpotqa,5a8e0d04554299068b959e3a,hotpotqa::5a8e0d04554299068b959e3a,1,span,United Kingdom,England,London,united kingdom,england,united kingdom,4
+llama,hotpotqa,5a8e42d15542995a26add4a6,hotpotqa::5a8e42d15542995a26add4a6,1,span,Eastern China,Fujian Province,People's Republic of China,northwest china and southeastern china,zhangye is in gansu province and nan fujian is in fujian province,different provinces,3
+llama,hotpotqa,5a8fa4d95542995b4424207b,hotpotqa::5a8fa4d95542995b4424207b,0,span,Palm Springs International Airport,California airport,Trenton–Mercer Airport,palm springs international airport,palm springs international airport,palm springs international airport,2
+llama,hotpotqa,5a90991d5542990a9849366b,hotpotqa::5a90991d5542990a9849366b,0,span,Maryland,Nevada,Indiana,maryland,maryland,maryland,1
+llama,hotpotqa,5ab1c2bf5542997061209558,hotpotqa::5ab1c2bf5542997061209558,1,span,Missouri State University,University of Illinois,University of Missouri,missouri state university,university missouri,university missouri,0
+llama,hotpotqa,5ab2771e554299340b5254d8,hotpotqa::5ab2771e554299340b5254d8,1,span,August,October,29 September 2014,august 2021,unknown,29 september 2014,4
+llama,hotpotqa,5ab2a292554299194fa93496,hotpotqa::5ab2a292554299194fa93496,0,span,Hindi,Partly Marathi,Partly Punjabi,hindi,hindi,hindi,3
+llama,hotpotqa,5ab2ed62554299166977413a,hotpotqa::5ab2ed62554299166977413a,0,span,Virgil Exner,Harley Earl,Luigi Segre,virgil exner,virgil exner,virgil exner,2
+llama,hotpotqa,5ab31adc554299233954ff0a,hotpotqa::5ab31adc554299233954ff0a,1,span,million pesos,million dollars,2.3 million pesos,12 million pesos,60 000 000,45 million,1
+llama,hotpotqa,5ab3b50055429969a97a818c,hotpotqa::5ab3b50055429969a97a818c,1,span,the James River,the York River,the Elizabeth River,james river,york river,elizabeth river,0
+llama,hotpotqa,5ab5035b5542996a3a969ff8,hotpotqa::5ab5035b5542996a3a969ff8,1,span,Nazi German armed forces,Imperial German military,German service cartridge,nazi german armed forces,imperial german military,germany,4
+llama,hotpotqa,5ab56f3e5542992aa134a317,hotpotqa::5ab56f3e5542992aa134a317,1,span,Cimicifuga,Southern Hemisphere,Crocosmia,cimicifuga,crocosmia,crocosmia,3
+llama,hotpotqa,5ab587f85542992aa134a34d,hotpotqa::5ab587f85542992aa134a34d,1,span,Abbey Road Studios,London Underground Studios,Hookend Recording Studios,abbey road studios,hookend recording studios,hookend recording studios,2
+llama,hotpotqa,5ab721325542992aa3b8c7a2,hotpotqa::5ab721325542992aa3b8c7a2,1,span,Monk solves wacky mysteries,Shawn Spencer investigates crimes,Psych is an American detective comedy-drama,monk,psych,psych,1
+llama,hotpotqa,5ab7c24e5542995dae37e998,hotpotqa::5ab7c24e5542995dae37e998,1,span,The Great War,First World War,World War I.,great war,first world war,world war i,0
+llama,hotpotqa,5ab8680755429934fafe6da8,hotpotqa::5ab8680755429934fafe6da8,1,span,musician,rock performer,singer,musician,rock performer,singer,4
+llama,hotpotqa,5ab8764155429919ba4e22fe,hotpotqa::5ab8764155429919ba4e22fe,1,span,novelist,fiction author,short story writer,novelist,fiction author,short story writer,3
+llama,hotpotqa,5ab87b2955429934fafe6df4,hotpotqa::5ab87b2955429934fafe6df4,1,span,Mani Ratnam,K. V. Anand,Shankar,mani ratnam,suseenthiran,hari,2
+llama,hotpotqa,5ab97c0255429970cfb8eb1f,hotpotqa::5ab97c0255429970cfb8eb1f,1,span,FC Bayern,German National Team,Bayern Munich,fc bayern,bayern munich,bayern munich,1
+llama,hotpotqa,5abb9ad4554299642a094abe,hotpotqa::5abb9ad4554299642a094abe,1,span,Taliban,ISIS militants,al-Qaeda,taliban,al qaeda in iraq aqi,taliban,0
+llama,hotpotqa,5abc091555429965836003f6,hotpotqa::5abc091555429965836003f6,0,span,Black Swan's Adaptation,Bolshoi Ballet Story,Swan Lake,black swan,black swan,black swan,4
+llama,hotpotqa,5abc0e095542996583600417,hotpotqa::5abc0e095542996583600417,1,span,Clark Air Base,Travis Air Force Base,Lieutenant Colonel Horace Meek Hickam,clark air base,captain richard h travis,lieutenant colonel horace meek hickam,3
+llama,hotpotqa,5abd4c6d5542993062266c47,hotpotqa::5abd4c6d5542993062266c47,1,span,Huangpu Sports Center,Guangzhou Olympic Stadium,Tianhe Stadium,huangpu sports center,tianhe stadium,tianhe stadium,2
+llama,hotpotqa,5abdf1fe55429976d4830a31,hotpotqa::5abdf1fe55429976d4830a31,1,span,Global voices united,Humanity's digital platform,media for the 65.8 million,global voices united,humanity s digital platform,media for 65 8 million,1
+llama,hotpotqa,5abeafbb5542997ec76fd347,hotpotqa::5abeafbb5542997ec76fd347,1,span,The Staten Island Catapult,documentary,"Frida, en trotjänarinna",staten island catapult,frida en trotja narinna,staten island catapult,0
+llama,hotpotqa,5abffd10554299012d1db556,hotpotqa::5abffd10554299012d1db556,1,span,Veneto,Emilia-Romagna,Lombardy,veneto,marche,tuscany,4
+llama,hotpotqa,5ac13f425542991316484a96,hotpotqa::5ac13f425542991316484a96,0,span,Shenandoah Valley Regional Airport,Both airports share purpose,Louisville International Airport,shenandoah valley regional airport,shenandoah valley regional airport,louisville international airport,3
+llama,hotpotqa,5ac1436f5542991316484aad,hotpotqa::5ac1436f5542991316484aad,1,span,Carmen by Bizet,Les Contes d'Hoffmann,Dialogues of the Carmelites,carmen,les contes d hoffmann,dialogues carmelites,2
+llama,hotpotqa,5ac2782d55429963665199cc,hotpotqa::5ac2782d55429963665199cc,1,span,June 1926 to 15 December,June 1926 to 19 December,7 June 1926 to 17 December 1926,june 1926 to 15 december,december 19 1926 to 1940,17 december 1926 to 15 june 1940,1
+llama,hotpotqa,5ac31602554299741d48a1bf,hotpotqa::5ac31602554299741d48a1bf,1,span,Denise Richards,Neve Campbell,Jennifer Taylor,denise richards,danielle harris,jennifer taylor,0
+llama,hotpotqa,5ac3c1585542995ef918c21d,hotpotqa::5ac3c1585542995ef918c21d,1,span,Kristijonas Donelaitis,Antanas Baranauskas,Vilius Storostas-Vydūnas,kristijonas donelaitis,maironis,vydu nas,4
+llama,hotpotqa,5adc6f6255429947ff173961,hotpotqa::5adc6f6255429947ff173961,1,span,Rothmannia species,Morning glory tree,Morning glory,rothmannia,morning glory,morning glory,0
+llama,hotpotqa,5adc861c5542994d58a2f62c,hotpotqa::5adc861c5542994d58a2f62c,0,span,"Santiago, Chile Airport",LATAM Airlines Headquarters,Comodoro Arturo Merino Benítez International Airport,santiago chile airport,santiago chile,comodoro arturo merino beni tez international airport,1
+llama,hotpotqa,5add13b15542994ed6169c65,hotpotqa::5add13b15542994ed6169c65,1,span,Strategic naval positioning,Expand territorial control,protect the northern flank of the Japanese Empire,strategic naval positioning,expand territorial control,to prevent soviet union from gaining control strategic islands,1
+llama,hotpotqa,5ade0bc55542997545bbbe30,hotpotqa::5ade0bc55542997545bbbe30,1,span,a conflicted royal advisor,the tragic court minister,an obsessed and tormented king,conflicted royal advisor,lee mong yong,eunuch,1
+llama,hotpotqa,5ade618e554299728e26c700,hotpotqa::5ade618e554299728e26c700,1,span,cinema creator,movie storyteller,film director,cinema creator,movie storyteller,film director,0
+llama,hotpotqa,5adf03765542995534e8c72b,hotpotqa::5adf03765542995534e8c72b,1,span,Flight tracking systems,Digital passenger logistics,Computer reservations,flight tracking systems,baggage handling and tracking,airline reservation systems and passenger service systems,4
+llama,hotpotqa,5adf2fa35542993344016c11,hotpotqa::5adf2fa35542993344016c11,1,span,Pete Doherty,Jonny Craig mostly,"Jonny"" Craig",pete doherty,jonny craig,jonny craig,3
+llama,hotpotqa,5adf4ba65542992d7e9f931c,hotpotqa::5adf4ba65542992d7e9f931c,1,span,Aladdin,Lion King,Beauty and the Beast,aladdin,lion king,beauty and beast,2
+llama,hotpotqa,5adf85e05542993344016cba,hotpotqa::5adf85e05542993344016cba,1,span,First Division,Third Division,Championship,first division,second division,premier league,1
+llama,hotpotqa,5ae0d9c555429924de1b719a,hotpotqa::5ae0d9c555429924de1b719a,1,span,Richard DeVos,Steve Miller,Jay Van Andel,richard devos,jay van andel,jay van andel,0
+llama,hotpotqa,5ae0e183554299422ee9953f,hotpotqa::5ae0e183554299422ee9953f,1,span,"Qionghai's population was 658,","Suining totaled 658,798 residents","In 2002, Suining had a population of 658,798.",qionghai,suining,suining,4
+llama,hotpotqa,5ae13e205542997b2ef7d157,hotpotqa::5ae13e205542997b2ef7d157,1,span,Scott Air Force Base,Travis Air Force Base,Fort Bragg,scott air force base,travis air force base,fort bragg,3
+llama,hotpotqa,5ae1bc7b554299234fd042df,hotpotqa::5ae1bc7b554299234fd042df,1,span,"Leavenworth County, Kansas","Lincoln County, Kansas","Graham County, Kansas",leavenworth county kansas,lincoln county kansas,graham county kansas,2
+llama,hotpotqa,5ae306115542992decbdcdc4,hotpotqa::5ae306115542992decbdcdc4,1,span,Armour Star Meats,Libby's Canned Meats,Hormel Foods Corporation,armour star meats,swanson,hormel foods corporation,1
+llama,hotpotqa,5ae33a3b5542992f92d8224a,hotpotqa::5ae33a3b5542992f92d8224a,1,span,rowing champion,javelin thrower,bobsledder,rowing,decathlon,bobsledder,0
+llama,hotpotqa,5ae4818f5542995ad6573d5b,hotpotqa::5ae4818f5542995ad6573d5b,1,span,Rachel,Deborah,Piper,rachel,deborah,piper,4
+llama,hotpotqa,5ae489ab5542995ad6573d62,hotpotqa::5ae489ab5542995ad6573d62,1,span,Steve Smith,Christian Laettner,Mookie Blaylock,steve smith,christian laettner,mookie blaylock,3
+llama,hotpotqa,5ae4a3265542995ad6573de5,hotpotqa::5ae4a3265542995ad6573de5,1,span,"Tokyo, Japan","Yokohama, Japan","Fujioka, Gunma",tokyo japan,osaka japan,japan,2
+llama,hotpotqa,5ae4c49a5542995dadf24400,hotpotqa::5ae4c49a5542995dadf24400,1,span,cranberry,sphagnum moss,acidic,cranberry,acidic bog,acidic,1
+llama,hotpotqa,5ae5b971554299546bf82f3a,hotpotqa::5ae5b971554299546bf82f3a,1,span,Passaic County,Hudson County,Bergen,passaic county,hudson county,,0
+llama,hotpotqa,5ae5d19155429929b08079bc,hotpotqa::5ae5d19155429929b08079bc,0,span,Canadian,Bulgarian,Velichko Todorov Tsochev) is a Bulgarian-Canadian,australian canadian,canadian,canadian,4
+llama,hotpotqa,5ae5feaf5542996de7b71ac6,hotpotqa::5ae5feaf5542996de7b71ac6,1,span,Bishop Aethelwold,Archbishop Dunstan,Leofric,bishop aethelwold,bishop leofric,leofric,3
+llama,hotpotqa,5ae622495542995703ce8b20,hotpotqa::5ae622495542995703ce8b20,1,span,Sitcom Performances,Variety Television,Comedy,sitcom performances,variety television,comedy,2
+llama,hotpotqa,5ae7ef625542994a481bbe40,hotpotqa::5ae7ef625542994a481bbe40,1,span,"Ettalong Beach, NSW","Woy Woy, Australia","Umina Beach, New South Wales",ettalong beach,woy woy,umina beach,1
+llama,hotpotqa,5ae7fa5a554299540e5a56e4,hotpotqa::5ae7fa5a554299540e5a56e4,0,span,the Russian Federation,Saint Petersburg Oblast,the Chechen Republic,russian federation,russia,russia,0
+llama,hotpotqa,5ae82ae555429952e35eaa71,hotpotqa::5ae82ae555429952e35eaa71,1,span,Gunsmoke,Bonanza,Rawhide,gunsmoke,bonanza,rawhide,4
+llama,mmlu_pro,10453,mmlu_pro::10453,1,mcq,D,E,G,d,g,d,3
+llama,mmlu_pro,10583,mmlu_pro::10583,1,mcq,F,G,H,f,h,h,2
+llama,mmlu_pro,10584,mmlu_pro::10584,1,mcq,B,J,E,b,e,d,1
+llama,mmlu_pro,10637,mmlu_pro::10637,0,mcq,B,D,C,b,b,c,0
+llama,mmlu_pro,10808,mmlu_pro::10808,1,mcq,A,B,C,a,b,a,4
+llama,mmlu_pro,10871,mmlu_pro::10871,1,mcq,J,H,C,j,g,d,3
+llama,mmlu_pro,11003,mmlu_pro::11003,1,mcq,A,G,B,a,g,h,2
+llama,mmlu_pro,11011,mmlu_pro::11011,0,mcq,D,A,C,d,d,d,3
+llama,mmlu_pro,11033,mmlu_pro::11033,1,mcq,G,A,D,g,a,a,4
+llama,mmlu_pro,11036,mmlu_pro::11036,0,mcq,E,D,B,e,e,c,0
+llama,mmlu_pro,11142,mmlu_pro::11142,1,mcq,D,C,A,d,a,a,3
+llama,mmlu_pro,11246,mmlu_pro::11246,1,mcq,B,C,D,b,a,d,2
+llama,mmlu_pro,11891,mmlu_pro::11891,1,mcq,E,C,B,e,c,i,1
+llama,mmlu_pro,12141,mmlu_pro::12141,0,mcq,E,J,G,e,e,e,0
+llama,mmlu_pro,1352,mmlu_pro::1352,1,mcq,I,G,A,i,g,a,4
+llama,mmlu_pro,1669,mmlu_pro::1669,0,mcq,G,H,E,g,g,g,3
+llama,mmlu_pro,1682,mmlu_pro::1682,1,mcq,D,C,B,d,b,a,2
+llama,mmlu_pro,1704,mmlu_pro::1704,0,mcq,E,C,G,e,e,e,1
+llama,mmlu_pro,1880,mmlu_pro::1880,1,mcq,F,G,E,f,g,f,0
+llama,mmlu_pro,1910,mmlu_pro::1910,1,mcq,I,H,B,i,b,b,4
+llama,mmlu_pro,2057,mmlu_pro::2057,1,mcq,C,A,G,c,g,g,3
+llama,mmlu_pro,2100,mmlu_pro::2100,1,mcq,E,C,D,e,a,e,2
+llama,mmlu_pro,2461,mmlu_pro::2461,1,mcq,E,A,H,e,h,h,1
+llama,mmlu_pro,2957,mmlu_pro::2957,1,mcq,B,E,D,b,c,,4
+llama,mmlu_pro,342,mmlu_pro::342,1,mcq,D,B,H,d,h,f,0
+llama,mmlu_pro,3495,mmlu_pro::3495,0,mcq,G,B,D,g,g,g,3
+llama,mmlu_pro,4672,mmlu_pro::4672,0,mcq,C,F,E,c,c,c,2
+llama,mmlu_pro,4974,mmlu_pro::4974,0,mcq,G,B,I,g,g,i,1
+llama,mmlu_pro,5160,mmlu_pro::5160,0,mcq,H,E,J,h,h,h,0
+llama,mmlu_pro,5242,mmlu_pro::5242,1,mcq,F,G,E,f,g,e,4
+llama,mmlu_pro,5426,mmlu_pro::5426,1,mcq,A,C,D,a,d,d,3
+llama,mmlu_pro,5769,mmlu_pro::5769,0,mcq,H,F,B,h,h,h,2
+llama,mmlu_pro,6276,mmlu_pro::6276,0,mcq,F,G,B,f,f,h,1
+llama,mmlu_pro,6657,mmlu_pro::6657,1,mcq,B,F,C,b,c,c,0
+llama,mmlu_pro,7041,mmlu_pro::7041,0,mcq,G,C,A,g,g,f,4
+llama,mmlu_pro,7119,mmlu_pro::7119,0,mcq,I,D,J,i,i,i,3
+llama,mmlu_pro,7179,mmlu_pro::7179,1,mcq,D,A,B,d,b,b,2
+llama,mmlu_pro,7335,mmlu_pro::7335,1,mcq,E,C,A,e,c,a,1
+llama,mmlu_pro,7486,mmlu_pro::7486,1,mcq,C,B,D,c,d,d,2
+llama,mmlu_pro,7624,mmlu_pro::7624,1,mcq,F,A,D,f,g,d,0
+llama,mmlu_pro,7638,mmlu_pro::7638,1,mcq,C,G,E,c,e,e,2
+llama,mmlu_pro,7744,mmlu_pro::7744,1,mcq,C,B,D,c,d,d,4
+llama,mmlu_pro,8025,mmlu_pro::8025,0,mcq,J,H,E,j,j,j,1
+llama,mmlu_pro,8884,mmlu_pro::8884,0,mcq,E,A,D,e,e,d,0
+llama,mmlu_pro,8927,mmlu_pro::8927,0,mcq,G,J,B,g,g,a,4
+llama,mmlu_pro,9165,mmlu_pro::9165,1,mcq,D,E,B,d,b,i,3
+llama,mmlu_pro,9325,mmlu_pro::9325,0,mcq,E,D,B,e,e,e,2
+llama,mmlu_pro,945,mmlu_pro::945,0,mcq,B,C,F,b,b,b,1
+llama,triviaqa,bb_1279,triviaqa::bb_1279,0,span,Melted cheddar cheese,Bread and butter,Coagulated milk curd,melted cheddar cheese,cheese,coagulated milk curd,0
+llama,triviaqa,bb_3100,triviaqa::bb_3100,1,span,Tube-based nutrient insertion,Invasive dietary procedure,Forced alimentation,tube based nutrient insertion,feeding liquid or semi solid substance directly into stomach through tube,,4
+llama,triviaqa,bb_46,triviaqa::bb_46,1,span,England,United Kingdom,Administrative divisions of Italy,england,united kingdom,united kingdom,3
+llama,triviaqa,bb_4820,triviaqa::bb_4820,1,span,Bamboo Bird Pattern,Tile Game Symbol,Old world sparrow,bamboo bird pattern,tile game symbol,homophone for chinese name for mahjong,2
+llama,triviaqa,bb_5918,triviaqa::bb_5918,1,span,Edible Bird Saliva,Swiftlet Nest Secretion,George the Volcano,edible bird saliva,swiftlet nest secretion,swiftlet s nest,1
+llama,triviaqa,bb_6005,triviaqa::bb_6005,1,span,Socially unacceptable behavior,Legally questionable conduct,Debtor's dishonesty,socially unacceptable behavior,inappropriate,actions that are inappropriate or unseemly,0
+llama,triviaqa,bb_8388,triviaqa::bb_8388,1,span,Guernsey Border Junction,Great Britain Junction,Channel Islands (Jersey),guernsey,great britain junction,channel islands jersey,4
+llama,triviaqa,bt_1960,triviaqa::bt_1960,1,span,Wellington's European campaigns,Duke of Cumberland,"Horatio Nelson, 1st Viscount Nelson, 1st Duke of Bronté",wellington s european campaigns,none,duke wellington,3
+llama,triviaqa,bt_3027,triviaqa::bt_3027,1,span,Chad,Sudan,The Republic of Niger,chad,sudan,chad,2
+llama,triviaqa,bt_3817,triviaqa::bt_3817,1,span,Alexandre Dumas' Famous Phrase,French Musketeer Heroic Creed,Les trois mousquetaires,alexandre dumas,french musketeer heroic creed,three musketeers,1
+llama,triviaqa,dpql_1785,triviaqa::dpql_1785,1,span,New South Wales,Western Australia,Victoria (geographical disambiguation),new south wales,victoria,victoria,0
+llama,triviaqa,dpql_3743,triviaqa::dpql_3743,1,span,Every single letter,Most common characters,All the letters of the alphabet,every single letter,all letters alphabet,all letters alphabet,4
+llama,triviaqa,dpql_396,triviaqa::dpql_396,1,span,United Arab Emirates,Nepal Cricket Team,Da Afghanistan Islami Dawlat Dawlat-e Eslami-e Afghanestan,united arab emirates,nepal,afghanistan,3
+llama,triviaqa,dpql_5899,triviaqa::dpql_5899,0,span,Spiced chicken dish,Bird meat protein,Gallus gallus domesticus,chicken,chicken,chicken,2
+llama,triviaqa,jp_306,triviaqa::jp_306,1,span,Nike Total,Adidas World Cup,Teams sponsored by Umbro,nike,adidas world cup,adidas,1
+llama,triviaqa,jp_4031,triviaqa::jp_4031,1,span,King Ghidorah's destructive rage,Mechagodzilla's metallic menace,Powers and abilities of godzilla,king ghidorah,godzilla,godzilla,0
+llama,triviaqa,odql_10063,triviaqa::odql_10063,1,span,Dick Cheney's foreign policy,Climate change catastrophe,"George W. Bush, 43rd President of the United States",dick cheney s foreign policy,climate change catastrophe,george w bush,4
+llama,triviaqa,odql_10512,triviaqa::odql_10512,0,span,Tony Blackburn,David Hamilton,BRIAN MATTHEW,tony blackburn,tony blackburn,brian matthew,3
+llama,triviaqa,odql_10579,triviaqa::odql_10579,1,span,Getting Louder,Sound Growing Stronger,GRADUALLY INCREASING,getting louder,growing louder,gradually increasing in volume or intensity,2
+llama,triviaqa,odql_11203,triviaqa::odql_11203,0,span,Norfolk County,Norfolk State,County of Norfolk,norfolk county,norfolk,norfolk,1
+llama,triviaqa,odql_12402,triviaqa::odql_12402,0,span,Trench foot syndrome,Battlefield immersion disease,Warm water immersion foot,trench foot,trench foot,trench foot,0
+llama,triviaqa,odql_1328,triviaqa::odql_1328,1,span,Newcastle United,Manchester City,Huddersfield Town Association Football Club,newcastle united,sheffield united,birmingham city,4
+llama,triviaqa,odql_13449,triviaqa::odql_13449,1,span,Carbon,Stable Carbon,Radiocarbon,carbon 14,14c,14c,3
+llama,triviaqa,odql_14650,triviaqa::odql_14650,1,span,Michael Tippett,Benjamin Francais,"Edward Benjamin Britten, Baron Britten, OM CH",michael tippett,benjamin britten,edward benjamin britten,2
+llama,triviaqa,odql_1569,triviaqa::odql_1569,0,span,Ford Motor Company,General Motors,Reliant Kitten Register,ford motor company,ford,ford,3
+llama,triviaqa,odql_4885,triviaqa::odql_4885,1,span,Concrete Blocks,Stone Tiles,(Fire) BRICKS,concrete blocks,firebricks,firebricks,4
+llama,triviaqa,odql_6004,triviaqa::odql_6004,1,span,Bolivarian Republic of Venezuela,Autonomous City of Ceuta,The Argentine Republic,venezuela,argentina,argentina,0
+llama,triviaqa,odql_6053,triviaqa::odql_6053,1,span,High-functioning autism spectrum,Obsessive compulsive disorder,List of further reading on Asperger syndrome,high functioning autism spectrum disorder,autism spectrum disorder,autism asperger syndrome,3
+llama,triviaqa,odql_8634,triviaqa::odql_8634,0,span,Victoria's Floating Hope,The Salty Navigator,A-Channel Vancouver Island,victoria,victoria,victoria,2
+llama,triviaqa,qb_6825,triviaqa::qb_6825,1,span,Hope,Smith,Blomfield (disambiguation),hope,blomfield,blomfield,1
+llama,triviaqa,qb_6916,triviaqa::qb_6916,1,span,A stone surface,Mineral deposits,The three types of rocks,stone surface,stones,rocks,0
+llama,triviaqa,qb_7296,triviaqa::qb_7296,0,span,One,Three,Two,one,one,two,4
+llama,triviaqa,qf_1649,triviaqa::qf_1649,0,span,Pope John Paul II,Cardinal Ratzinger,Albino Cardinal Luciani,pope john paul i,pope john paul i,pope john paul i,3
+llama,triviaqa,qg_863,triviaqa::qg_863,0,span,Russian Empire,Soviet Russia,Rossiyskaya Federatsiya,russian empire,russia,russian empire,2
+llama,triviaqa,qw_11077,triviaqa::qw_11077,0,span,Women's Professional Golf,International Golf Tournament,The Development of Golf Technology,women s professional golf,golf,golf,1
+llama,triviaqa,qw_14346,triviaqa::qw_14346,0,span,Briton Hadden,William Paley,Henry Robinson Luce,briton hadden,henry luce and briton hadden,henry robinson luce and briton hadden,0
+llama,triviaqa,qw_4471,triviaqa::qw_4471,1,span,Spinal column,Vertebral structure,Backbone (disambiguation),spinal column,spine,spinal column,4
+llama,triviaqa,qw_5932,triviaqa::qw_5932,1,span,Buddhism of enlightenment,Tibetan spiritual practice,Hinduism: myths and realities,buddhism,hinduism,hinduism,3
+llama,triviaqa,qw_7098,triviaqa::qw_7098,1,span,Lunar Surface,Near Tranquility Base,On the Moon (album),lunar surface,sea serenity,moon,2
+llama,triviaqa,qw_9390,triviaqa::qw_9390,1,span,Thoroughbred horse racing,Derby champion,Racing silks,thoroughbred horse racing,derby champion,jockey,1
+llama,triviaqa,qz_1658,triviaqa::qz_1658,1,span,Ben Jonson's literary works,Christopher Marlowe's plays,William Shakespeare biography,ben jonson,unknown,not conclusively attributed to william shakespeare,4
+llama,triviaqa,sfq_10648,triviaqa::sfq_10648,1,span,Sole pressure points,Foot arch region,Articulations of foot,sole pressure points,soles feet,feet,0
+llama,triviaqa,sfq_1147,triviaqa::sfq_1147,1,span,River Yare,River Bure,Novi Sad Friendship Bridge,river yare,river wensum,river wensum,3
+llama,triviaqa,sfq_13486,triviaqa::sfq_13486,1,span,The Rockin' Rebels,The Rolling Stones,Johnny and The Hurricanes,rockin rebels,johnny and hurricanes,johnny and hurricanes,2
+llama,triviaqa,sfq_15134,triviaqa::sfq_15134,1,span,Pequod Brewing Company,Queequeg Coffee Roasters,Starbucks Coffee Company,pequod brewing company,queequeg coffee roasters,starbucks,1
+llama,triviaqa,sfq_16439,triviaqa::sfq_16439,0,span,Texas the band,Scottish rock group,Everything is bigger in Texas,texas band,texas,all saints,0
+llama,triviaqa,sfq_18920,triviaqa::sfq_18920,1,span,Western Frontier Scenes,Cowboys and Native Americans,Post-Civil War Expansion of the United States,western frontier scenes,cowboys and native americans,american west,4
+llama,triviaqa,sfq_20488,triviaqa::sfq_20488,1,span,Cognac,White Rum,Very Superior Old Pale,cognac,brandy,brandy,3
+llama,triviaqa,sfq_239,triviaqa::sfq_239,0,span,Pittsburgh Steelers,Steel City Football Club,Frick International Studies Academy Middle School,pittsburgh steelers,pittsburgh steelers,pittsburgh steelers,2
+llama,triviaqa,sfq_24021,triviaqa::sfq_24021,0,span,Lauren Laverne,Martha Kearney,Kirsty Young,lauren laverne,lauren laverne,lauren laverne,1
+llama,triviaqa,sfq_25596,triviaqa::sfq_25596,0,span,Lauren Laverne,Emma Barnett,Kirsty Young,lauren laverne,lauren laverne,lauren laverne,0
+llama,triviaqa,sfq_26141,triviaqa::sfq_26141,1,span,Michael Dukakis,Jimmy Carter,Walter Frederick %22Fritz%22 Mondale,michael dukakis,walter mondale,walter mondale,4
+llama,triviaqa,sfq_9238,triviaqa::sfq_9238,1,span,Alan Coren,Ned Sherrin,And why not%3F,alan coren,ned sherrin,barry took s predecessor was and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer is comedian named and why not is not correct but actual answer,3
+llama,triviaqa,tb_384,triviaqa::tb_384,1,span,Gravity's Space Disaster,Rocket's Final Journey,"Houston, we've had a problem here",gravity,apollo 13,apollo 13,2
+llama,triviaqa,tc_2026,triviaqa::tc_2026,0,span,Calais,Le Havre,Boulognes-sur-mer,calais,calais,calais,1
+llama,triviaqa,tc_885,triviaqa::tc_885,0,span,John Kander,Fred Ebb,Robert Louis Fosse,john kander and fred ebb,joe masteroff john kander and fred ebb,john kander fred ebb and joe masteroff,3
+llama,triviaqa,wh_1665,triviaqa::wh_1665,1,span,Emerald green,Pale green,Green (disambiguation),emerald green,pale green,green,0

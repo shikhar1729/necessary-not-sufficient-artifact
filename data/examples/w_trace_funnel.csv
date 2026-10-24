@@ -1,0 +1,4 @@
+model,w_traces,parse_fail,hint_follow,resist,other_error,retained_same_answer
+mistral,1728,209,460,324,735,421
+gemma,1728,24,385,641,678,384
+llama,1728,270,293,598,567,260

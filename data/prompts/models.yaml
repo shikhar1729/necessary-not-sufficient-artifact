@@ -1,0 +1,99 @@
+# Main models: mistral_7b, gemma_9b, llama_8b. The other five are the larger and reasoning models of the boundary experiments; no per-example data for them is released.
+llama_8b:
+  model_id: "meta-llama/Llama-3.1-8B-Instruct"
+  short_name: "llama"
+  has_system_role: true
+  system_prompt: "You are a helpful, knowledgeable assistant."
+  canonical_decoding:
+    temperature: 0.0
+    top_p: 1.0
+    max_new_tokens: 2048
+  layer_accessor: "model.layers"
+  dtype: "bfloat16"
+
+gemma_9b:
+  model_id: "google/gemma-2-9b-it"
+  short_name: "gemma"
+  has_system_role: false
+  system_prompt: "You are a helpful, knowledgeable assistant."
+  canonical_decoding:
+    temperature: 0.0
+    top_p: 1.0
+    max_new_tokens: 2048
+  layer_accessor: "model.layers"
+  dtype: "bfloat16"
+
+mistral_7b:
+  model_id: "mistralai/Mistral-7B-Instruct-v0.1"
+  short_name: "mistral"
+  has_system_role: false
+  system_prompt: "You are a helpful, knowledgeable assistant."
+  canonical_decoding:
+    temperature: 0.0
+    top_p: 1.0
+    max_new_tokens: 2048
+  layer_accessor: "model.layers"
+  dtype: "bfloat16"
+
+deepseek_r1_8b:
+  model_id: "deepseek-ai/DeepSeek-R1-Distill-Llama-8B"
+  short_name: "deepseek"
+  has_system_role: false
+  system_prompt: null
+  canonical_decoding:
+    temperature: 0.6
+    top_p: 1.0
+    max_new_tokens: 2048
+  layer_accessor: "model.layers"
+  dtype: "bfloat16"
+
+qwen3_14b:
+  model_id: "Qwen/Qwen3-14B"
+  short_name: "qwen3_14b"
+  has_system_role: true
+  system_prompt: "You are a helpful, knowledgeable assistant."
+  canonical_decoding:
+    temperature: 0.0
+    top_p: 1.0
+    max_new_tokens: 2048
+  layer_accessor: "model.layers"
+  dtype: "bfloat16"
+  enable_thinking: false
+
+qwen25_7b:
+  model_id: "Qwen/Qwen2.5-7B-Instruct"
+  short_name: "qwen25_7b"
+  has_system_role: true
+  system_prompt: "You are a helpful, knowledgeable assistant."
+  canonical_decoding:
+    temperature: 0.0
+    top_p: 1.0
+    max_new_tokens: 2048
+  layer_accessor: "model.layers"
+  dtype: "bfloat16"
+  enable_thinking: false
+
+qwen3_32b:
+  model_id: "Qwen/Qwen3-32B"
+  short_name: "qwen3_32b"
+  has_system_role: true
+  system_prompt: "You are a helpful, knowledgeable assistant."
+  canonical_decoding:
+    temperature: 0.0
+    top_p: 1.0
+    max_new_tokens: 2048
+  layer_accessor: "model.layers"
+  dtype: "bfloat16"
+  enable_thinking: false
+
+qwq_32b:
+  model_id: "Qwen/QwQ-32B"
+  short_name: "qwq_32b"
+  has_system_role: true
+  system_prompt: "You are a helpful, knowledgeable assistant."
+  canonical_decoding:
+    temperature: 0.0
+    top_p: 1.0
+    max_new_tokens: 2048
+  layer_accessor: "model.layers"
+  dtype: "bfloat16"

@@ -1,0 +1,45 @@
+# The prepare_* scripts draw pilot_size items per dataset (all of GPQA, as null means all); main_size was not used.
+triviaqa:
+  hf_path: "trivia_qa"
+  hf_name: "rc.nocontext"
+  split: "train"
+  answer_type: "span"
+  max_answer_len: 80
+  pilot_size: 500
+  main_size: 2000
+  filter:
+    min_question_len: 10
+    exclude_yes_no: false
+
+hotpotqa:
+  hf_path: "hotpot_qa"
+  hf_name: "distractor"
+  split: "validation"
+  answer_type: "span"
+  max_answer_len: 80
+  pilot_size: 500
+  main_size: 2000
+  filter:
+    min_question_len: 10
+    exclude_yes_no: true
+
+gpqa:
+  hf_path: "Idavidrein/gpqa"
+  hf_name: "gpqa_diamond"
+  split: "train"
+  answer_type: "mcq"
+  pilot_size: null  # use all available
+  main_size: null
+  filter:
+    min_question_len: 10
+
+mmlu_pro:
+  hf_path: "TIGER-Lab/MMLU-Pro"
+  hf_name: null
+  split: "test"
+  answer_type: "mcq"
+  pilot_size: 560   # 40 per domain (14 domains)
+  main_size: 1960   # 140 per domain
+  filter:
+    min_question_len: 10
+    stratify_by: "category"
